@@ -1,0 +1,706 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+    background-color: #171a21;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+}
+
+/* LOGO WEBSITE */
+.container-logoweb {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-website {
+    width: 100px;
+    height: 35px;
+    margin: -23px;
+    padding-bottom: 9px;
+}
+
+/* LOGO WEBSITE */
+
+/* HAMBURGER NAVBAR */
+.mobile-menu {
+    background-color: #171a21;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    width: 26px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: -37px;
+    margin-left: -7px;
+    outline: none;
+}
+
+.menu-icon {
+    background-color: #c7d5e0;
+    height: 4px;
+    margin: 3px 0;
+    border-radius: 2px;
+}
+
+.menu-content {
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #1b1b1b;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+    transition: left 0.3s ease;
+    display: none;
+    z-index: 999;
+}
+
+.menu-content::-webkit-scrollbar {
+    height: 8px;
+}
+
+.menu-content::-webkit-scrollbar-thumb {
+    background-color: #1b2838;
+    border-radius: 3px;
+}
+
+.has-submenu {
+    border-bottom: 0.3px solid #444;
+}
+
+.has-submenu:hover {
+    background-color: #1b2838;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu-content ul li {
+    padding: 12px;
+}
+
+.menu-content ul li a {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.menu-content ul li.has-submenu>a {
+    position: relative;
+}
+
+.menu-content ul li.has-submenu>a::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+}
+
+.submenu-toggle {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.submenu-toggle:focus,
+.submenu-toggle:active {
+    outline: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.submenu {
+    display: none;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.submenu li:hover {
+    background: #297aa9;
+    width: 100vw;
+}
+
+.menu-link {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.menu-link:focus,
+.menu-link:active {
+    outline: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Overlay untuk menutupi konten di bawah menu */
+#overlay {
+    display: none;
+    /* Awalnya tidak terlihat */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Warna semi-transparan */
+    z-index: 998;
+    /* Di bawah menu tapi di atas konten lainnya */
+}
+
+/* HAMBURGER NAVBAR */
+
+/* FOOTER */
+.logo-footer {
+    width: 90px;
+    height: auto;
+    margin-left: -5px;
+}
+
+.footer {
+    margin: 20px;
+    font-family: sans-serif;
+    color: #eaeaea;
+    font-size: 9px;
+    width: 220px;
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(168, 247, 21);
+    transition: all .5s ease 0s;
+}
+
+/* FOOTER */
+
+/* THUMBNAIL GENRE */
+.thumbnail-genre {
+    padding: 150px;
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/POP\ PUNK\ \(THUMBNAIL\).jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.thumbnail-genre h1 {
+    position: absolute;
+    color: white;
+    left: 10px;
+    bottom: -10px;
+}
+
+/* THUMBNAIL GENRE */
+
+/* HOME CONTENT */
+.home-content {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+.song-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.song-card h1 {
+    color: white;
+    font-size: 16px;
+}
+
+.song-card p {
+    color: #c2c2c2;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.song-card img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* HOME CONTENT */
+
+/* MUSIC PLAYER UI */
+.wrapper-music-player-ui {
+    margin: 10px;
+}
+
+.music-player-ui {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e2d2f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 100;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.music-player-ui.active {
+    transform: translateY(0);
+}
+
+.music-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.more-options {
+    font-size: 24px;
+}
+
+.back-btn {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.album-cover-large {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.song-info-large {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.progress-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.progress-bar-container span {
+    font-size: 14px;
+    width: 40px;
+    text-align: center;
+}
+
+.progress-bar-container input[type="range"] {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.controls-large {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+}
+
+.control-btn-large {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+}
+
+#playPauseLarge {
+    font-size: 40px;
+}
+
+/* MUSIC PLAYER UI */
+
+
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 720px) {
+
+    /* Music Player UI */
+    .wrapper-music-player-ui {
+        margin: 10px;
+    }
+
+    .music-player-ui {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1e2d2f;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 100;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .music-player-ui.active {
+        transform: translateY(0);
+    }
+
+    .music-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .more-options {
+        font-size: 24px;
+    }
+
+    .back-btn {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .album-cover-large {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .song-info-large {
+        text-align: center;
+    }
+
+    .progress-bar-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .progress-bar-container span {
+        font-size: 14px;
+        width: 40px;
+        text-align: center;
+    }
+
+    .progress-bar-container input[type="range"] {
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .controls-large {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .control-btn-large {
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: white;
+    }
+}
+
+@media screen and (width: 800px) {}
+
+@media screen and (max-width: 810px) {}
+
+@media screen and (width: 360px) {}
+
+@media screen and (width: 320px) {}
+
+
+
+/* MOBILE DEVICES */
+@media (min-width: 320px) and (max-width: 375px) {
+
+    /* Music Player UI */
+    .wrapper-music-player-ui {
+        margin: 10px;
+    }
+
+    .music-player-ui {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1e2d2f;
+        color: white;
+        display: flex;
+        overflow-y: auto;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 100;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .music-player-ui.active {
+        transform: translateY(0);
+    }
+
+    .music-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .more-options {
+        font-size: 24px;
+    }
+
+    .back-btn {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .album-cover-large {
+        width: 100%;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .song-info-large {
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .progress-bar-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .progress-bar-container span {
+        font-size: 14px;
+        width: 40px;
+        text-align: center;
+    }
+
+    .progress-bar-container input[type="range"] {
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .controls-large {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .control-btn-large {
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: white;
+    }
+}
+
+/* MOBILE DEVICES */
+@media (min-width: 376px) and (max-width: 480px) {}
+
+/* TABLET */
+@media (min-width: 481px) and (max-width: 1025px) {}
+
+/* DESKTOP SITE (MOBILE DEVICES) */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+
+    /* Music Player UI */
+    .wrapper-music-player-ui {
+        margin: 10px;
+    }
+
+    .music-player-ui {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1e2d2f;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 100;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .music-player-ui.active {
+        transform: translateY(0);
+    }
+
+    .music-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .more-options {
+        font-size: 24px;
+    }
+
+    .back-btn {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .album-cover-large {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .song-info-large {
+        text-align: center;
+    }
+
+    .progress-bar-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .progress-bar-container span {
+        font-size: 14px;
+        width: 40px;
+        text-align: center;
+    }
+
+    .progress-bar-container input[type="range"] {
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .controls-large {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .control-btn-large {
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: white;
+    }
+}
+
+/* LAPTOP */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+
+    /* HAMBURGER NAVBAR */
+    .mobile-menu {
+        font-size: 17px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        width: 26px;
+        cursor: pointer;
+        padding: 5px;
+        margin-top: -31px;
+        margin-left: -7px;
+    }
+
+    .menu-content ul li {
+        padding: 9px;
+    }
+
+    .submenu {
+        font-size: 14px;
+    }
+
+    /* HAMBURGER NAVBAR */
+
+    /* FOOTER */
+    .logo-footer {
+        width: 70px;
+        height: auto;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+
+    /* FOOTER */
+}
+
+/* DESKTOP 1920px */
+@media (min-width: 1920px) {}
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+    .menu-content {
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    .mobile-menu {
+        overflow-y: hidden;
+    }
+
+    .menu-toggle {
+        position: relative;
+        top: 0;
+        margin-top: -37px;
+        margin-left: -7px;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {}

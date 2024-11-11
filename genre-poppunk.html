@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleGenrePopPunk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Pop Punk</title>
+</head>
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Music-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a></li>
+                            <li><a href="new-releases.html#new-releases" class="menu-link">New Releases</a></li>
+                            <li><a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a></li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Music-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a href="mailto:yzddesign1@gmail.com">Feedback</a> | <a href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="overlay"></div>
+    </section>
+
+    <div class="thumbnail-genre">
+        <h1>Pop Punk</h1>
+    </div>
+
+    <div class="home-content">
+        <div class="song-card" data-index="0" data-title="Ngumbara Di Garut" data-artist="Ngumbara Di Garut Album" data-src="https://yzdmusic.github.io/assets-music-1/Ngumbara Di Garut.mp3"
+            data-cover="NGUMBARA DI GARUT (COVER).jpg">
+            <img src="NGUMBARA DI GARUT (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Ngumbara Di Garut</h1>
+                <p>Ngumbara Di Garut Album</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="1" data-title="Bahagia Di Bandung" data-artist="Ngumbara Di Garut Album" data-src="https://yzdmusic.github.io/assets-music-1/Bahagia Di Bandung.mp3"
+            data-cover="NGUMBARA DI GARUT (COVER).jpg">
+            <img src="NGUMBARA DI GARUT (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Bahagia Di Bandung</h1>
+                <p>Ngumbara Di Garut Album</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="2" data-title="Garut Kota Asri" data-artist="Ngumbara Di Garut Album" data-src="https://yzdmusic.github.io/assets-music-1/Garut Kota Asri.mp3"
+            data-cover="NGUMBARA DI GARUT (COVER).jpg">
+            <img src="NGUMBARA DI GARUT (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Garut Kota Asri</h1>
+                <p>Ngumbara Di Garut Album</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="2" data-title="Pertemuan Di Bandung" data-artist="Ngumbara Di Garut Album" data-src="https://yzdmusic.github.io/assets-music-1/Pertemuan Di Bandung.mp3"
+            data-cover="NGUMBARA DI GARUT (COVER).jpg">
+            <img src="NGUMBARA DI GARUT (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Pertemuan Di Bandung</h1>
+                <p>Ngumbara Di Garut Album</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sliding Music Player UI -->
+    <div class="music-player-ui" id="musicPlayerUI">
+        <div class="music-header">
+            <span class="back-btn" id="closePlayer">⬇️</span>
+            <span>Recommended for You</span>
+            <span class="more-options">⋮</span>
+        </div>
+        <img src="cover1.jpg" alt="Album Cover" class="album-cover-large" id="albumCoverLarge">
+        <div class="song-info-large">
+            <h2 id="songTitleLarge">Green Utopia</h2>
+            <p id="artistNameLarge">The Vines</p>
+        </div>
+        <div class="progress-bar-container">
+            <span id="currentTimeLarge">0:00</span>
+            <input type="range" id="progressLarge" value="0" max="100">
+            <span id="durationLarge">0:00</span>
+        </div>
+        <div class="controls-large">
+            <button id="shuffleLarge" class="control-btn-large">🔀</button>
+            <button id="prevLarge" class="control-btn-large">⏮️</button>
+            <button id="playPauseLarge" class="control-btn-large">▶️</button>
+            <button id="nextLarge" class="control-btn-large">⏭️</button>
+            <button id="repeatLarge" class="control-btn-large">🔁</button>
+        </div>
+    </div>
+
+    <audio id="audio" src=""></audio>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-genre');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+	<script src="hamburger.js"></script>
+    <script src="play-music.js"></script>
+    <script src="search-engine-allpages.js"></script>
+</body>
+</html>

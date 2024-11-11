@@ -74,7 +74,8 @@
             <p>Reggae</p>
         </div>
 
-        <div class="card-genre"><a href="genre-poppunk.html">
+        <a href="genre-poppunk.html">
+        <div class="card-genre">
             <img src="https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg" alt="">
             <p>Pop Punk</p>
         </div></a>
@@ -159,31 +160,29 @@
     </div>
 
     <!-- Sliding Music Player UI -->
-    <div class="wrapper-music-player-ui">
-        <div class="music-player-ui" id="musicPlayerUI">
-            <div class="music-header">
-                <span class="back-btn" id="closePlayer">⬇️</span>
-                <span>Recommended for You</span>
-                <span class="more-options">⋮</span>
-            </div>
-            <img src="cover1.jpg" alt="Album Cover" class="album-cover-large" id="albumCoverLarge">
-            <div class="song-info-large">
-                <h2 id="songTitleLarge">Green Utopia</h2>
-                <p id="artistNameLarge">The Vines</p>
-            </div>
-            <div class="progress-bar-container">
-                <span id="currentTimeLarge">0:00</span>
-                <input type="range" id="progressLarge" value="0" max="100">
-                <span id="durationLarge">0:00</span>
-            </div>
-            <div class="controls-large">
-                <button id="shuffleLarge" class="control-btn-large">🔀</button>
-                <button id="prevLarge" class="control-btn-large">⏮️</button>
-                <button id="playPauseLarge" class="control-btn-large">▶️</button>
-                <button id="nextLarge" class="control-btn-large">⏭️</button>
-                <button id="repeatLarge" class="control-btn-large">🔁</button>
-            </div>
-        </div>    
+    <div class="music-player-ui" id="musicPlayerUI">
+        <div class="music-header">
+            <img id="closePlayer" class="back-btn" src="back-button2.png" alt="Back">
+            <span>RECOMMENDED FOR YOU</span>
+            <span class="more-options">⋮</span>
+        </div>
+        <img src="cover1.jpg" alt="Album Cover" class="album-cover-large" id="albumCoverLarge">
+        <div class="song-info-large">
+            <h2 id="songTitleLarge">Green Utopia</h2>
+            <p id="artistNameLarge">The Vines</p>
+        </div>
+        <div class="progress-bar-container">
+            <span id="currentTimeLarge">0:00</span>
+            <input type="range" id="progressLarge" value="0" max="100">
+            <span id="durationLarge">0:00</span>
+        </div>
+        <div class="controls-large">
+            <img id="shuffleLarge" class="control-btn-large" src="arrow.png" alt="Shuffle">
+            <img id="prevLarge" class="control-btn-large" src="back-button.png" alt="Previous">
+            <img id="playPauseLarge" class="control-btn-large" src="play.png" alt="Play/Pause">
+            <img id="nextLarge" class="control-btn-large" src="next-button.png" alt="Next">
+            <img id="repeatLarge" class="control-btn-large" src="repeat.png" alt="Repeat">
+        </div>
     </div>
 
     <audio id="audio" src=""></audio>

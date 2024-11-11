@@ -323,18 +323,22 @@ a:hover {
     justify-content: center;
     width: 100%;
     margin-top: 0;
+    gap: 30px;
 }
 
-.control-btn-large {
-    font-size: 24px;
+.control-btn-large,
+.back-btn {
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     background: none;
     border: none;
-    color: white;
+    transition: transform 0.2s ease;
 }
 
-#playPauseLarge {
-    font-size: 40px;
+.control-btn-large:hover,
+.back-btn:hover {
+    transform: scale(1.1);
 }
 
 /* MUSIC PLAYER UI */

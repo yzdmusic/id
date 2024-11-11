@@ -26,7 +26,7 @@ function loadSong(song) {
     document.getElementById('albumCoverLarge').src = song.cover;
     audioPlayer.src = song.src;
     audioPlayer.play();
-    playPauseBtnLarge.textContent = '⏸️';
+    playPauseBtnLarge.src = 'pause-button.png';
 }
 
 function showMusicPlayerUI(index) {
@@ -44,10 +44,10 @@ closePlayerBtn.addEventListener('click', hideMusicPlayerUI);
 playPauseBtnLarge.addEventListener('click', () => {
     if (audioPlayer.paused) {
         audioPlayer.play();
-        playPauseBtnLarge.textContent = '⏸️';
+        playPauseBtnLarge.src = 'pause-button.png';
     } else {
         audioPlayer.pause();
-        playPauseBtnLarge.textContent = '▶️';
+        playPauseBtnLarge.src = 'play.png';
     }
 });
 
@@ -56,12 +56,12 @@ document.getElementById('prevLarge').addEventListener('click', prevSong);
 
 shuffleBtn.addEventListener('click', () => {
     isShuffle = !isShuffle;
-    shuffleBtn.style.color = isShuffle ? 'green' : 'white';
+    shuffleBtn.style.filter = isShuffle ? 'invert(50%)' : 'none';
 });
 
 repeatBtn.addEventListener('click', () => {
     isRepeat = !isRepeat;
-    repeatBtn.style.color = isRepeat ? 'green' : 'white';
+    repeatBtn.style.filter = isRepeat ? 'invert(50%)' : 'none';
 });
 
 function nextSong() {
@@ -90,24 +90,32 @@ audioPlayer.addEventListener('ended', () => {
     }
 });
 
-songCards.forEach((card, index) => {
-    card.addEventListener('click', () => showMusicPlayerUI(index));
-});
+audioPlayer.addEventListener('timeupdate', updateProgress);
 
-audioPlayer.addEventListener('timeupdate', () => {
-    const currentTime = audioPlayer.currentTime;
+function updateProgress() {
+    const { currentTime, duration } = audioPlayer;
+    if (duration) {
+        progressBar.value = (currentTime / duration) * 100;
+        currentTimeDisplay.textContent = formatTime(currentTime);
+        durationDisplay.textContent = formatTime(duration);
+    }
+}
+
+progressBar.addEventListener('input', setProgress);
+
+function setProgress() {
     const duration = audioPlayer.duration;
-    progressBar.value = (currentTime / duration) * 100 || 0;
-    currentTimeDisplay.textContent = formatTime(currentTime);
-    durationDisplay.textContent = formatTime(duration);
-});
-
-progressBar.addEventListener('input', () => {
-    audioPlayer.currentTime = (progressBar.value / 100) * audioPlayer.duration;
-});
+    if (duration) {
+        audioPlayer.currentTime = (progressBar.value / 100) * duration;
+    }
+}
 
 function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = Math.floor(seconds % 60);
-    return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+    const sec = Math.floor(seconds % 60).toString().padStart(2, '0');
+    return `${minutes}:${sec}`;
 }
+
+songCards.forEach((card, index) => {
+    card.addEventListener('click', () => showMusicPlayerUI(index));
+});

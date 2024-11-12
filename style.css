@@ -192,8 +192,8 @@ a:hover {
 
 /* FOOTER */
 
-/* GENRE MUSIC */
-.container-genre {
+/* ALBUM MUSIC */
+.container-album {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	cursor: pointer;
@@ -201,7 +201,7 @@ a:hover {
 	gap: 7px;
 }
 
-.card-genre {
+.card-album {
 	background-color: #3a3d3e;
 	padding: 0;
 	display: flex;
@@ -210,26 +210,42 @@ a:hover {
 	color: white;
 	overflow: hidden;
 	border-radius: 4px;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-.card-genre:hover {
+.card-album:hover {
 	background-color: #297aa9;
 }
 
-.card-genre p {
+.card-album p {
 	margin: 7px;
 	font-size: 15px;
-	width: auto;
+	width: 90px;
 	overflow: hidden;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
-.card-genre img {
+.card-album img {
 	width: 55px;
 	height: auto;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-/* GENRE MUSIC */
+/* ALBUM MUSIC */
 
 /* RECOMMENDED SONG */
 .nav-recommendedsong {
@@ -270,6 +286,14 @@ a:hover {
 	cursor: pointer;
 	position: relative;
 	padding-bottom: 25px;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .song-card p {
@@ -286,6 +310,14 @@ a:hover {
 .song-card img {
 	width: 170px;
 	height: auto;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .song-card img:hover {
@@ -294,20 +326,20 @@ a:hover {
 
 /* RECOMMENDED SONG */
 
-/* YOUR TOP MIXES */
-.nav-yourtopmixes {
+/* GENRE */
+.nav-genre {
 	display: flex;
 	justify-content: left;
 	margin: 10px;
 	margin-top: 30px;
 }
 
-.nav-yourtopmixes h1 {
+.nav-genre h1 {
 	font-size: 17px;
 	color: white;
 }
 
-.container-yourtopmixes {
+.container-genre {
 	display: flex;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -318,41 +350,86 @@ a:hover {
 	padding-bottom: 10px;
 }
 
-.container-yourtopmixes::-webkit-scrollbar {
+.container-genre::-webkit-scrollbar {
 	height: 8px;
 }
 
-.container-yourtopmixes::-webkit-scrollbar-thumb {
+.container-genre::-webkit-scrollbar-thumb {
 	background-color: #423f3ebb;
 	border-radius: 3px;
 }
 
-.card-yourtopmixes {
+.card-genre {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 	position: relative;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-.card-yourtopmixes p {
+.card-genre p {
 	color: white;
 	position: absolute;
 	bottom: 0;
-	left: 19px;
-	font-size: 15px;
+	left: 10px;
+	font-size: 17px;
 }
 
-.card-yourtopmixes img {
+.card-genre img {
 	width: 170px;
 	height: auto;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-.popmix {
+.card-genre img:hover {
+	filter: brightness(60%);
+}
+
+.pop {
 	background-color: wheat;
 	padding-bottom: 7px;
 }
 
-/* YOUR TOP MIXES */
+.poprock {
+	background-color: orange;
+	padding-bottom: 7px;
+}
+
+.poppunk {
+	background-color: blue;
+	padding-bottom: 7px;
+}
+
+.skapunk {
+	background-color: slateblue;
+	padding-bottom: 7px;
+}
+
+.reggae {
+	background-color: slategray;
+	padding-bottom: 7px;
+}
+
+.jazz {
+	background-color: skyblue;
+	padding-bottom: 7px;
+}
+
+/* GENRE */
 
 /* MUSIC PLAYER UI */
 .wrapper-music-player-ui {
@@ -433,6 +510,14 @@ a:hover {
 	width: 100%;
 	margin-top: 0;
 	gap: 30px;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .control-btn-large,
@@ -458,8 +543,8 @@ a:hover {
 
 @media screen and (min-width: 720px) {
 
-	/* GENRE MUSIC */
-	.container-genre {
+	/* ALBUM MUSIC */
+	.container-album {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		border-radius: 8px;
@@ -468,7 +553,7 @@ a:hover {
 		gap: 7px;
 	}
 
-	.card-genre {
+	.card-album {
 		background-color: #3a3d3e;
 		padding: 0;
 		display: flex;
@@ -479,17 +564,18 @@ a:hover {
 		border-radius: 5px;
 	}
 
-	.card-genre p {
+	.card-album p {
 		margin: 7px;
 		font-size: 20px;
+		width: max-content;
 	}
 
-	.card-genre img {
+	.card-album img {
 		width: 80px;
 		height: auto;
 	}
 
-	/* GENRE MUSIC */
+	/* ALBUM MUSIC */
 
 	/* Music Player UI */
 	.wrapper-music-player-ui {
@@ -593,6 +679,61 @@ a:hover {
 /* MOBILE DEVICES */
 @media (min-width: 320px) and (max-width: 375px) {
 
+	/* ALBUM MUSIC */
+	.container-album {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		cursor: pointer;
+		margin: 10px;
+		gap: 7px;
+	}
+
+	.card-album {
+		background-color: #3a3d3e;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		color: white;
+		overflow: hidden;
+		border-radius: 4px;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	.card-album:hover {
+		background-color: #297aa9;
+	}
+
+	.card-album p {
+		margin: 7px;
+		font-size: 15px;
+		width: 190px;
+		overflow: hidden;
+		flex-wrap: nowrap;
+	}
+
+	.card-album img {
+		width: 55px;
+		height: auto;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	/* ALBUM MUSIC */
+
 	/* Music Player UI */
 	.wrapper-music-player-ui {
 		margin: 10px;
@@ -671,6 +812,14 @@ a:hover {
 		justify-content: center;
 		width: 100%;
 		margin-top: 10px;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
 	}
 
 	.control-btn-large {
@@ -691,8 +840,8 @@ a:hover {
 /* DESKTOP SITE (MOBILE DEVICES) */
 @media screen and (min-width: 768px) and (max-width: 1080px) {
 
-	/* GENRE MUSIC */
-	.container-genre {
+	/* ALBUM MUSIC */
+	.container-album {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		border-radius: 8px;
@@ -701,7 +850,7 @@ a:hover {
 		gap: 7px;
 	}
 
-	.card-genre {
+	.card-album {
 		background-color: #3a3d3e;
 		padding: 0;
 		display: flex;
@@ -712,17 +861,18 @@ a:hover {
 		border-radius: 5px;
 	}
 
-	.card-genre p {
+	.card-album p {
 		margin: 7px;
 		font-size: 20px;
+		width: max-content;
 	}
 
-	.card-genre img {
+	.card-album img {
 		width: 80px;
 		height: auto;
 	}
 
-	/* GENRE MUSIC */
+	/* ALBUM MUSIC */
 
 	/* Music Player UI */
 	.wrapper-music-player-ui {

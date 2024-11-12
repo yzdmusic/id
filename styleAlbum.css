@@ -194,10 +194,25 @@ a:hover {
 
 /* THUMBNAIL GENRE */
 .thumbnail-genre {
-    padding: 150px;
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/POP\ PUNK\ \(THUMBNAIL\).jpg');
-    background-size: cover;
     position: relative;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kembali-ke-masa-kecil {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEMBALI\ KE\ MASA\ KECIL\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.asap-dan-angin {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ASAP\ DAN\ ANGIN\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.ngumbara-di-garut {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/NGUMBARA\ DI\ GARUT\ \(COVER\).jpg');
+    background-size: cover;
 }
 
 .thumbnail-genre h1 {
@@ -206,7 +221,16 @@ a:hover {
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 5px;
+    bottom: 20px;
+}
+
+.thumbnail-genre p {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    color: #c2c2c2;
+    left: 10px;
+    bottom: -3px;
 }
 
 /* THUMBNAIL GENRE */

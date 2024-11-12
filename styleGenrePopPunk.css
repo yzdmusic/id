@@ -9,189 +9,6 @@ body {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
-/* LOGO WEBSITE */
-.container-logoweb {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-website {
-    width: 100px;
-    height: 35px;
-    margin: -23px;
-    padding-bottom: 9px;
-}
-
-/* LOGO WEBSITE */
-
-/* HAMBURGER NAVBAR */
-.mobile-menu {
-    background-color: #171a21;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-    padding: 15px;
-    font-family: sans-serif;
-    font-size: 22px;
-}
-
-.menu-toggle {
-    display: flex;
-    flex-direction: column;
-    width: 26px;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: -37px;
-    margin-left: -7px;
-    outline: none;
-}
-
-.menu-icon {
-    background-color: #c7d5e0;
-    height: 4px;
-    margin: 3px 0;
-    border-radius: 2px;
-}
-
-.menu-content {
-    height: 100vh;
-    overflow-y: scroll;
-    position: fixed;
-    left: -250px;
-    top: 0;
-    width: 280px;
-    height: 100%;
-    background-color: #1b1b1b;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
-    transition: left 0.3s ease;
-    display: none;
-    z-index: 999;
-}
-
-.menu-content::-webkit-scrollbar {
-    height: 8px;
-}
-
-.menu-content::-webkit-scrollbar-thumb {
-    background-color: #1b2838;
-    border-radius: 3px;
-}
-
-.has-submenu {
-    border-bottom: 0.3px solid #444;
-}
-
-.has-submenu:hover {
-    background-color: #1b2838;
-}
-
-.menu-content ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.menu-content ul li {
-    padding: 12px;
-}
-
-.menu-content ul li a {
-    color: #c7d5e0;
-    text-decoration: none;
-}
-
-.menu-content ul li.has-submenu>a {
-    position: relative;
-}
-
-.menu-content ul li.has-submenu>a::after {
-    content: "";
-    position: absolute;
-    right: 10px;
-}
-
-.submenu-toggle {
-    display: block;
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
-    user-select: none;
-}
-
-.submenu-toggle:focus,
-.submenu-toggle:active {
-    outline: none;
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.submenu {
-    display: none;
-    font-size: 17px;
-    margin-top: 7px;
-}
-
-.submenu li:hover {
-    background: #297aa9;
-    width: 100vw;
-}
-
-.menu-link {
-    display: block;
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
-    user-select: none;
-}
-
-.menu-link:focus,
-.menu-link:active {
-    outline: none;
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-/* Overlay untuk menutupi konten di bawah menu */
-#overlay {
-    display: none;
-    /* Awalnya tidak terlihat */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Warna semi-transparan */
-    z-index: 998;
-    /* Di bawah menu tapi di atas konten lainnya */
-}
-
-/* HAMBURGER NAVBAR */
-
-/* FOOTER */
-.logo-footer {
-    width: 90px;
-    height: auto;
-    margin-left: -5px;
-}
-
-.footer {
-    margin: 20px;
-    font-family: sans-serif;
-    color: #eaeaea;
-    font-size: 9px;
-    width: 220px;
-    margin-left: 10px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(168, 247, 21);
-    transition: all .5s ease 0s;
-}
-
-/* FOOTER */
-
 /* THUMBNAIL GENRE */
 .thumbnail-genre {
     padding: 150px;
@@ -318,11 +135,6 @@ a:hover {
     font-size: 24px;
 }
 
-.back-btn {
-    font-size: 24px;
-    cursor: pointer;
-}
-
 .album-cover-large {
     width: 100%;
     margin: 20px 0;
@@ -430,11 +242,6 @@ a:hover {
         font-size: 24px;
     }
 
-    .back-btn {
-        font-size: 24px;
-        cursor: pointer;
-    }
-
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -471,8 +278,10 @@ a:hover {
         margin-top: 10px;
     }
 
-    .control-btn-large {
-        font-size: 24px;
+    .control-btn-large,
+    .back-btn {
+        width: 50px;
+        height: 50px;
         cursor: pointer;
         background: none;
         border: none;
@@ -532,11 +341,6 @@ a:hover {
         font-size: 24px;
     }
 
-    .back-btn {
-        font-size: 24px;
-        cursor: pointer;
-    }
-
     .album-cover-large {
         width: 100%;
         margin: 20px 0;
@@ -581,8 +385,10 @@ a:hover {
         -ms-user-select: none;
     }
 
-    .control-btn-large {
-        font-size: 24px;
+    .control-btn-large,
+    .back-btn {
+        width: 30px;
+        height: 30px;
         cursor: pointer;
         background: none;
         border: none;
@@ -638,11 +444,6 @@ a:hover {
         font-size: 24px;
     }
 
-    .back-btn {
-        font-size: 24px;
-        cursor: pointer;
-    }
-
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -679,8 +480,10 @@ a:hover {
         margin-top: 10px;
     }
 
-    .control-btn-large {
-        font-size: 24px;
+    .control-btn-large,
+    .back-btn {
+        width: 50px;
+        height: 50px;
         cursor: pointer;
         background: none;
         border: none;

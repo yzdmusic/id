@@ -64,6 +64,12 @@
     </section>
 
     <div class="container-album">
+        <a href="album-vrijheid-strijd.html">
+        <div class="card-album">
+            <img src="https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg" alt="">
+            <p>Vrijheid Strijd</p>
+        </div></a>
+
         <a href="album-asap-dan-angin.html">
         <div class="card-album">
             <img src="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg" alt="">
@@ -161,7 +167,7 @@
     </div>
 
     <div class="nav-genre">
-        <h1>Genre</h1>
+        <h1>Genres</h1>
     </div>
     <div class="container-genre">
         <div class="card-genre pop">
@@ -194,6 +200,35 @@
             <img src="https://yzdmusic.github.io/thumbnail-1/JAZZ (THUMBNAIL).jpg" alt="">
             <p>Jazz</p>
         </div>
+    </div>
+
+    <div class="nav-special">
+        <h1>Special for You</h1>
+    </div>
+    <div class="container-special">
+        <a href="album-vrijheid-strijd.html">
+        <div class="card-special">
+            <img src="https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg" alt="">
+            <p>Vrijheid Strijd</p>
+        </div></a>
+
+        <a href="album-asap-dan-angin.html">
+        <div class="card-special">
+            <img src="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg" alt="">
+            <p>Asap Dan Angin</p>
+        </div></a>
+
+        <a href="album-ngumbara-di-garut.html">
+        <div class="card-special">
+            <img src="https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg" alt="">
+            <p>Ngumbara Di Garut</p>
+        </div></a>
+
+        <a href="album-kembali-ke-masa-kecil.html">
+        <div class="card-special">
+            <img src="https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg" alt="">
+            <p>Kembali Ke Masa Kecil</p>
+        </div></a>
     </div>
 
     <!-- Sliding Music Player UI -->
@@ -252,6 +287,24 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const container = document.querySelector('.container-genre');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-special');
             const cards = Array.from(container.children);
         
             function shuffle(array) {

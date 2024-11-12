@@ -37,6 +37,11 @@ body {
     background-size: cover;
 }
 
+.altijd-mijn-fout {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ALTIJD\ MIJN\ FOUT\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;
@@ -164,6 +169,12 @@ body {
     font-size: 24px;
 }
 
+.title-music-player {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
 .album-cover-large {
     width: 100%;
     margin: 20px 0;
@@ -271,6 +282,10 @@ body {
         font-size: 24px;
     }
 
+    .title-music-player {
+        font-size: 17px;
+    }
+
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -370,9 +385,8 @@ body {
         font-size: 24px;
     }
 
-    .back-btn {
-        font-size: 24px;
-        cursor: pointer;
+    .title-music-player {
+        font-size: 10px;
     }
 
     .album-cover-large {
@@ -478,9 +492,8 @@ body {
         font-size: 24px;
     }
 
-    .back-btn {
-        font-size: 24px;
-        cursor: pointer;
+    .title-music-player {
+        font-size: 17px;
     }
 
     .album-cover-large {

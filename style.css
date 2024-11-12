@@ -280,15 +280,6 @@ a:hover {
 	padding-bottom: 10px;
 }
 
-.container-recommendedsong::-webkit-scrollbar {
-	height: 8px;
-}
-
-.container-recommendedsong::-webkit-scrollbar-thumb {
-	background-color: #423f3ebb;
-	border-radius: 3px;
-}
-
 .song-card {
 	display: flex;
 	align-items: center;
@@ -357,15 +348,6 @@ a:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-}
-
-.container-genre::-webkit-scrollbar {
-	height: 8px;
-}
-
-.container-genre::-webkit-scrollbar-thumb {
-	background-color: #423f3ebb;
-	border-radius: 3px;
 }
 
 .card-genre {
@@ -465,15 +447,6 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-.container-special::-webkit-scrollbar {
-	height: 8px;
-}
-
-.container-special::-webkit-scrollbar-thumb {
-	background-color: #423f3ebb;
-	border-radius: 3px;
-}
-
 .card-special {
 	display: flex;
 	align-items: center;
@@ -559,9 +532,10 @@ a:hover {
 	font-size: 24px;
 }
 
-.back-btn {
-	font-size: 24px;
-	cursor: pointer;
+.title-music-player {
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
 }
 
 .album-cover-large {
@@ -667,6 +641,42 @@ a:hover {
 
 	/* ALBUM MUSIC */
 
+	/* RECOMMENDED SONG */
+	.container-recommendedsong::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-recommendedsong::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* RECOMMENDED SONG */
+
+	/* GENRE */
+	.container-genre::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-genre::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* GENRE */
+
+	/* SPECIAL */
+	.container-special::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-special::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* SPECIAL */
+
 	/* Music Player UI */
 	.wrapper-music-player-ui {
 		margin: 10px;
@@ -706,9 +716,8 @@ a:hover {
 		font-size: 24px;
 	}
 
-	.back-btn {
-		font-size: 24px;
-		cursor: pointer;
+	.title-music-player {
+		font-size: 17px;
 	}
 
 	.album-cover-large {
@@ -747,8 +756,10 @@ a:hover {
 		margin-top: 10px;
 	}
 
-	.control-btn-large {
-		font-size: 24px;
+	.control-btn-large,
+	.back-btn {
+		width: 50px;
+		height: 50px;
 		cursor: pointer;
 		background: none;
 		border: none;
@@ -863,9 +874,8 @@ a:hover {
 		font-size: 24px;
 	}
 
-	.back-btn {
-		font-size: 24px;
-		cursor: pointer;
+	.title-music-player {
+		font-size: 10px;
 	}
 
 	.album-cover-large {
@@ -912,8 +922,10 @@ a:hover {
 		-ms-user-select: none;
 	}
 
-	.control-btn-large {
-		font-size: 24px;
+	.control-btn-large,
+	.back-btn {
+		width: 30px;
+		height: 30px;
 		cursor: pointer;
 		background: none;
 		border: none;
@@ -965,6 +977,42 @@ a:hover {
 
 	/* ALBUM MUSIC */
 
+	/* RECOMMENDED SONG */
+	.container-recommendedsong::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-recommendedsong::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* RECOMMENDED SONG */
+
+	/* GENRE */
+	.container-genre::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-genre::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* GENRE */
+
+	/* SPECIAL */
+	.container-special::-webkit-scrollbar {
+		height: 8px;
+	}
+
+	.container-special::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
+	}
+
+	/* SPECIAL */
+
 	/* Music Player UI */
 	.wrapper-music-player-ui {
 		margin: 10px;
@@ -1004,9 +1052,8 @@ a:hover {
 		font-size: 24px;
 	}
 
-	.back-btn {
-		font-size: 24px;
-		cursor: pointer;
+	.title-music-player {
+		font-size: 17px;
 	}
 
 	.album-cover-large {
@@ -1045,8 +1092,10 @@ a:hover {
 		margin-top: 10px;
 	}
 
-	.control-btn-large {
-		font-size: 24px;
+	.control-btn-large,
+	.back-btn {
+		width: 50px;
+		height: 50px;
 		cursor: pointer;
 		background: none;
 		border: none;

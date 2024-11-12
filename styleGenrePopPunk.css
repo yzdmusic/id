@@ -135,6 +135,10 @@ body {
     font-size: 24px;
 }
 
+.title-music-player {
+    font-size: 11px;
+}
+
 .album-cover-large {
     width: 100%;
     margin: 20px 0;
@@ -242,6 +246,10 @@ body {
         font-size: 24px;
     }
 
+    .title-music-player {
+        font-size: 17px;
+    }
+
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -339,6 +347,10 @@ body {
 
     .more-options {
         font-size: 24px;
+    }
+
+    .title-music-player {
+        font-size: 10px;
     }
 
     .album-cover-large {
@@ -442,6 +454,10 @@ body {
 
     .more-options {
         font-size: 24px;
+    }
+
+    .title-music-player {
+        font-size: 17px;
     }
 
     .album-cover-large {

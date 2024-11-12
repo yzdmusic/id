@@ -199,6 +199,14 @@ a:hover {
 	cursor: pointer;
 	margin: 10px;
 	gap: 7px;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .card-album {
@@ -226,14 +234,15 @@ a:hover {
 
 .card-album p {
 	margin: 7px;
-	font-size: 15px;
-	width: 90px;
+	font-size: 10px;
+	font-weight: bold;
+	width: 100%;
 	overflow: hidden;
 	flex-wrap: nowrap;
 }
 
 .card-album img {
-	width: 55px;
+	width: 58px;
 	height: auto;
 
 	/* EFEK BUG WARNA BIRU */
@@ -566,7 +575,8 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 20px;
+		font-size: 17px;
+		font-weight: bold;
 		width: max-content;
 	}
 
@@ -863,7 +873,8 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 20px;
+		font-size: 17px;
+		font-weight: bold;
 		width: max-content;
 	}
 

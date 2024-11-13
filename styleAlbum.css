@@ -122,21 +122,6 @@ body {
     margin-top: -5px;
 }
 
-.song-card img {
-    width: 55px;
-    height: auto;
-    margin: 10px;
-    margin-left: 5px;
-
-    /* EFEK BUG WARNA BIRU */
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    touch-action: manipulation;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
 /* HOME CONTENT */
 
 /* MUSIC PLAYER UI */

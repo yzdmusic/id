@@ -123,9 +123,10 @@ body {
 }
 
 .song-card img {
-    width: 50px;
+    width: 55px;
     height: auto;
-    margin-right: 10px;
+    margin: 10px;
+    margin-left: 5px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;

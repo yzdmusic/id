@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleProfile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Bhimo Ramadan</title>
+</head>
+<body>
+    <div class="thumbnail-artist bhimo-ramadan">
+        <h1>Bhimo Ramadan</h1>
+        <a href="home.html"><img src="back-button2.png" alt=""></a>
+        <p>Artist</p>
+    </div>
+
+    <div class="nav-popularsong">
+        <h1>Popular</h1>
+    </div>
+    <div class="home-content">
+        <div class="song-card" data-index="0" data-title="Keep Moving Forward" data-artist="Bhimo Ramadan, YZD" data-src="https://yzdmusic.github.io/assets-music-2/Keep Moving Forward.mp3"
+            data-cover="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg">
+            <h3>1</h3>
+            <img src="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Keep Moving Forward</h1>
+                <p>Bhimo Ramadan, YZD</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="1" data-title="Fall Of The Empire" data-artist="Bhimo Ramadan, YZD" data-src="https://yzdmusic.github.io/assets-music-2/Fall of the Empire.mp3"
+            data-cover="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg">
+            <h3>2</h3>
+            <img src="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Fall Of The Empire</h1>
+                <p>Bhimo Ramadan, YZD</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="2" data-title="Rise Of The Underdog" data-artist="Bhimo Ramadan, YZD" data-src="https://yzdmusic.github.io/assets-music-2/Rise of the Underdog.mp3"
+            data-cover="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg">
+            <h3>3</h3>
+            <img src="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Rise Of The Underdog</h1>
+                <p>Bhimo Ramadan, YZD</p>
+            </div>
+        </div>
+
+        <div class="song-card" data-index="3" data-title="Ruthless Greed" data-artist="Bhimo Ramadan, YZD" data-src="https://yzdmusic.github.io/assets-music-2/Ruthless Greed.mp3"
+            data-cover="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg">
+            <h3>4</h3>
+            <img src="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg" alt="">
+            <div class="card-title">
+                <h1>Ruthless Greed</h1>
+                <p>Bhimo Ramadan, YZD</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-albums">
+        <h1>Albums</h1>
+    </div>
+    <div class="container-albums">
+        <a href="album-keep-moving-forward(profile-bhimo-ramadan).html">
+            <div class="card-albums">
+                <img src="https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg" alt="">
+                <div class="card-titleablums">
+                    <h1>Keep Moving Forward</h1>
+                    <p>2024</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Sliding Music Player UI -->
+    <div class="music-player-ui" id="musicPlayerUI">
+        <span class="title-music-player">BHIMO RAMADAN</span>
+        <div class="music-header">
+            <img id="closePlayer" class="back-btn" src="back-button2.png" alt="Back">
+            <span class="more-options">⋮</span>
+        </div>
+        <img src="cover1.jpg" alt="Album Cover" class="album-cover-large" id="albumCoverLarge">
+        <div class="song-info-large">
+            <h2 id="songTitleLarge">Green Utopia</h2>
+            <p id="artistNameLarge">The Vines</p>
+        </div>
+        <div class="progress-bar-container">
+            <span id="currentTimeLarge">0:00</span>
+            <input type="range" id="progressLarge" value="0" max="100">
+            <span id="durationLarge">0:00</span>
+        </div>
+        <div class="controls-large">
+            <img id="shuffleLarge" class="control-btn-large" src="arrow.png" alt="Shuffle">
+            <img id="prevLarge" class="control-btn-large" src="back-button.png" alt="Previous">
+            <img id="playPauseLarge" class="control-btn-large" src="play.png" alt="Play/Pause">
+            <img id="nextLarge" class="control-btn-large" src="next-button.png" alt="Next">
+            <img id="repeatLarge" class="control-btn-large" src="repeat.png" alt="Repeat">
+        </div>
+    </div>
+
+    <audio id="audio" src=""></audio>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+	<script src="hamburger.js"></script>
+    <script src="play-music.js"></script>
+    <script src="search-engine-allpages.js"></script>
+</body>
+</html>

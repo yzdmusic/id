@@ -9,24 +9,34 @@ body {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
-/* THUMBNAIL GENRE */
-.thumbnail-genre {
-    padding: 150px;
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/POP\ PUNK\ \(THUMBNAIL\).jpg');
-    background-size: cover;
+/* THUMBNAIL ARTIST */
+.thumbnail-artist {
     position: relative;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
-.thumbnail-genre h1 {
-    font-size: 20px;
+.bhimo-ramadan {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/BHIMO\ RAMADAN\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
+.yzd {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/YZD\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
+.thumbnail-artist h1 {
+    font-size: 25px;
     font-weight: bold;
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 5px;
+    bottom: 20px;
 }
 
-.thumbnail-genre img {
+.thumbnail-artist img {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -42,9 +52,31 @@ body {
     -ms-user-select: none;
 }
 
-/* THUMBNAIL GENRE */
+.thumbnail-artist p {
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    color: #c2c2c2;
+    left: 10px;
+    bottom: -3px;
+}
+
+/* THUMBNAIL ARTIST */
 
 /* HOME CONTENT */
+.nav-popularsong {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+.nav-popularsong h1 {
+    font-size: 17px;
+    color: white;
+}
+
 .home-content {
     margin: 10px;
     padding-bottom: 30px;
@@ -87,6 +119,7 @@ body {
     width: 50px;
     height: auto;
     margin-right: 10px;
+    margin-left: 5px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -97,7 +130,105 @@ body {
     -ms-user-select: none;
 }
 
+.song-card h3 {
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+}
+
 /* HOME CONTENT */
+
+/* ALBUMS */
+.nav-albums {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+.nav-albums h1 {
+    font-size: 17px;
+    color: white;
+}
+
+.container-albums {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.container-albums a {
+    text-decoration: none;
+}
+
+.card-albums {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card-titleablums {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
+}
+
+.card-albums h1 {
+    color: white;
+    font-size: 13px;
+}
+
+.card-albums p {
+    color: #c2c2c2;
+    font-size: 12px;
+    margin-top: -5px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card-albums img {
+    width: 70px;
+    height: auto;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card-albums img:hover {
+    filter: brightness(60%);
+}
+
+/* ALBUMS */
 
 /* MUSIC PLAYER UI */
 .wrapper-music-player-ui {
@@ -140,6 +271,8 @@ body {
 
 .title-music-player {
     font-size: 11px;
+    display: flex;
+    justify-content: center;
 }
 
 .album-cover-large {

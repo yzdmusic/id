@@ -42,6 +42,11 @@ body {
     background-size: cover;
 }
 
+.keep-moving-forward {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEEP\ MOVING\ FORWARD\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;
@@ -105,12 +110,15 @@ body {
 
 .song-card h1 {
     color: white;
-    font-size: 16px;
+    font-size: 13px;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .song-card p {
     color: #c2c2c2;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: -5px;
 }
 
@@ -184,6 +192,18 @@ body {
 .song-info-large {
     text-align: center;
     margin-top: -20px;
+}
+
+.song-info-large h2 {
+    font-size: 14px;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.song-info-large p {
+    font-size: 13px;
+    margin-top: -10px;
 }
 
 .progress-bar-container {
@@ -295,6 +315,17 @@ body {
 
     .song-info-large {
         text-align: center;
+        margin-top: -20px;
+    }
+
+    .song-info-large h2 {
+        font-size: 14px;
+        width: max-content;
+    }
+
+    .song-info-large p {
+        font-size: 13px;
+        margin-top: -10px;
     }
 
     .progress-bar-container {
@@ -398,6 +429,18 @@ body {
     .song-info-large {
         text-align: center;
         margin-top: -20px;
+    }
+
+    .song-info-large h2 {
+        font-size: 14px;
+        width: 260px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .song-info-large p {
+        font-size: 13px;
+        margin-top: -10px;
     }
 
     .progress-bar-container {
@@ -505,6 +548,17 @@ body {
 
     .song-info-large {
         text-align: center;
+        margin-top: -20px;
+    }
+
+    .song-info-large h2 {
+        font-size: 14px;
+        width: max-content;
+    }
+
+    .song-info-large p {
+        font-size: 13px;
+        margin-top: -10px;
     }
 
     .progress-bar-container {

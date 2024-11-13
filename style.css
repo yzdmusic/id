@@ -236,9 +236,9 @@ a:hover {
 	margin: 7px;
 	font-size: 10px;
 	font-weight: bold;
-	width: 100%;
+	width: 105px;
+	white-space: wrap;
 	overflow: hidden;
-	flex-wrap: nowrap;
 }
 
 .card-album img {
@@ -255,76 +255,6 @@ a:hover {
 }
 
 /* ALBUM MUSIC */
-
-/* RECOMMENDED SONG */
-.nav-recommendedsong {
-	display: flex;
-	justify-content: left;
-	margin: 10px;
-	margin-top: 30px;
-}
-
-.nav-recommendedsong h1 {
-	font-size: 17px;
-	color: white;
-}
-
-.container-recommendedsong {
-	display: flex;
-	overflow-x: auto;
-	overflow-y: hidden;
-	gap: 10px;
-	margin-top: -5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-.song-card {
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	position: relative;
-	padding-bottom: 25px;
-
-	/* EFEK BUG WARNA BIRU */
-	outline: none;
-	-webkit-tap-highlight-color: transparent;
-	user-select: none;
-	touch-action: manipulation;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-}
-
-.song-card p {
-	color: white;
-	position: absolute;
-	bottom: -9px;
-	left: 3px;
-	font-size: 13px;
-	width: 155px;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.song-card img {
-	width: 170px;
-	height: auto;
-
-	/* EFEK BUG WARNA BIRU */
-	outline: none;
-	-webkit-tap-highlight-color: transparent;
-	user-select: none;
-	touch-action: manipulation;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-}
-
-.song-card img:hover {
-	filter: brightness(60%);
-}
-
-/* RECOMMENDED SONG */
 
 /* GENRE */
 .nav-genre {
@@ -509,86 +439,29 @@ a:hover {
 
 /* POPULAR ALBUMS */
 
-/* MUSIC PLAYER UI */
-.wrapper-music-player-ui {
+/* ARTISTS */
+.nav-artists {
+	display: flex;
+	justify-content: left;
 	margin: 10px;
+	margin-top: 30px;
 }
 
-.music-player-ui {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #1e2d2f;
+.nav-artists h1 {
+	font-size: 17px;
 	color: white;
+}
+
+.container-artists {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-	box-sizing: border-box;
-	z-index: 100;
-	transform: translateY(100%);
-	transition: transform 0.3s ease;
-}
-
-.music-player-ui.active {
-	transform: translateY(0);
-}
-
-.music-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	margin-bottom: 15px;
-}
-
-.more-options {
-	font-size: 24px;
-}
-
-.title-music-player {
-	font-size: 11px;
-	display: flex;
-	justify-content: center;
-}
-
-.album-cover-large {
-	width: 100%;
-	margin: 20px 0;
-	border-radius: 10px;
-}
-
-.song-info-large {
-	text-align: center;
-	margin-top: -20px;
-}
-
-.progress-bar-container {
-	display: flex;
-	align-items: center;
-	width: 100%;
-	margin: 10px 0;
-}
-
-.progress-bar-container span {
-	font-size: 14px;
-	width: 40px;
-	text-align: center;
-}
-
-.progress-bar-container input[type="range"] {
-	flex: 1;
-	margin: 0 5px;
-}
-
-.controls-large {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	margin-top: 0;
-	gap: 30px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	gap: 10px;
+	margin-top: -5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
 
 	/* EFEK BUG WARNA BIRU */
 	outline: none;
@@ -599,22 +472,61 @@ a:hover {
 	-ms-user-select: none;
 }
 
-.control-btn-large,
-.back-btn {
-	width: 40px;
-	height: 40px;
+.card-artists {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	cursor: pointer;
-	background: none;
-	border: none;
-	transition: transform 0.2s ease;
+	position: relative;
+	padding-bottom: 25px;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-.control-btn-large:hover,
-.back-btn:hover {
-	transform: scale(1.1);
+.card-artists p {
+	color: white;
+	position: absolute;
+	display: flex;
+	bottom: -17px;
+	font-size: 13px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
-/* MUSIC PLAYER UI */
+.card-artists img {
+	width: 170px;
+	height: auto;
+	border-radius: 50%;
+
+	/* EFEK BUG WARNA BIRU */
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.card-artists img:hover {
+	filter: brightness(60%);
+}
+
+/* ARTISTS */
 
 
 
@@ -657,18 +569,6 @@ a:hover {
 
 	/* ALBUM MUSIC */
 
-	/* RECOMMENDED SONG */
-	.container-recommendedsong::-webkit-scrollbar {
-		height: 8px;
-	}
-
-	.container-recommendedsong::-webkit-scrollbar-thumb {
-		background-color: #423f3ebb;
-		border-radius: 3px;
-	}
-
-	/* RECOMMENDED SONG */
-
 	/* GENRE */
 	.container-genre::-webkit-scrollbar {
 		height: 8px;
@@ -681,115 +581,34 @@ a:hover {
 
 	/* GENRE */
 
-	/* SPECIAL */
-	.container-special::-webkit-scrollbar {
+	/* POPULAR ALBUMS */
+	.container-popularalbums::-webkit-scrollbar {
 		height: 8px;
 	}
 
-	.container-special::-webkit-scrollbar-thumb {
+	.container-popularalbums::-webkit-scrollbar-thumb {
 		background-color: #423f3ebb;
 		border-radius: 3px;
 	}
 
-	/* SPECIAL */
+	/* POPULAR ALBUMS */
 
-	/* Music Player UI */
-	.wrapper-music-player-ui {
-		margin: 10px;
+	/* ARTIRTS */
+	.container-artists::-webkit-scrollbar {
+		height: 8px;
 	}
 
-	.music-player-ui {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: #1e2d2f;
-		color: white;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 20px;
-		box-sizing: border-box;
-		z-index: 100;
-		transform: translateY(100%);
-		transition: transform 0.3s ease;
+	.container-artists::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
 	}
 
-	.music-player-ui.active {
-		transform: translateY(0);
-	}
-
-	.music-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		margin-bottom: 15px;
-	}
-
-	.more-options {
-		font-size: 24px;
-	}
-
-	.title-music-player {
-		font-size: 17px;
-	}
-
-	.album-cover-large {
-		width: 100%;
-		max-width: 300px;
-		margin: 20px 0;
-		border-radius: 10px;
-	}
-
-	.song-info-large {
-		text-align: center;
-	}
-
-	.progress-bar-container {
-		display: flex;
-		align-items: center;
-		width: 100%;
-		margin: 10px 0;
-	}
-
-	.progress-bar-container span {
-		font-size: 14px;
-		width: 40px;
-		text-align: center;
-	}
-
-	.progress-bar-container input[type="range"] {
-		flex: 1;
-		margin: 0 5px;
-	}
-
-	.controls-large {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		margin-top: 10px;
-	}
-
-	.control-btn-large,
-	.back-btn {
-		width: 50px;
-		height: 50px;
-		cursor: pointer;
-		background: none;
-		border: none;
-		color: white;
-	}
+	/* ARTIRTS */
 }
 
 @media screen and (width: 800px) {}
 
 @media screen and (max-width: 810px) {}
-
-@media screen and (width: 360px) {}
-
-@media screen and (width: 320px) {}
 
 
 
@@ -799,7 +618,7 @@ a:hover {
 	/* ALBUM MUSIC */
 	.container-album {
 		display: grid;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		cursor: pointer;
 		margin: 10px;
 		gap: 7px;
@@ -830,10 +649,10 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 15px;
-		width: 190px;
+		font-size: 8px;
+		width: 95px;
+		white-space: wrap;
 		overflow: hidden;
-		flex-wrap: nowrap;
 	}
 
 	.card-album img {
@@ -850,84 +669,28 @@ a:hover {
 	}
 
 	/* ALBUM MUSIC */
+}
 
-	/* Music Player UI */
-	.wrapper-music-player-ui {
+@media screen and (width: 360px) {
+
+	/* ALBUM MUSIC */
+	.container-album {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		cursor: pointer;
 		margin: 10px;
+		gap: 7px;
 	}
 
-	.music-player-ui {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: #1e2d2f;
+	.card-album {
+		background-color: #3a3d3e;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
 		color: white;
-		display: flex;
-		overflow-y: auto;
-		align-items: center;
-		padding: 20px;
-		box-sizing: border-box;
-		z-index: 100;
-		transform: translateY(100%);
-		transition: transform 0.3s ease;
-	}
-
-	.music-player-ui.active {
-		transform: translateY(0);
-	}
-
-	.music-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		margin-bottom: 15px;
-	}
-
-	.more-options {
-		font-size: 24px;
-	}
-
-	.title-music-player {
-		font-size: 10px;
-	}
-
-	.album-cover-large {
-		width: 100%;
-		margin: 20px 0;
-		border-radius: 10px;
-	}
-
-	.song-info-large {
-		text-align: center;
-		margin-top: -20px;
-	}
-
-	.progress-bar-container {
-		display: flex;
-		align-items: center;
-		width: 100%;
-		margin: 10px 0;
-	}
-
-	.progress-bar-container span {
-		font-size: 14px;
-		width: 40px;
-		text-align: center;
-	}
-
-	.progress-bar-container input[type="range"] {
-		flex: 1;
-		margin: 0 5px;
-	}
-
-	.controls-large {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		margin-top: 10px;
+		overflow: hidden;
+		border-radius: 4px;
 
 		/* EFEK BUG WARNA BIRU */
 		outline: none;
@@ -938,15 +701,90 @@ a:hover {
 		-ms-user-select: none;
 	}
 
-	.control-btn-large,
-	.back-btn {
-		width: 30px;
-		height: 30px;
-		cursor: pointer;
-		background: none;
-		border: none;
-		color: white;
+	.card-album:hover {
+		background-color: #297aa9;
 	}
+
+	.card-album p {
+		margin: 7px;
+		font-size: 8px;
+		width: 85px;
+		white-space: wrap;
+		overflow: hidden;
+	}
+
+	.card-album img {
+		width: 55px;
+		height: auto;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	/* ALBUM MUSIC */
+}
+
+@media screen and (width: 320px) {
+
+	/* ALBUM MUSIC */
+	.container-album {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		cursor: pointer;
+		margin: 10px;
+		gap: 7px;
+	}
+
+	.card-album {
+		background-color: #3a3d3e;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		color: white;
+		overflow: hidden;
+		border-radius: 4px;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	.card-album:hover {
+		background-color: #297aa9;
+	}
+
+	.card-album p {
+		margin: 7px;
+		font-size: 8px;
+		width: 70px;
+		white-space: wrap;
+		overflow: hidden;
+	}
+
+	.card-album img {
+		width: 55px;
+		height: auto;
+
+		/* EFEK BUG WARNA BIRU */
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		user-select: none;
+		touch-action: manipulation;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	/* ALBUM MUSIC */
 }
 
 /* MOBILE DEVICES */
@@ -993,18 +831,6 @@ a:hover {
 
 	/* ALBUM MUSIC */
 
-	/* RECOMMENDED SONG */
-	.container-recommendedsong::-webkit-scrollbar {
-		height: 8px;
-	}
-
-	.container-recommendedsong::-webkit-scrollbar-thumb {
-		background-color: #423f3ebb;
-		border-radius: 3px;
-	}
-
-	/* RECOMMENDED SONG */
-
 	/* GENRE */
 	.container-genre::-webkit-scrollbar {
 		height: 8px;
@@ -1017,106 +843,29 @@ a:hover {
 
 	/* GENRE */
 
-	/* SPECIAL */
-	.container-special::-webkit-scrollbar {
+	/* POPULAR ALBUMS */
+	.container-popularalbums::-webkit-scrollbar {
 		height: 8px;
 	}
 
-	.container-special::-webkit-scrollbar-thumb {
+	.container-popularalbums::-webkit-scrollbar-thumb {
 		background-color: #423f3ebb;
 		border-radius: 3px;
 	}
 
-	/* SPECIAL */
+	/* POPULAR ALBUMS */
 
-	/* Music Player UI */
-	.wrapper-music-player-ui {
-		margin: 10px;
+	/* ARTIRTS */
+	.container-artists::-webkit-scrollbar {
+		height: 8px;
 	}
 
-	.music-player-ui {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: #1e2d2f;
-		color: white;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 20px;
-		box-sizing: border-box;
-		z-index: 100;
-		transform: translateY(100%);
-		transition: transform 0.3s ease;
+	.container-artists::-webkit-scrollbar-thumb {
+		background-color: #423f3ebb;
+		border-radius: 3px;
 	}
 
-	.music-player-ui.active {
-		transform: translateY(0);
-	}
-
-	.music-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		margin-bottom: 15px;
-	}
-
-	.more-options {
-		font-size: 24px;
-	}
-
-	.title-music-player {
-		font-size: 17px;
-	}
-
-	.album-cover-large {
-		width: 100%;
-		max-width: 300px;
-		margin: 20px 0;
-		border-radius: 10px;
-	}
-
-	.song-info-large {
-		text-align: center;
-	}
-
-	.progress-bar-container {
-		display: flex;
-		align-items: center;
-		width: 100%;
-		margin: 10px 0;
-	}
-
-	.progress-bar-container span {
-		font-size: 14px;
-		width: 40px;
-		text-align: center;
-	}
-
-	.progress-bar-container input[type="range"] {
-		flex: 1;
-		margin: 0 5px;
-	}
-
-	.controls-large {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		margin-top: 10px;
-	}
-
-	.control-btn-large,
-	.back-btn {
-		width: 50px;
-		height: 50px;
-		cursor: pointer;
-		background: none;
-		border: none;
-		color: white;
-	}
+	/* ARTIRTS */
 }
 
 /* LAPTOP */

@@ -11,49 +11,22 @@ body {
 
 /* THUMBNAIL GENRE */
 .thumbnail-genre {
-    position: relative;
     padding: 150px;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
-.kembali-ke-masa-kecil {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEMBALI\ KE\ MASA\ KECIL\ \(COVER\).jpg');
+.poppunk {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/POP\ PUNK\ \(THUMBNAIL\).jpg');
     background-size: cover;
 }
 
-.asap-dan-angin {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ASAP\ DAN\ ANGIN\ \(COVER\).jpg');
+.rap {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/RAP\ \(THUMBNAIL\).jpg');
     background-size: cover;
 }
 
-.ngumbara-di-garut {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/NGUMBARA\ DI\ GARUT\ \(COVER\).jpg');
-    background-size: cover;
-}
-
-.vrijheid-strijd {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/VRIJHEID\ STRIJD\ \(COVER\).jpg');
-    background-size: cover;
-}
-
-.altijd-mijn-fout {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ALTIJD\ MIJN\ FOUT\ \(COVER\).jpg');
-    background-size: cover;
-}
-
-.keep-moving-forward {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEEP\ MOVING\ FORWARD\ \(COVER\).jpg');
-    background-size: cover;
-}
-
-.bunga-tanpa-akar {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/BUNGA\ TANPA\ AKAR\ \(COVER\).jpg');
-    background-size: cover;
-}
-
-.veil-of-lies {
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/VEIL\ OF\ LIES\ \(COVER\).jpg');
+.metal {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/METAL\ \(THUMBNAIL\).jpg');
     background-size: cover;
 }
 
@@ -116,6 +89,7 @@ body {
 .card-title {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
 }
 
 .song-card h1 {
@@ -130,6 +104,21 @@ body {
     color: #c2c2c2;
     font-size: 12px;
     margin-top: -5px;
+}
+
+.song-card img {
+    width: 55px;
+    height: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /* HOME CONTENT */
@@ -175,8 +164,6 @@ body {
 
 .title-music-player {
     font-size: 11px;
-    display: flex;
-    justify-content: center;
 }
 
 .album-cover-large {
@@ -651,11 +638,69 @@ body {
 @media (min-width: 769px) and (max-width: 1024px) {}
 
 /* DESKTOP */
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+
+    /* HAMBURGER NAVBAR */
+    .mobile-menu {
+        font-size: 17px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        width: 26px;
+        cursor: pointer;
+        padding: 5px;
+        margin-top: -31px;
+        margin-left: -7px;
+    }
+
+    .menu-content ul li {
+        padding: 9px;
+    }
+
+    .submenu {
+        font-size: 14px;
+    }
+
+    /* HAMBURGER NAVBAR */
+
+    /* FOOTER */
+    .logo-footer {
+        width: 70px;
+        height: auto;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+
+    /* FOOTER */
+}
 
 /* DESKTOP 1920px */
 @media (min-width: 1920px) {}
 
-@media only screen and (max-width: 926px) and (orientation: landscape) {}
+@media only screen and (max-width: 926px) and (orientation: landscape) {
+    .menu-content {
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    .mobile-menu {
+        overflow-y: hidden;
+    }
+
+    .menu-toggle {
+        position: relative;
+        top: 0;
+        margin-top: -37px;
+        margin-left: -7px;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+}
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {}

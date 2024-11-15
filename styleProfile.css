@@ -27,6 +27,11 @@ body {
     background-size: cover;
 }
 
+.pebriyanzah {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/PEBRIYANZAH\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 25px;
     font-weight: bold;
@@ -160,7 +165,7 @@ body {
     flex-direction: column;
     gap: 10px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -217,7 +222,7 @@ body {
 .card-albums img {
     width: 80px;
     height: auto;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 5px;
 
     /* EFEK BUG WARNA BIRU */
@@ -353,6 +358,60 @@ body {
 }
 
 /* MUSIC PLAYER UI */
+
+/* MENU */
+/* Gaya Navigasi Bawah */
+.bottom-nav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: linear-gradient(rgba(31, 31, 33, 0.473), rgb(31, 31, 33));
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 7px 0;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-nav a {
+	text-decoration: none;
+}
+
+.nav-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #b3b3b3;
+	font-size: 10px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	margin-top: 7px;
+}
+
+.active {
+	color: white;
+	filter: brightness(100%);
+}
+
+.nav-icon {
+	width: 25px;
+	height: 25px;
+	margin-bottom: -5px;
+	filter: brightness(50%);
+}
+
+/* Efek Aktif */
+.nav-item.active {
+	filter: brightness(3);
+}
+
+/* Menghilangkan efek highlight biru pada mobile browser */
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* MENU */
 
 
 

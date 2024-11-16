@@ -57,6 +57,21 @@ body {
     background-size: cover;
 }
 
+.rowdiest {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ROWDIEST\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.against-the-tyrants {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/AGAINST\ THE\ TYRANTS\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.nouran {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/NOURAN\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

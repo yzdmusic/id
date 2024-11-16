@@ -194,8 +194,8 @@ body {
 
 .playlist-image {
     position: absolute;
-    bottom: -5px;
-    right: -5px;
+    bottom: -3px;
+    right: -3px;
     width: 85px;
     height: auto;
     border-radius: 4px;
@@ -393,8 +393,8 @@ body {
 
     .playlist-image {
         position: absolute;
-        bottom: -5px;
-        right: -5px;
+        bottom: -2px;
+        right: -2px;
         width: 75px;
         height: auto;
         border-radius: 4px;

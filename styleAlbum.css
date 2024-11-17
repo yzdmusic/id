@@ -82,6 +82,16 @@ body {
     background-size: cover;
 }
 
+.menginjak-neraka {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/MENGINJAK\ NERAKA\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.big-mouths-small-minds {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/BIG\ MOUTHS\,\ SMALL\ MINDS\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

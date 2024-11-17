@@ -72,6 +72,16 @@ body {
     background-size: cover;
 }
 
+.you-have-money-you-have-power {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/YOU\ HAVE\ MONEY\,\ YOU\ HAVE\ POWER\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.nothing-lasts-forever {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/NOTHING\ LASTS\ FOREVER\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

@@ -12,7 +12,8 @@ body {
 /* SEARCH */
 .container-search {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin: 10px;
 }
 
 .container-search h1 {
@@ -36,11 +37,10 @@ body {
     width: 100%;
     background-color: white;
     border-radius: 3px;
-    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border: 1px solid rgb(128, 128, 128);
+    padding: 13px;
     margin-top: 3px;
-    color: #1c1b1b;
+    font-size: 17px;
+    font-weight: bold;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -55,7 +55,7 @@ body {
     z-index: 999;
     position: absolute;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 0;
     color: white;
     cursor: pointer;
@@ -64,7 +64,6 @@ body {
     background-color: #2e2f31;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     width: 100%;
-    color: white;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;

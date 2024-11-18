@@ -4,7 +4,7 @@ const data = [
     { name: "Kabetshino", url: "profile-kabetshino.html", image: "https://yzdmusic.github.io/cover-1/KABETSHINO (PROFILE).jpg", price: "Artist" },
     { name: "Nayske Malik", url: "profile-nayske-malik.html", image: "https://yzdmusic.github.io/cover-1/NAYSKE\ MALIK\ \(PROFILE\).jpg", price: "Artist" },
     { name: "Pebriyanzah", url: "profile-pebriyanzah.html", image: "https://yzdmusic.github.io/cover-1/PEBRIYANZAH (PROFILE).jpg", price: "Artist" },
-    { name: "Surya Utama", url: "profile-surya-utama.html", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },
+    { name: "Surya Utama", url: "profile-surya-utama.html", image: "https://yzdmusic.github.io/cover-1/SURYA UTAMA (PROFILE).jpg", price: "Artist" },
     { name: "The Flip Flops", url: "profile-the-flip-flops.html", image: "https://yzdmusic.github.io/cover-1/THE FLIP FLOPS (PROFILE).jpg", price: "Artist" },
     { name: "The Rowdy", url: "profile-the-rowdy.html", image: "https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg", price: "Artist" },
     { name: "YZD", url: "profile-yzd.html", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },

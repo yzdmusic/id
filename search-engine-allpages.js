@@ -9,6 +9,7 @@ const data = [
     { name: "The Rowdy", url: "profile-the-rowdy.html", image: "https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg", price: "Artist" },
     { name: "YZD", url: "profile-yzd.html", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },
 
+    { name: "سلام لفلسطين", url: "album-salam-li-filastiniya.html", image: "https://yzdmusic.github.io/cover-1/SALAM LI FILASTINIYA (COVER).jpg", price: "Album" },
     { name: "3alami El7elo", url: "album-3alami-el7elo.html", image: "https://yzdmusic.github.io/cover-1/3ALAMI EL7ELO (COVER).jpg", price: "Album" },
     { name: "Against The Tyrants", url: "album-against-the-tyrants.html", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album" },
     { name: "Altijd Mijn Fout", url: "album-altijd-mijn-fout.html", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
@@ -25,7 +26,6 @@ const data = [
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
-    { name: "Salam Falistine", url: "album-salam-falistine.html", image: "https://yzdmusic.github.io/cover-1/SALAM FALISTINE (COVER).jpg", price: "Album" },
     { name: "The Heart Of A Chef", url: "album-the-heart-of-a-chef.html", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album" },
     { name: "Veil Of Lies", url: "album-veil-of-lies.html", image: "https://yzdmusic.github.io/cover-1/VEIL OF LIES (COVER).jpg", price: "Album" },
     { name: "Vrijheid Strijd", url: "album-vrijheid-strijd.html", image: "https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg", price: "Album" },

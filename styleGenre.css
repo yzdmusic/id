@@ -168,7 +168,12 @@ body {
 }
 
 .title-music-player {
-    font-size: 11px;
+    font-size: 12px;
+}
+
+.genre {
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .album-cover-large {
@@ -348,6 +353,11 @@ body {
         font-size: 17px;
     }
 
+    .genre {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -459,7 +469,12 @@ body {
     }
 
     .title-music-player {
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    .genre {
+        font-size: 11px;
+        font-weight: 700;
     }
 
     .album-cover-large {
@@ -581,6 +596,11 @@ body {
         font-size: 17px;
     }
 
+    .genre {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -643,69 +663,11 @@ body {
 @media (min-width: 769px) and (max-width: 1024px) {}
 
 /* DESKTOP */
-@media (min-width: 1025px) {
-
-    /* HAMBURGER NAVBAR */
-    .mobile-menu {
-        font-size: 17px;
-    }
-
-    .menu-toggle {
-        display: flex;
-        flex-direction: column;
-        width: 26px;
-        cursor: pointer;
-        padding: 5px;
-        margin-top: -31px;
-        margin-left: -7px;
-    }
-
-    .menu-content ul li {
-        padding: 9px;
-    }
-
-    .submenu {
-        font-size: 14px;
-    }
-
-    /* HAMBURGER NAVBAR */
-
-    /* FOOTER */
-    .logo-footer {
-        width: 70px;
-        height: auto;
-    }
-
-    .footer {
-        font-size: 8px;
-    }
-
-    /* FOOTER */
-}
+@media (min-width: 1025px) {}
 
 /* DESKTOP 1920px */
 @media (min-width: 1920px) {}
 
-@media only screen and (max-width: 926px) and (orientation: landscape) {
-    .menu-content {
-        height: 100vh;
-        overflow-y: scroll;
-    }
-
-    .mobile-menu {
-        overflow-y: hidden;
-    }
-
-    .menu-toggle {
-        position: relative;
-        top: 0;
-        margin-top: -37px;
-        margin-left: -7px;
-    }
-
-    .footer {
-        margin-top: 30px;
-    }
-}
+@media only screen and (max-width: 926px) and (orientation: landscape) {}
 
 @media only screen and (min-width: 1024px) and (orientation: landscape) {}

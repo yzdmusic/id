@@ -239,9 +239,14 @@ body {
 }
 
 .title-music-player {
-    font-size: 11px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
+}
+
+.album {
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .album-cover-large {
@@ -421,6 +426,11 @@ body {
         font-size: 17px;
     }
 
+    .album {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
     .album-cover-large {
         width: 100%;
         max-width: 300px;
@@ -532,7 +542,12 @@ body {
     }
 
     .title-music-player {
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    .album {
+        font-size: 11px;
+        font-weight: 700;
     }
 
     .album-cover-large {
@@ -652,6 +667,11 @@ body {
 
     .title-music-player {
         font-size: 17px;
+    }
+
+    .album {
+        font-size: 17px;
+        font-weight: 700;
     }
 
     .album-cover-large {

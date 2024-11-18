@@ -9,9 +9,8 @@ const data = [
     { name: "The Rowdy", url: "profile-the-rowdy.html", image: "https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg", price: "Artist" },
     { name: "YZD", url: "profile-yzd.html", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },
 
-    { name: "Against The Tyrants", url: "album-against-the-tyrants.html", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album" },
     { name: "3alami El7elo", url: "album-3alami-el7elo.html", image: "https://yzdmusic.github.io/cover-1/3ALAMI EL7ELO (COVER).jpg", price: "Album" },
-    { name: "Alami Alhilu", url: "album-3alami-el7elo.html", image: "https://yzdmusic.github.io/cover-1/3ALAMI EL7ELO (COVER).jpg", price: "Album" },
+    { name: "Against The Tyrants", url: "album-against-the-tyrants.html", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album" },
     { name: "Altijd Mijn Fout", url: "album-altijd-mijn-fout.html", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
     { name: "Asap Dan Angin", url: "album-asap-dan-angin.html", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },
     { name: "Big Mouths, Small Minds", url: "album-big-mouths-small-minds.html", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },

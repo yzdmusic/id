@@ -107,6 +107,21 @@ body {
     background-size: cover;
 }
 
+.honda-civic {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/HONDA\ CIVIC\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.the-heart-of-a-chef {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/THE\ HEART\ OF\ A\ CHEF\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.alami-alhilu {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/3ALAMI\ EL7ELO\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

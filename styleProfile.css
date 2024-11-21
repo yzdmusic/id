@@ -306,10 +306,6 @@ body {
     margin-bottom: 15px;
 }
 
-.more-options {
-    font-size: 24px;
-}
-
 .title-music-player {
     font-size: 12px;
     display: flex;
@@ -379,7 +375,8 @@ body {
 }
 
 .control-btn-large,
-.back-btn {
+.back-btn,
+.more-options {
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -490,10 +487,6 @@ body {
         margin-bottom: 15px;
     }
 
-    .more-options {
-        font-size: 24px;
-    }
-
     .title-music-player {
         font-size: 17px;
     }
@@ -551,7 +544,8 @@ body {
     }
 
     .control-btn-large,
-    .back-btn {
+    .back-btn,
+    .more-options {
         width: 50px;
         height: 50px;
         cursor: pointer;
@@ -608,10 +602,6 @@ body {
         width: 100%;
         margin-top: -25px;
         margin-bottom: 15px;
-    }
-
-    .more-options {
-        font-size: 24px;
     }
 
     .title-music-player {
@@ -680,7 +670,8 @@ body {
     }
 
     .control-btn-large,
-    .back-btn {
+    .back-btn,
+    .more-options {
         width: 30px;
         height: 30px;
         cursor: pointer;
@@ -732,10 +723,6 @@ body {
         align-items: center;
         width: 100%;
         margin-bottom: 15px;
-    }
-
-    .more-options {
-        font-size: 24px;
     }
 
     .title-music-player {
@@ -795,7 +782,8 @@ body {
     }
 
     .control-btn-large,
-    .back-btn {
+    .back-btn,
+    .more-options {
         width: 50px;
         height: 50px;
         cursor: pointer;

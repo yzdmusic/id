@@ -122,6 +122,11 @@ body {
     background-size: cover;
 }
 
+.ahweti-fi-sabah-el-qahira {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/AHWETI\ FI\ SABAH\ EL\ QAHIRA\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;
@@ -235,10 +240,6 @@ body {
     margin-bottom: 15px;
 }
 
-.more-options {
-    font-size: 24px;
-}
-
 .title-music-player {
     font-size: 12px;
     display: flex;
@@ -308,7 +309,8 @@ body {
 }
 
 .control-btn-large,
-.back-btn {
+.back-btn,
+.more-options {
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -417,10 +419,6 @@ body {
         align-items: center;
         width: 100%;
         margin-bottom: 15px;
-    }
-
-    .more-options {
-        font-size: 24px;
     }
 
     .title-music-player {
@@ -539,10 +537,6 @@ body {
         margin-bottom: 15px;
     }
 
-    .more-options {
-        font-size: 24px;
-    }
-
     .title-music-player {
         font-size: 11px;
     }
@@ -609,7 +603,8 @@ body {
     }
 
     .control-btn-large,
-    .back-btn {
+    .back-btn,
+    .more-options {
         width: 30px;
         height: 30px;
         cursor: pointer;
@@ -661,10 +656,6 @@ body {
         align-items: center;
         width: 100%;
         margin-bottom: 15px;
-    }
-
-    .more-options {
-        font-size: 24px;
     }
 
     .title-music-player {
@@ -724,7 +715,8 @@ body {
     }
 
     .control-btn-large,
-    .back-btn {
+    .back-btn,
+    .more-options {
         width: 50px;
         height: 50px;
         cursor: pointer;

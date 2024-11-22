@@ -281,8 +281,9 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
@@ -420,6 +421,7 @@ body {
     width: 100%;
     height: max-content;
     border-radius: 10px;
+    margin-bottom: 70px;
 }
 
 .credits {
@@ -463,28 +465,30 @@ body {
 /* Mengatur tinggi dan warna slider */
 input[type="range"] {
     -webkit-appearance: none;
-    appearance: none;
     /* Hilangkan style default browser */
+    -moz-appearance: none;
+    appearance: none;
     width: 100%;
     /* Sesuaikan lebar */
-    height: 4px;
+    height: 6px;
     /* Atur tinggi slider */
-    background: white;
+    background: none;
     /* Warna background track slider */
-    border-radius: 10px;
+    border-radius: 5px;
     /* Rounded edges */
     outline: none;
     /* Hilangkan border focus */
+    cursor: pointer;
 }
 
-/* Warna thumb slider */
+/* Warna thumb slider untuk Chrome, Safari, dan Edge */
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     /* Hilangkan style default browser */
     appearance: none;
-    width: 8px;
+    width: 6px;
     /* Lebar thumb */
-    height: 8px;
+    height: 6px;
     /* Tinggi thumb */
     background: white;
     /* Warna thumb */
@@ -493,25 +497,69 @@ input[type="range"]::-webkit-slider-thumb {
     cursor: pointer;
 }
 
-/* Style untuk browser Firefox */
-input[type="range"]::-moz-range-thumb {
-    width: 8px;
-    height: 8px;
-    background: #333333;
-    cursor: pointer;
+/* Jalur aktif untuk Chrome, Safari, dan Edge */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #302f2f;
+    /* Warna jalur aktif */
+    height: 6px;
+    /* Atur tinggi track */
 }
 
-/* Warna aktif track slider */
-input[type="range"]::-webkit-slider-runnable-track {
-    background: #333333;
-    /* Warna jalur aktif */
-    height: 8px;
-    width: 8px;
+/* Warna thumb slider untuk Firefox */
+input[type="range"]::-moz-range-thumb {
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 /* Jalur untuk Firefox */
 input[type="range"]::-moz-range-track {
+    background: #302f2f;
+    height: 6px;
+    /* Atur tinggi track */
+    border-radius: 5px;
+}
+
+/* Jalur aktif untuk Firefox */
+input[type="range"]::-moz-range-progress {
+    background: #302f2f;
+    /* Warna jalur aktif */
+    height: 6px;
+    /* Atur tinggi track */
+    border-radius: 5px;
+}
+
+/* Warna thumb slider untuk Internet Explorer */
+input[type="range"]::-ms-thumb {
+    width: 6px;
+    height: 6px;
     background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Jalur untuk Internet Explorer */
+input[type="range"]::-ms-track {
+    background: transparent;
+    /* Hapus style default */
+    border-color: transparent;
+    color: transparent;
+    height: 6px;
+}
+
+/* Jalur aktif untuk Internet Explorer */
+input[type="range"]::-ms-fill-lower {
+    background: #302f2f;
+    /* Warna jalur aktif */
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: #ddd;
+    /* Warna jalur tidak aktif */
+    border-radius: 5px;
 }
 
 /* MUSIC PLAYER UI */
@@ -587,8 +635,9 @@ input[type="range"]::-moz-range-track {
         color: white;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
         box-sizing: border-box;
@@ -722,6 +771,7 @@ input[type="range"]::-moz-range-track {
         width: 100%;
         height: max-content;
         border-radius: 10px;
+        margin-bottom: 70px;
     }
 
     .credits {
@@ -789,8 +839,9 @@ input[type="range"]::-moz-range-track {
         color: white;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
         box-sizing: border-box;
@@ -924,6 +975,7 @@ input[type="range"]::-moz-range-track {
         width: 100%;
         height: max-content;
         border-radius: 10px;
+        margin-bottom: 70px;
     }
 
     .credits {
@@ -987,8 +1039,9 @@ input[type="range"]::-moz-range-track {
         color: white;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
         box-sizing: border-box;
@@ -1122,6 +1175,7 @@ input[type="range"]::-moz-range-track {
         width: 100%;
         height: max-content;
         border-radius: 10px;
+        margin-bottom: 70px;
     }
 
     .credits {

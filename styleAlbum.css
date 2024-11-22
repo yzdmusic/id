@@ -434,6 +434,7 @@ input[type="range"]::-webkit-slider-runnable-track {
     /* Warna jalur aktif */
     height: 6px;
     /* Atur tinggi track */
+    border-radius: 5px;
 }
 
 /* Warna thumb slider untuk Firefox */
@@ -455,7 +456,7 @@ input[type="range"]::-moz-range-track {
 
 /* Jalur aktif untuk Firefox */
 input[type="range"]::-moz-range-progress {
-    background: #302f2f;
+    background: white;
     /* Warna jalur aktif */
     height: 6px;
     /* Atur tinggi track */

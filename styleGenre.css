@@ -140,7 +140,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     align-items: center;
     padding: 20px;
@@ -300,9 +299,6 @@ body {
     color: white;
     font-size: 13px;
     font-weight: normal;
-    width: 290px;
-    white-space: nowrap;
-    overflow: hidden;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -495,7 +491,6 @@ input[type="range"]::-ms-fill-upper {
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
-        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
@@ -651,9 +646,6 @@ input[type="range"]::-ms-fill-upper {
         color: white;
         font-size: 13px;
         font-weight: normal;
-        width: 290px;
-        white-space: nowrap;
-        overflow: hidden;
 
         /* EFEK BUG WARNA BIRU */
         outline: none;
@@ -699,7 +691,6 @@ input[type="range"]::-ms-fill-upper {
         display: flex;
         flex-direction: column;
         overflow-y: auto;
-        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
@@ -855,9 +846,6 @@ input[type="range"]::-ms-fill-upper {
         color: white;
         font-size: 13px;
         font-weight: normal;
-        width: 290px;
-        white-space: nowrap;
-        overflow: hidden;
 
         /* EFEK BUG WARNA BIRU */
         outline: none;
@@ -899,7 +887,6 @@ input[type="range"]::-ms-fill-upper {
         display: flex;
         flex-direction: column;
         overflow-y: auto;
-        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
@@ -1055,9 +1042,6 @@ input[type="range"]::-ms-fill-upper {
         color: white;
         font-size: 13px;
         font-weight: normal;
-        width: 290px;
-        white-space: nowrap;
-        overflow: hidden;
 
         /* EFEK BUG WARNA BIRU */
         outline: none;

@@ -132,7 +132,6 @@ body {
 .music-player-ui {
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: #1e2d2f;
@@ -140,6 +139,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     align-items: center;
     padding: 20px;
@@ -483,7 +483,6 @@ input[type="range"]::-ms-fill-upper {
     .music-player-ui {
         position: fixed;
         bottom: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         background-color: #1e2d2f;
@@ -491,6 +490,7 @@ input[type="range"]::-ms-fill-upper {
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
@@ -683,14 +683,14 @@ input[type="range"]::-ms-fill-upper {
     .music-player-ui {
         position: fixed;
         bottom: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         background-color: #1e2d2f;
         color: white;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;
@@ -879,14 +879,14 @@ input[type="range"]::-ms-fill-upper {
     .music-player-ui {
         position: fixed;
         bottom: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         background-color: #1e2d2f;
         color: white;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         align-items: center;
         padding: 20px;

@@ -335,7 +335,7 @@ body {
 #repeatLarge {
     width: 25px;
     height: 25px;
-    margin-top: 15px;
+    margin: auto 0;
 }
 
 /* MUSIC PLAYER UI */
@@ -616,7 +616,6 @@ body {
         -ms-user-select: none;
     }
 
-    .control-btn-large,
     .back-btn,
     .more-options {
         width: 30px;

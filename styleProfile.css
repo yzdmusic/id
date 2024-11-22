@@ -271,10 +271,6 @@ body {
 /* ALBUMS */
 
 /* MUSIC PLAYER UI */
-.wrapper-music-player-ui {
-    margin: 10px;
-}
-
 .music-player-ui {
     position: fixed;
     bottom: 0;
@@ -467,10 +463,6 @@ body {
 @media screen and (min-width: 720px) {
 
     /* Music Player UI */
-    .wrapper-music-player-ui {
-        margin: 10px;
-    }
-
     .music-player-ui {
         position: fixed;
         bottom: 0;
@@ -583,10 +575,6 @@ body {
 @media (min-width: 320px) and (max-width: 375px) {
 
     /* Music Player UI */
-    .wrapper-music-player-ui {
-        margin: 10px;
-    }
-
     .music-player-ui {
         position: fixed;
         bottom: 0;
@@ -704,10 +692,6 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1080px) {
 
     /* Music Player UI */
-    .wrapper-music-player-ui {
-        margin: 10px;
-    }
-
     .music-player-ui {
         position: fixed;
         bottom: 0;

@@ -236,14 +236,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: -27px;
+    margin-top: -10px;
     margin-bottom: 15px;
 }
 
 .title-music-player {
     font-size: 12px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .album {
@@ -294,9 +295,9 @@ body {
 
 .controls-large {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    margin-top: 0;
+    margin-top: 10px;
     gap: 30px;
 
     /* EFEK BUG WARNA BIRU */
@@ -308,7 +309,6 @@ body {
     -ms-user-select: none;
 }
 
-.control-btn-large,
 .back-btn,
 .more-options {
     width: 40px;
@@ -321,7 +321,21 @@ body {
 
 .control-btn-large:hover,
 .back-btn:hover {
-    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#playPauseLarge {
+    width: 60px;
+    height: 60px;
+}
+
+#shuffleLarge,
+#nextLarge,
+#prevLarge,
+#repeatLarge {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
 }
 
 /* MUSIC PLAYER UI */
@@ -533,7 +547,7 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        margin-top: -25px;
+        margin-top: -7px;
         margin-bottom: 15px;
     }
 

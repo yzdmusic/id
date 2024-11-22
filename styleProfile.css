@@ -295,6 +295,10 @@ body {
     transform: translateY(0);
 }
 
+.music-player-ui::-webkit-scrollbar {
+    display: none;
+}
+
 .music-header {
     display: flex;
     justify-content: space-between;
@@ -454,6 +458,60 @@ body {
     font-size: 12px;
     margin-top: -5px;
     cursor: default;
+}
+
+/* Mengatur tinggi dan warna slider */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    /* Hilangkan style default browser */
+    width: 100%;
+    /* Sesuaikan lebar */
+    height: 4px;
+    /* Atur tinggi slider */
+    background: white;
+    /* Warna background track slider */
+    border-radius: 10px;
+    /* Rounded edges */
+    outline: none;
+    /* Hilangkan border focus */
+}
+
+/* Warna thumb slider */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Hilangkan style default browser */
+    appearance: none;
+    width: 8px;
+    /* Lebar thumb */
+    height: 8px;
+    /* Tinggi thumb */
+    background: white;
+    /* Warna thumb */
+    border-radius: 50%;
+    /* Rounded thumb */
+    cursor: pointer;
+}
+
+/* Style untuk browser Firefox */
+input[type="range"]::-moz-range-thumb {
+    width: 8px;
+    height: 8px;
+    background: #333333;
+    cursor: pointer;
+}
+
+/* Warna aktif track slider */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #333333;
+    /* Warna jalur aktif */
+    height: 8px;
+    width: 8px;
+}
+
+/* Jalur untuk Firefox */
+input[type="range"]::-moz-range-track {
+    background: white;
 }
 
 /* MUSIC PLAYER UI */

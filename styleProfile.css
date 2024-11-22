@@ -298,8 +298,8 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: -10px;
-    margin-bottom: 15px;
+    margin-top: -5px;
+    margin-bottom: 40px;
 }
 
 .title-music-player {
@@ -373,8 +373,8 @@ body {
 
 .back-btn,
 .more-options {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     background: none;
     border: none;
@@ -544,16 +544,15 @@ body {
 
     .controls-large {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
         margin-top: 10px;
     }
 
-    .control-btn-large,
     .back-btn,
     .more-options {
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
         cursor: pointer;
         background: none;
         border: none;
@@ -602,8 +601,8 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        margin-top: -7px;
-        margin-bottom: 15px;
+        margin-top: -5px;
+        margin-bottom: 40px;
     }
 
     .title-music-player {
@@ -658,7 +657,7 @@ body {
 
     .controls-large {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
         margin-top: 10px;
 
@@ -673,8 +672,8 @@ body {
 
     .back-btn,
     .more-options {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
         cursor: pointer;
         background: none;
         border: none;
@@ -773,16 +772,15 @@ body {
 
     .controls-large {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
         margin-top: 10px;
     }
 
-    .control-btn-large,
     .back-btn,
     .more-options {
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
         cursor: pointer;
         background: none;
         border: none;

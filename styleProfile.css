@@ -195,7 +195,7 @@ body {
     flex-direction: column;
     gap: 10px;
     margin: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -557,6 +557,95 @@ input[type="range"]::-ms-fill-upper {
 }
 
 /* MUSIC PLAYER UI */
+
+/* NOTIFIKASI MUSIC */
+#notificationPlayer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: #1a1a1a;
+    color: white;
+    position: fixed;
+    bottom: 75px;
+    width: calc(100% - 20px);
+    /* Responsif untuk layar kecil */
+    margin: 0 10px;
+    /* Margin di kiri dan kanan */
+    box-sizing: border-box;
+    z-index: 1;
+    display: none;
+    /* Awalnya tersembunyi */
+    border-radius: 7px;
+}
+
+/* Gambar Album */
+#notificationAlbumCover {
+    width: 37px;
+    height: 37px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: cover;
+    /* Untuk memastikan gambar selalu proporsional */
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Detil Notifikasi */
+#notificationDetails {
+    flex: 1;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Memastikan judul lagu tidak terpotong aneh */
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Tombol Play/Pause */
+#playPauseNotificationBtn {
+    width: 37px;
+    height: 37px;
+    margin-left: auto;
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#playPauseImg {
+    width: 100%;
+    height: auto;
+}
+
+/* NOTIFIKASI MUSIC */
 
 /* MENU */
 /* Gaya Navigasi Bawah */

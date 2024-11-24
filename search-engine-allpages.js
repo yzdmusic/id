@@ -18,6 +18,7 @@ const data = [
     { name: "Big Mouths, Small Minds", url: "album-big-mouths-small-minds.html", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },
     { name: "Bunga Tanpa Akar", url: "album-bunga-tanpa-akar.html", image: "https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg", price: "Album" },
     { name: "Een Huis Vol Ellende", url: "album-een-huis-vol-ellende.html", image: "https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg", price: "Album" },
+    { name: "Hob Fi El Du'a", url: "album-hob-fi-el-dua.html", image: "https://yzdmusic.github.io/cover-1/HOB FI EL DUA (COVER).jpg", price: "Album" },
     { name: "Honda Civic", url: "album-honda-civic.html", image: "https://yzdmusic.github.io/cover-1/HONDA CIVIC (COVER).jpg", price: "Album" },
     { name: "Keep Moving Forward", url: "album-keep-moving-forward.html", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "album-kembali-ke-masa-kecil.html", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },
@@ -35,6 +36,7 @@ const data = [
     { name: "Metal", url: "genre-metal.html", image: "https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg", price: "Genre" },
     { name: "Pop Punk", url: "genre-poppunk.html", image: "https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg", price: "Genre" },
     { name: "Rap", url: "genre-rap.html", image: "https://yzdmusic.github.io/thumbnail-1/RAP (THUMBNAIL).jpg", price: "Genre" },
+    { name: "Reggae", url: "genre-reggae.html", image: "https://yzdmusic.github.io/thumbnail-1/REGGAE\ \(THUMBNAIL\).jpg", price: "Genre" },
     { name: "Ska Punk", url: "genre-skapunk.html", image: "https://yzdmusic.github.io/thumbnail-1/SKA PUNK (THUMBNAIL).jpg", price: "Genre" },
     // Tambahkan data lainnya sesuai kebutuhan
 ];

@@ -132,6 +132,11 @@ body {
     background-size: cover;
 }
 
+.istannini-fi-masr {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/ISTANNINI\ FI\ MASR\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

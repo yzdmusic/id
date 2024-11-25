@@ -22,6 +22,7 @@ const data = [
     { name: "Honda Civic", url: "album-honda-civic.html", image: "https://yzdmusic.github.io/cover-1/HONDA CIVIC (COVER).jpg", price: "Album" },
     { name: "Istannini Fi Masr", url: "album-istannini-fi-masr.html", image: "https://yzdmusic.github.io/cover-1/ISTANNINI FI MASR (COVER).jpg", price: "Album" },
     { name: "Keep Moving Forward", url: "album-keep-moving-forward.html", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },
+    { name: "Kefaya Horoub", url: "album-kefaya-horoub.html", image: "https://yzdmusic.github.io/cover-1/KEFAYA HOROUB (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "album-kembali-ke-masa-kecil.html", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },
     { name: "Menginjak Neraka", url: "album-menginjak-neraka.html", image: "https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg", price: "Album" },
     { name: "Ngumbara Di Garut", url: "album-ngumbara-di-garut.html", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },

@@ -137,6 +137,11 @@ body {
     background-size: cover;
 }
 
+.kefaya-horoub {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEFAYA\ HOROUB\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

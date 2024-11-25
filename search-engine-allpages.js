@@ -28,6 +28,7 @@ const data = [
     { name: "Ngumbara Di Garut", url: "album-ngumbara-di-garut.html", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },
     { name: "Nothing Lasts Forever", url: "album-nothing-lasts-forever.html", image: "https://yzdmusic.github.io/cover-1/NOTHING LASTS FOREVER (COVER).jpg", price: "Album" },
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
+    { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
     { name: "The Heart Of A Chef", url: "album-the-heart-of-a-chef.html", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album" },

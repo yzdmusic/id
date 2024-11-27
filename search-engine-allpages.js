@@ -1,5 +1,6 @@
 const data = [
     { name: "Bhimo Ramadan", url: "profile-bhimo-ramadan.html", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
+    { name: "Harmonization", url: "profile-harmonization.html", image: "https://yzdmusic.github.io/cover-1/HARMONIZATION\ \(PROFILE\).jpg", price: "Artist" },
     { name: "Garut Berdanska", url: "profile-garut-berdanska.html", image: "https://yzdmusic.github.io/cover-1/GARUT BERDANSKA (PROFILE).jpg", price: "Artist" },
     { name: "Kabetshino", url: "profile-kabetshino.html", image: "https://yzdmusic.github.io/cover-1/KABETSHINO (PROFILE).jpg", price: "Artist" },
     { name: "Nayske Malik", url: "profile-nayske-malik.html", image: "https://yzdmusic.github.io/cover-1/NAYSKE\ MALIK\ \(PROFILE\).jpg", price: "Artist" },
@@ -32,6 +33,7 @@ const data = [
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
+    { name: "The Cry Of The Earth", url: "album-the-cry-of-the-earth.html", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album" },
     { name: "The Heart Of A Chef", url: "album-the-heart-of-a-chef.html", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album" },
     { name: "Veil Of Lies", url: "album-veil-of-lies.html", image: "https://yzdmusic.github.io/cover-1/VEIL OF LIES (COVER).jpg", price: "Album" },
     { name: "Vrijheid Strijd", url: "album-vrijheid-strijd.html", image: "https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg", price: "Album" },

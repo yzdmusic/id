@@ -29,6 +29,7 @@ const data = [
     { name: "Kefaya Horoub", url: "album-kefaya-horoub.html", image: "https://yzdmusic.github.io/cover-1/KEFAYA HOROUB (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "album-kembali-ke-masa-kecil.html", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },
     { name: "Menginjak Neraka", url: "album-menginjak-neraka.html", image: "https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg", price: "Album" },
+    { name: "Mystic Euphoria", url: "album-mashya-lwahdi.html", image: "https://yzdmusic.github.io/cover-1/MASHYA LWAHDI (COVER).jpg", price: "Album" },
     { name: "Ngumbara Di Garut", url: "album-ngumbara-di-garut.html", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },
     { name: "Nothing Lasts Forever", url: "album-nothing-lasts-forever.html", image: "https://yzdmusic.github.io/cover-1/NOTHING LASTS FOREVER (COVER).jpg", price: "Album" },
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },

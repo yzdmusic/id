@@ -260,10 +260,11 @@ body {
 }
 
 .card-albums img {
-    width: 80px;
+    width: 95px;
     height: auto;
     margin-top: 3px;
     margin-bottom: 5px;
+    border-radius: 5px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;

@@ -18,6 +18,7 @@ const data = [
     { name: "Altijd Mijn Fout", url: "album-altijd-mijn-fout.html", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
     { name: "Asap Dan Angin", url: "album-asap-dan-angin.html", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },
     { name: "Ahweti Fi Sabah El Qahira", url: "album-ahweti-fi-sabah-el-qahira.html", image: "https://yzdmusic.github.io/cover-1/AHWETI FI SABAH EL QAHIRA (COVER).jpg", price: "Album" },
+    { name: "Betrayed Bloodline", url: "album-betrayed-bloodline.html", image: "https://yzdmusic.github.io/cover-1/BETRAYED BLOODLINE (COVER).jpg", price: "Album" },
     { name: "Big Mouths, Small Minds", url: "album-big-mouths-small-minds.html", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },
     { name: "Bunga Tanpa Akar", url: "album-bunga-tanpa-akar.html", image: "https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg", price: "Album" },
     { name: "Een Huis Vol Ellende", url: "album-een-huis-vol-ellende.html", image: "https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg", price: "Album" },

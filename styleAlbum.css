@@ -187,6 +187,26 @@ body {
     background-size: cover;
 }
 
+.cannibal {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/CANNIBAL\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.starman {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/STARMAN\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.demonic-soul {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/DEMONIC\ SOUL\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.stressed-out {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/STRESSED\ OUT!\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

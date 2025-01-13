@@ -217,6 +217,21 @@ body {
     background-size: cover;
 }
 
+.blood {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/BLOOD\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.dead-city {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/DEAD\ CITY\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.calmness {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/CALMNESS\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

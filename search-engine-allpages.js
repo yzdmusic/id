@@ -48,6 +48,7 @@ const data = [
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
+    { name: "Serenity", url: "album-serenity.html", image: "https://yzdmusic.github.io/cover-1/SERENITY (COVER).jpg", price: "Album" },
     { name: "Starman", url: "album-starman.html", image: "https://yzdmusic.github.io/cover-1/STARMAN (COVER).jpg", price: "Album" },
     { name: "Stressed Out!", url: "album-stressed-out!.html", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album" },
     { name: "The Cry Of The Earth", url: "album-the-cry-of-the-earth.html", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album" },

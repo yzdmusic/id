@@ -17,6 +17,13 @@ body {
     flex-direction: column;
 }
 
+.thumbnail-genre2nd {
+    position: relative;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
 .kembali-ke-masa-kecil {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEMBALI\ KE\ MASA\ KECIL\ \(COVER\).jpg');
     background-size: cover;
@@ -243,7 +250,25 @@ body {
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 20px;
+    bottom: 55px;
+}
+
+.thumbnail-genre h2 {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .thumbnail-genre img {
@@ -263,12 +288,101 @@ body {
 }
 
 .thumbnail-genre p {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     position: absolute;
     color: #c2c2c2;
     left: 10px;
     bottom: -3px;
+}
+
+.thumbnail-genre .photo-profile {
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10px;
+    top: 238px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+
+.thumbnail-genre2nd h1 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    left: 10px;
+    bottom: 20px;
+}
+
+.thumbnail-genre2nd h2 {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.thumbnail-genre2nd img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.thumbnail-genre2nd p {
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    color: #c2c2c2;
+    left: 10px;
+    bottom: -3px;
+}
+
+.thumbnail-genre2nd .photo-profile {
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10px;
+    top: 238px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /* THUMBNAIL GENRE */

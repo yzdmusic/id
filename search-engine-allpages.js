@@ -15,6 +15,7 @@ const data = [
 
     { name: "سلام لفلسطين", url: "album-salam-li-filastiniya.html", image: "https://yzdmusic.github.io/cover-1/SALAM LI FILASTINIYA (COVER).jpg", price: "Album" },
     { name: "3alami El7elo", url: "album-3alami-el7elo.html", image: "https://yzdmusic.github.io/cover-1/3ALAMI EL7ELO (COVER).jpg", price: "Album" },
+    { name: "Afterlife", url: "album-afterlife.html", image: "https://yzdmusic.github.io/cover-1/AFTERLIFE (COVER).jpg", price: "Album" },
     { name: "Against The Tyrants", url: "album-against-the-tyrants.html", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album" },
     { name: "Altijd Mijn Fout", url: "album-altijd-mijn-fout.html", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
     { name: "Asap Dan Angin", url: "album-asap-dan-angin.html", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },

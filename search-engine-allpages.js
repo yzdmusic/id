@@ -35,6 +35,7 @@ const data = [
     { name: "Happiness With You", url: "album-happiness-with-you.html", image: "https://yzdmusic.github.io/cover-1/HAPPINESS WITH YOU (COVER).jpg", price: "Album" },
     { name: "Hob Fi El Du'a", url: "album-hob-fi-el-dua.html", image: "https://yzdmusic.github.io/cover-1/HOB FI EL DUA (COVER).jpg", price: "Album" },
     { name: "Honda Civic", url: "album-honda-civic.html", image: "https://yzdmusic.github.io/cover-1/HONDA CIVIC (COVER).jpg", price: "Album" },
+    { name: "Human Error", url: "album-human-error.html", image: "https://yzdmusic.github.io/cover-1/HUMAN ERROR (COVER).jpg", price: "Album" },
     { name: "Ismik Mahfour Fi Albi", url: "album-ismik-mahfour-fi-albi.html", image: "https://yzdmusic.github.io/cover-1/ISMIK MAHFOUR FI ALBI (COVER).jpg", price: "Album" },
     { name: "Istannini Fi Masr", url: "album-istannini-fi-masr.html", image: "https://yzdmusic.github.io/cover-1/ISTANNINI FI MASR (COVER).jpg", price: "Album" },
     { name: "Keep Moving Forward", url: "album-keep-moving-forward.html", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },

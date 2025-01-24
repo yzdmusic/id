@@ -269,6 +269,16 @@ body {
     background-size: cover;
 }
 
+.hysteria {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/HYSTERIA\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+.goatman {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/GOATMAN\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 20px;
     font-weight: bold;

@@ -50,6 +50,7 @@ const data = [
     { name: "Ngumbara Di Garut", url: "album-ngumbara-di-garut.html", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },
     { name: "Nothing Lasts Forever", url: "album-nothing-lasts-forever.html", image: "https://yzdmusic.github.io/cover-1/NOTHING LASTS FOREVER (COVER).jpg", price: "Album" },
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
+    { name: "Numb", url: "album-numb.html", image: "https://yzdmusic.github.io/cover-1/NUMB (COVER).jpg", price: "Album" },
     { name: "Real Nightmare", url: "album-real-nightmare.html", image: "https://yzdmusic.github.io/cover-1/REAL NIGHTMARE (COVER).jpg", price: "Album" },
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },

@@ -1,6 +1,7 @@
 const data = [
     { name: "Bhimo Ramadan", url: "profile-bhimo-ramadan.html", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
     { name: "Dorokdox Symphony", url: "profile-dorokdox-symphony.html", image: "https://yzdmusic.github.io/cover-1/DOROKDOX\ SYMPHONY\ \(PROFILE\).jpg", price: "Artist" },
+    { name: "El Zill El Aswad", url: "profile-el-zill-el-aswad.html", image: "https://yzdmusic.github.io/cover-1/EL ZILL EL ASWAD (PROFILE).jpg", price: "Artist" },
     { name: "Harmonization", url: "profile-harmonization.html", image: "https://yzdmusic.github.io/cover-1/HARMONIZATION\ \(PROFILE\).jpg", price: "Artist" },
     { name: "Garut Berdanska", url: "profile-garut-berdanska.html", image: "https://yzdmusic.github.io/cover-1/GARUT BERDANSKA (PROFILE).jpg", price: "Artist" },
     { name: "Kabetshino", url: "profile-kabetshino.html", image: "https://yzdmusic.github.io/cover-1/KABETSHINO (PROFILE).jpg", price: "Artist" },
@@ -58,6 +59,7 @@ const data = [
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
     { name: "Serenity", url: "album-serenity.html", image: "https://yzdmusic.github.io/cover-1/SERENITY (COVER).jpg", price: "Album" },
+    { name: "Simfoniyyet El 'Ishq", url: "album-simfoniyyet-el-ishq.html", image: "https://yzdmusic.github.io/cover-1/SIMFONIYYET EL 'ISHQ (COVER).jpg", price: "Album" },
     { name: "Starman", url: "album-starman.html", image: "https://yzdmusic.github.io/cover-1/STARMAN (COVER).jpg", price: "Album" },
     { name: "Stressed Out!", url: "album-stressed-out!.html", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album" },
     { name: "The Cry Of The Earth", url: "album-the-cry-of-the-earth.html", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album" },

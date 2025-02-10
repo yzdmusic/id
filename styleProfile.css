@@ -92,6 +92,11 @@ body {
     background-size: cover;
 }
 
+.pudge {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/PUDGE\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 25px;
     font-weight: bold;

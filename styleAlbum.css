@@ -305,12 +305,13 @@ body {
 }
 
 .thumbnail-genre h1 {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 55px;
+    bottom: 45px;
+    width: 250px;
 }
 
 .thumbnail-genre h2 {
@@ -377,12 +378,13 @@ body {
 
 
 .thumbnail-genre2nd h1 {
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 20px;
+    bottom: 10px;
+    width: 250px;
 }
 
 .thumbnail-genre2nd h2 {

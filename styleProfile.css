@@ -98,12 +98,13 @@ body {
 }
 
 .thumbnail-artist h1 {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     position: absolute;
     color: white;
     left: 10px;
-    bottom: 20px;
+    bottom: 10px;
+    width: 250px;
 }
 
 .thumbnail-artist img {

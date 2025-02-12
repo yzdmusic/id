@@ -25,6 +25,7 @@ const data = [
     { name: "Asap Dan Angin", url: "album-asap-dan-angin.html", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },
     { name: "Ahweti Fi Sabah El Qahira", url: "album-ahweti-fi-sabah-el-qahira.html", image: "https://yzdmusic.github.io/cover-1/AHWETI FI SABAH EL QAHIRA (COVER).jpg", price: "Album" },
     { name: "Betrayed Bloodline", url: "album-betrayed-bloodline.html", image: "https://yzdmusic.github.io/cover-1/BETRAYED BLOODLINE (COVER).jpg", price: "Album" },
+    { name: "Better Off Dead", url: "album-better-off-dead.html", image: "https://yzdmusic.github.io/cover-1/BETTER OFF DEAD (COVER).jpg", price: "Album" },
     { name: "Big Mouths, Small Minds", url: "album-big-mouths-small-minds.html", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },
     { name: "Blood", url: "album-blood.html", image: "https://yzdmusic.github.io/cover-1/BLOOD (COVER).jpg", price: "Album" },
     { name: "Bunga Tanpa Akar", url: "album-bunga-tanpa-akar.html", image: "https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg", price: "Album" },

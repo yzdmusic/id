@@ -10,6 +10,7 @@ const data = [
     { name: "No Long Now", url: "profile-no-long-now.html", image: "https://yzdmusic.github.io/cover-1/NO LONG NOW (PROFILE).jpg", price: "Artist" },
     { name: "Pebriyanzah", url: "profile-pebriyanzah.html", image: "https://yzdmusic.github.io/cover-1/PEBRIYANZAH (PROFILE).jpg", price: "Artist" },
     { name: "Pudge", url: "profile-pudge.html", image: "https://yzdmusic.github.io/cover-1/PUDGE (PROFILE).jpg", price: "Artist" },
+    { name: "Saint Heaven", url: "profile-saint-heaven.html", image: "https://yzdmusic.github.io/cover-1/SAINT HEAVEN (PROFILE).jpg", price: "Artist" },
     { name: "Shadow Blade", url: "profile-shadow-blade.html", image: "https://yzdmusic.github.io/cover-1/SHADOW BLADE (PROFILE).jpg", price: "Artist" },
     { name: "Surya Utama", url: "profile-surya-utama.html", image: "https://yzdmusic.github.io/cover-1/SURYA UTAMA (PROFILE).jpg", price: "Artist" },
     { name: "The Flip Flops", url: "profile-the-flip-flops.html", image: "https://yzdmusic.github.io/cover-1/THE FLIP FLOPS (PROFILE).jpg", price: "Artist" },
@@ -71,6 +72,7 @@ const data = [
     { name: "The Rebel", url: "album-the-rebel.html", image: "https://yzdmusic.github.io/cover-1/THE REBEL (COVER).jpg", price: "Album" },
     { name: "Veil Of Lies", url: "album-veil-of-lies.html", image: "https://yzdmusic.github.io/cover-1/VEIL OF LIES (COVER).jpg", price: "Album" },
     { name: "Vrijheid Strijd", url: "album-vrijheid-strijd.html", image: "https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg", price: "Album" },
+    { name: "Whispers Of Peace", url: "album-whispers-of-peace.html", image: "https://yzdmusic.github.io/cover-1/WHISPERS OF PEACE (COVER).jpg", price: "Album" },
     { name: "You Have Money, You Have Power", url: "album-you-have-money-you-have-power.html", image: "https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg", price: "Album" },
 
     { name: "Metal", url: "genre-metal.html", image: "https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg", price: "Genre" },

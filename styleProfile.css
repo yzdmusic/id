@@ -97,6 +97,11 @@ body {
     background-size: cover;
 }
 
+.saint-heaven {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/SAINT\ HEAVEN\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 40px;
     font-weight: bold;

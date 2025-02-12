@@ -309,6 +309,11 @@ body {
     background-size: cover;
 }
 
+.silent-room {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/SILENT\ ROOM\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 35px;
     font-weight: bold;

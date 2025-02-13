@@ -320,7 +320,7 @@ body {
 }
 
 .thumbnail-genre h1 {
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: bold;
     position: absolute;
     color: white;
@@ -394,7 +394,7 @@ body {
 
 
 .thumbnail-genre2nd h1 {
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: bold;
     position: absolute;
     color: white;

@@ -103,16 +103,12 @@ body {
 }
 
 .thumbnail-artist h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
-    position: absolute;
     color: white;
-    left: 10px;
-    bottom: 10px;
-    width: 250px;
 }
 
-.thumbnail-artist img {
+.thumbnail-artist .btn-back {
     width: 47px;
     height: 47px;
     position: absolute;
@@ -127,6 +123,29 @@ body {
     touch-action: manipulation;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.thumbnail-artist .approve-logo {
+    width: 25px;
+    height: 25px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.title-and-approvelogo {
+    display: flex;
+    align-items: last baseline;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    gap: 5px;
+    width: min-content;
 }
 
 .thumbnail-artist p {

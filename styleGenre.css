@@ -41,7 +41,7 @@ body {
 }
 
 .thumbnail-genre h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bold;
     position: absolute;
     color: white;
@@ -872,6 +872,9 @@ input[type="range"]::-ms-fill-upper {
 
 /* MOBILE DEVICES */
 @media (min-width: 320px) and (max-width: 375px) {
+    .thumbnail-genre h1 {
+        font-size: 2.3rem;
+    }
 
     /* MUSIC PLAYER UI */
     .music-player-ui {

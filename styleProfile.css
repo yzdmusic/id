@@ -103,9 +103,13 @@ body {
 }
 
 .thumbnail-artist h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bold;
     color: white;
+    width: 250px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
 
 .thumbnail-artist .btn-back {
@@ -123,29 +127,6 @@ body {
     touch-action: manipulation;
     -webkit-user-select: none;
     -ms-user-select: none;
-}
-
-.thumbnail-artist .approve-logo {
-    width: 25px;
-    height: 25px;
-
-    /* EFEK BUG WARNA BIRU */
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-    touch-action: manipulation;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-.title-and-approvelogo {
-    display: flex;
-    align-items: last baseline;
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-    gap: 5px;
-    width: min-content;
 }
 
 .thumbnail-artist p {
@@ -1070,6 +1051,9 @@ input[type="range"]::-ms-fill-upper {
 
 /* MOBILE DEVICES */
 @media (min-width: 320px) and (max-width: 375px) {
+    .thumbnail-artist h1 {
+        font-size: 2.3rem;
+    }
 
     /* MUSIC PLAYER UI */
     .music-player-ui {

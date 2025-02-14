@@ -326,7 +326,7 @@ body {
     color: white;
     left: 10px;
     bottom: 45px;
-    width: min-content;
+    width: 250px;
 }
 
 .thumbnail-genre h2 {
@@ -400,7 +400,7 @@ body {
     color: white;
     left: 10px;
     bottom: 10px;
-    width: min-content;
+    width: 250px;
 }
 
 .thumbnail-genre2nd h2 {

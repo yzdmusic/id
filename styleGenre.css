@@ -132,6 +132,22 @@ body {
     -ms-user-select: none;
 }
 
+.song-card span {
+    content: url(more.png);
+    width: 23px;
+    height: 23px;
+    right: 15px;
+    position: absolute;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 /* HOME CONTENT */
 
 /* MUSIC PLAYER UI */

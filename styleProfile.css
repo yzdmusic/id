@@ -106,7 +106,7 @@ body {
     font-size: 2.7rem;
     font-weight: bold;
     color: white;
-    width: 250px;
+    width: min-content;
     position: absolute;
     left: 10px;
     bottom: 10px;
@@ -157,6 +157,8 @@ body {
 .home-content {
     margin: 10px;
     padding-bottom: 30px;
+    padding: 5px;
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(43, 43, 46, 0.886));
 }
 
 .song-card {
@@ -214,6 +216,22 @@ body {
     font-size: 13px;
     font-weight: normal;
     color: white;
+}
+
+.song-card span {
+    content: url(more.png);
+    width: 23px;
+    height: 23px;
+    right: 15px;
+    position: absolute;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /* HOME CONTENT */
@@ -309,6 +327,35 @@ body {
 
 .card-albums img:hover {
     filter: brightness(60%);
+}
+
+.hidden {
+    display: none;
+}
+
+.container-showmorebtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#showMoreBtn {
+    padding: 5px 25px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /* ALBUMS */

@@ -67,6 +67,7 @@ const data = [
     { name: "Simfoniyyet El 'Ishq", url: "album-simfoniyyet-el-ishq.html", image: "https://yzdmusic.github.io/cover-1/SIMFONIYYET EL 'ISHQ (COVER).jpg", price: "Album" },
     { name: "Starman", url: "album-starman.html", image: "https://yzdmusic.github.io/cover-1/STARMAN (COVER).jpg", price: "Album" },
     { name: "Stressed Out!", url: "album-stressed-out!.html", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album" },
+    { name: "Suicide Attempt", url: "album-suicide-attempt.html", image: "https://yzdmusic.github.io/cover-1/SUICIDE ATTEMPT (COVER).jpg", price: "Album" },
     { name: "Suicide Projection", url: "album-suicide-projection.html", image: "https://yzdmusic.github.io/cover-1/SUICIDE PROJECTION (COVER).jpg", price: "Album" },
     { name: "The Cry Of The Earth", url: "album-the-cry-of-the-earth.html", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album" },
     { name: "The End Of All Things", url: "album-the-end-of-all-things.html", image: "https://yzdmusic.github.io/cover-1/THE END OF ALL THINGS (COVER).jpg", price: "Album" },

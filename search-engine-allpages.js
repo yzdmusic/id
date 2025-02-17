@@ -58,6 +58,7 @@ const data = [
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
     { name: "Numb", url: "album-numb.html", image: "https://yzdmusic.github.io/cover-1/NUMB (COVER).jpg", price: "Album" },
     { name: "Oppression", url: "album-oppression.html", image: "https://yzdmusic.github.io/cover-1/OPPRESSION (COVER).jpg", price: "Album" },
+    { name: "Persib Day", url: "album-persib-day.html", image: "https://yzdmusic.github.io/cover-1/PERSIB DAY (COVER).jpg", price: "Album" },
     { name: "Real Nightmare", url: "album-real-nightmare.html", image: "https://yzdmusic.github.io/cover-1/REAL NIGHTMARE (COVER).jpg", price: "Album" },
     { name: "Rehlet Hayat Ragel Fashil", url: "album-rehlet-hayat-ragel-fashil.html", image: "https://yzdmusic.github.io/cover-1/REHLET HAYAT RAGEL FASHIL (COVER).jpg", price: "Album" },
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },

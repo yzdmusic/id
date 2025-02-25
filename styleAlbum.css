@@ -349,6 +349,11 @@ body {
     background-size: cover;
 }
 
+.voice-of-the-people {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/VOICE\ OF\ THE\ PEOPLE\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.3rem;
     font-weight: bold;

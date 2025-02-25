@@ -81,6 +81,7 @@ const data = [
     { name: "The Rebel", url: "album-the-rebel.html", image: "https://yzdmusic.github.io/cover-1/THE REBEL (COVER).jpg", price: "Album" },
     { name: "They're Killers", url: "album-they-are-killers.html", image: "https://yzdmusic.github.io/cover-1/THEY'RE KILLERS (COVER).jpg", price: "Album" },
     { name: "Veil Of Lies", url: "album-veil-of-lies.html", image: "https://yzdmusic.github.io/cover-1/VEIL OF LIES (COVER).jpg", price: "Album" },
+    { name: "Voice Of The People", url: "album-voice-of-the-people.html", image: "https://yzdmusic.github.io/cover-1/VOICE OF THE PEOPLE (COVER).jpg", price: "Album" },
     { name: "Vrijheid Strijd", url: "album-vrijheid-strijd.html", image: "https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg", price: "Album" },
     { name: "Whispers Of Peace", url: "album-whispers-of-peace.html", image: "https://yzdmusic.github.io/cover-1/WHISPERS OF PEACE (COVER).jpg", price: "Album" },
     { name: "You Have Money, You Have Power", url: "album-you-have-money-you-have-power.html", image: "https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg", price: "Album" },

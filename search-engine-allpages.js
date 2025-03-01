@@ -68,6 +68,7 @@ const data = [
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
+    { name: "Sekte Sesat", url: "album-sekte-sesat.html", image: "https://yzdmusic.github.io/cover-1/SEKTE SESAT (COVER).jpg", price: "Album" },
     { name: "Serenity", url: "album-serenity.html", image: "https://yzdmusic.github.io/cover-1/SERENITY (COVER).jpg", price: "Album" },
     { name: "Silent Room", url: "album-silent-room.html", image: "https://yzdmusic.github.io/cover-1/SILENT ROOM (COVER).jpg", price: "Album" },
     { name: "Simfoniyyet El 'Ishq", url: "album-simfoniyyet-el-ishq.html", image: "https://yzdmusic.github.io/cover-1/SIMFONIYYET EL 'ISHQ (COVER).jpg", price: "Album" },

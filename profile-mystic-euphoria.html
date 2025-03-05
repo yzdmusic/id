@@ -178,6 +178,53 @@
         </a>
     </div>
 
+    <div class="nav-artists">
+        <h1>Fans also like this</h1>
+    </div>
+    <div class="container-artists">
+        <a href="profile-kehedsia.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/KEHEDSIA (PROFILE).jpg" alt="">
+            <p>Kehedsia</p>
+        </div></a>
+
+        <a href="profile-saint-heaven.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/SAINT HEAVEN (PROFILE).jpg" alt="">
+            <p>Saint Heaven</p>
+        </div></a>
+
+        <a href="profile-pudge.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/PUDGE (PROFILE).jpg" alt="">
+            <p>Pudge</p>
+        </div></a>
+
+        <a href="profile-el-zill-el-aswad.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/EL ZILL EL ASWAD (PROFILE).jpg" alt="">
+            <p>El Zill El Aswad</p>
+        </div></a>
+
+        <a href="profile-dorokdox-symphony.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/DOROKDOX SYMPHONY (PROFILE).jpg" alt="">
+            <p>Dorokdox Symphony</p>
+        </div></a>
+
+        <a href="profile-no-long-now.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/NO LONG NOW (PROFILE).jpg" alt="">
+            <p>No Long Now</p>
+        </div></a>
+
+        <a href="profile-lina.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/LINA (PROFILE).jpg" alt="">
+            <p>Lina</p>
+        </div></a>
+    </div>
+
     <!-- Sliding Music Player UI -->
     <div class="music-player-ui" id="musicPlayerUI" style="background: linear-gradient(rgb(57, 56, 53), rgb(0, 0, 0));">
         <div class="music-header">
@@ -260,6 +307,24 @@
 		type="image/png"
 		href="YZD LOGO.png"
 	>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-artists');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
 
     <script src="play-music.js"></script>
     <script src="showmore.js"></script>

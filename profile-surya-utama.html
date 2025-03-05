@@ -135,6 +135,35 @@
         </a>
     </div>
 
+    <div class="nav-artists">
+        <h1>Fans also like this</h1>
+    </div>
+    <div class="container-artists">
+        <a href="profile-yzd.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg" alt="">
+            <p>YZD</p>
+        </div></a>
+
+        <a href="profile-bhimo-ramadan.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg" alt="">
+            <p>Bhimo Ramadan</p>
+        </div></a>
+
+        <a href="profile-pebriyanzah.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/PEBRIYANZAH (PROFILE).jpg" alt="">
+            <p>Pebriyanzah</p>
+        </div></a>
+
+        <a href="profile-nayske-malik.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/NAYSKE MALIK (PROFILE).jpg" alt="">
+            <p>Nayske Malik</p>
+        </div></a>
+    </div>
+
     <!-- Sliding Music Player UI -->
     <div class="music-player-ui" id="musicPlayerUI" style="background: linear-gradient(rgb(57, 56, 53), rgb(0, 0, 0));">
         <div class="music-header">
@@ -217,6 +246,24 @@
 		type="image/png"
 		href="YZD LOGO.png"
 	>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-artists');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
 
     <script src="play-music.js"></script>
     <script src="showmore.js"></script>

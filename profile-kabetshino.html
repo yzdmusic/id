@@ -218,6 +218,29 @@
         </a>
     </div>
 
+    <div class="nav-artists">
+        <h1>Fans also like this</h1>
+    </div>
+    <div class="container-artists">
+        <a href="profile-harmonization.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/HARMONIZATION (PROFILE).jpg" alt="">
+            <p>Harmonization</p>
+        </div></a>
+
+        <a href="profile-the-rowdy.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg" alt="">
+            <p>The Rowdy</p>
+        </div></a>
+
+        <a href="profile-garut-berdanska.html">
+        <div class="card-artists">
+            <img src="https://yzdmusic.github.io/cover-1/GARUT BERDANSKA (PROFILE).jpg" alt="">
+            <p>Garut Berdanska</p>
+        </div></a>
+    </div>
+
     <!-- Sliding Music Player UI -->
     <div class="music-player-ui" id="musicPlayerUI" style="background: linear-gradient(rgb(57, 56, 53), rgb(0, 0, 0));">
         <div class="music-header">
@@ -300,6 +323,24 @@
 		type="image/png"
 		href="YZD LOGO.png"
 	>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-artists');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
 
     <script src="play-music.js"></script>
     <script src="showmore.js"></script>

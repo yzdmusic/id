@@ -66,6 +66,7 @@ const data = [
     { name: "Real Nightmare", url: "album-real-nightmare.html", image: "https://yzdmusic.github.io/cover-1/REAL NIGHTMARE (COVER).jpg", price: "Album" },
     { name: "Rehlet Hayat Ragel Fashil", url: "album-rehlet-hayat-ragel-fashil.html", image: "https://yzdmusic.github.io/cover-1/REHLET HAYAT RAGEL FASHIL (COVER).jpg", price: "Album" },
     { name: "Resayilk Da'et", url: "album-resayilk-daet.html", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
+    { name: "Revenge Projection", url: "album-revenge-projection.html", image: "https://yzdmusic.github.io/cover-1/REVENGE PROJECTION (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "album-rise-above.html", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rowdiest", url: "album-rowdiest.html", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album" },
     { name: "Sekte Sesat", url: "album-sekte-sesat.html", image: "https://yzdmusic.github.io/cover-1/SEKTE SESAT (COVER).jpg", price: "Album" },

@@ -127,6 +127,11 @@ body {
     background-size: cover;
 }
 
+.mesin-jahit {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/MESIN\ JAHIT\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 2.7rem;
     font-weight: bold;
@@ -211,7 +216,7 @@ body {
 .song-card h1 {
     color: white;
     font-size: 13px;
-    width: 290px;
+    width: 220px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -1207,9 +1212,23 @@ input[type="range"]::-ms-fill-upper {
 
 @media screen and (max-width: 810px) {}
 
-@media screen and (width: 360px) {}
+@media screen and (width: 375px) {
+    .song-card h1 {
+        width: 200px;
+    }
+}
 
-@media screen and (width: 320px) {}
+@media screen and (width: 360px) {
+    .song-card h1 {
+        width: 180px;
+    }
+}
+
+@media screen and (width: 320px) {
+    .song-card h1 {
+        width: 160px;
+    }
+}
 
 
 

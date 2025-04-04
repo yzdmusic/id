@@ -66,6 +66,7 @@ const data = [
     { name: "Menginjak Neraka", url: "album-menginjak-neraka.html", image: "https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg", price: "Album" },
     { name: "Mustaheel Ansak", url: "album-mustaheel-ansak.html", image: "https://yzdmusic.github.io/cover-1/MUSTAHEEL ANSAK (COVER).jpg", price: "Album" },
     { name: "Ngumbara Di Garut", url: "album-ngumbara-di-garut.html", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },
+    { name: "No Hope For Life", url: "album-no-hope-for-life.html", image: "https://yzdmusic.github.io/cover-1/NO HOPE FOR LIFE (COVER).jpg", price: "Album" },
     { name: "Nothing Lasts Forever", url: "album-nothing-lasts-forever.html", image: "https://yzdmusic.github.io/cover-1/NOTHING LASTS FOREVER (COVER).jpg", price: "Album" },
     { name: "Nouran", url: "album-nouran.html", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
     { name: "Numb", url: "album-numb.html", image: "https://yzdmusic.github.io/cover-1/NUMB (COVER).jpg", price: "Album" },

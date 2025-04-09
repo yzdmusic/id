@@ -32,6 +32,7 @@ const data = [
     { name: "All About Love", url: "album-all-about-love.html", image: "https://yzdmusic.github.io/cover-1/ALL ABOUT LOVE (COVER).jpg", price: "Album" },
     { name: "Altijd Mijn Fout", url: "album-altijd-mijn-fout.html", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
     { name: "Asap Dan Angin", url: "album-asap-dan-angin.html", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },
+    { name: "Back Home", url: "album-back-home.html", image: "https://yzdmusic.github.io/cover-1/BACK HOME (COVER).jpg", price: "Album" },
     { name: "Betrayed Bloodline", url: "album-betrayed-bloodline.html", image: "https://yzdmusic.github.io/cover-1/BETRAYED BLOODLINE (COVER).jpg", price: "Album" },
     { name: "Better Off Dead", url: "album-better-off-dead.html", image: "https://yzdmusic.github.io/cover-1/BETTER OFF DEAD (COVER).jpg", price: "Album" },
     { name: "Big Mouths, Small Minds", url: "album-big-mouths-small-minds.html", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },

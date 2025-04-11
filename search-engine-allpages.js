@@ -59,6 +59,7 @@ const data = [
     { name: "Indonesia Gelap", url: "album-indonesia-gelap.html", image: "https://yzdmusic.github.io/cover-1/HABIS LEBARAN NYARI KERJAAN DIMANA LAGI YA (COVER).jpg", price: "Album" },
     { name: "Ismik Mahfour Fi Albi", url: "album-ismik-mahfour-fi-albi.html", image: "https://yzdmusic.github.io/cover-1/ISMIK MAHFOUR FI ALBI (COVER).jpg", price: "Album" },
     { name: "Istannini Fi Masr", url: "album-istannini-fi-masr.html", image: "https://yzdmusic.github.io/cover-1/ISTANNINI FI MASR (COVER).jpg", price: "Album" },
+    { name: "Just Want To Die", url: "album-just-want-to-die.html", image: "https://yzdmusic.github.io/cover-1/JUST WANT TO DIE (COVER).jpg", price: "Album" },
     { name: "Keep Moving Forward", url: "album-keep-moving-forward.html", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },
     { name: "Kefaya Horoub", url: "album-kefaya-horoub.html", image: "https://yzdmusic.github.io/cover-1/KEFAYA HOROUB (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "album-kembali-ke-masa-kecil.html", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },

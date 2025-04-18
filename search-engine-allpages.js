@@ -92,6 +92,7 @@ const data = [
     { name: "Stressed Out!", url: "album-stressed-out!.html", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album" },
     { name: "Suicide Attempt", url: "album-suicide-attempt.html", image: "https://yzdmusic.github.io/cover-1/SUICIDE ATTEMPT (COVER).jpg", price: "Album" },
     { name: "Suicide Projection", url: "album-suicide-projection.html", image: "https://yzdmusic.github.io/cover-1/SUICIDE PROJECTION (COVER).jpg", price: "Album" },
+    { name: "Suicide Room", url: "album-suicide-room.html", image: "https://yzdmusic.github.io/cover-1/SUICIDE ROOM (COVER).jpg", price: "Album" },
     { name: "The Cry Of The Earth", url: "album-the-cry-of-the-earth.html", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album" },
     { name: "The End Of All Things", url: "album-the-end-of-all-things.html", image: "https://yzdmusic.github.io/cover-1/THE END OF ALL THINGS (COVER).jpg", price: "Album" },
     { name: "The Heart Of A Chef", url: "album-the-heart-of-a-chef.html", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album" },

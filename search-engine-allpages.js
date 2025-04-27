@@ -57,6 +57,7 @@ const data = [
     { name: "Hob Fi El Du'a", url: "album-hob-fi-el-dua.html", image: "https://yzdmusic.github.io/cover-1/HOB FI EL DUA (COVER).jpg", price: "Album" },
     { name: "Honda Civic", url: "album-honda-civic.html", image: "https://yzdmusic.github.io/cover-1/HONDA CIVIC (COVER).jpg", price: "Album" },
     { name: "Human Error", url: "album-human-error.html", image: "https://yzdmusic.github.io/cover-1/HUMAN ERROR (COVER).jpg", price: "Album" },
+    { name: "Hopelessness", url: "album-hopelessness.html", image: "https://yzdmusic.github.io/cover-1/HOPELESSNESS (COVER).jpg", price: "Album" },
     { name: "Hysteria", url: "album-hysteria.html", image: "https://yzdmusic.github.io/cover-1/HYSTERIA (COVER).jpg", price: "Album" },
     { name: "Indonesia Gelap", url: "album-indonesia-gelap.html", image: "https://yzdmusic.github.io/cover-1/HABIS LEBARAN NYARI KERJAAN DIMANA LAGI YA (COVER).jpg", price: "Album" },
     { name: "Ismik Mahfour Fi Albi", url: "album-ismik-mahfour-fi-albi.html", image: "https://yzdmusic.github.io/cover-1/ISMIK MAHFOUR FI ALBI (COVER).jpg", price: "Album" },

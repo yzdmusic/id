@@ -439,6 +439,11 @@ body {
     background-size: cover;
 }
 
+.loser-turned-killer {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/LOSER\ TURNED\ KILLER\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.3rem;
     font-weight: bold;

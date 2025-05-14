@@ -1,5 +1,6 @@
 const data = [
     { name: "Bhimo Ramadan", url: "profile-bhimo-ramadan.html", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
+    { name: "Chains And Checkers", url: "profile-chains-and-checkers.html", image: "https://yzdmusic.github.io/cover-1/CHAINS AND CHECKERS (PROFILE).jpg", price: "Artist" },
     { name: "Dorokdox Symphony", url: "profile-dorokdox-symphony.html", image: "https://yzdmusic.github.io/cover-1/DOROKDOX\ SYMPHONY\ \(PROFILE\).jpg", price: "Artist" },
     { name: "El Zill El Aswad", url: "profile-el-zill-el-aswad.html", image: "https://yzdmusic.github.io/cover-1/EL ZILL EL ASWAD (PROFILE).jpg", price: "Artist" },
     { name: "Garut Berdanska", url: "profile-garut-berdanska.html", image: "https://yzdmusic.github.io/cover-1/GARUT BERDANSKA (PROFILE).jpg", price: "Artist" },
@@ -66,6 +67,7 @@ const data = [
     { name: "Keep Moving Forward", url: "album-keep-moving-forward.html", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },
     { name: "Kefaya Horoub", url: "album-kefaya-horoub.html", image: "https://yzdmusic.github.io/cover-1/KEFAYA HOROUB (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "album-kembali-ke-masa-kecil.html", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },
+    { name: "Loser Turned Killer", url: "album-loser-turned-killer.html", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED KILLER (COVER).jpg", price: "Album" },
     { name: "Ma Teb'aash Abd Lelhob", url: "album-ma-tebaash-abd-lelhob.html", image: "https://yzdmusic.github.io/cover-1/MA TEB'AASH ABD LELHOB (COVER).jpg", price: "Album" },
     { name: "Mashya Lwahdi", url: "album-mashya-lwahdi.html", image: "https://yzdmusic.github.io/cover-1/MASHYA LWAHDI (COVER).jpg", price: "Album" },
     { name: "Menginjak Neraka", url: "album-menginjak-neraka.html", image: "https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg", price: "Album" },

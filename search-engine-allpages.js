@@ -49,6 +49,7 @@ const data = [
     { name: "Democrazy", url: "album-democrazy.html", image: "https://yzdmusic.github.io/cover-1/DEMOCRAZY (COVER).jpg", price: "Album" },
     { name: "Demon Queen", url: "album-demon-queen.html", image: "https://yzdmusic.github.io/cover-1/DEMON QUEEN (COVER).jpg", price: "Album" },
     { name: "Demonic Soul", url: "album-demonic-soul.html", image: "https://yzdmusic.github.io/cover-1/DEMONIC SOUL (COVER).jpg", price: "Album" },
+    { name: "Die Today!", url: "album-die-today!.html", image: "https://yzdmusic.github.io/cover-1/DIE TODAY! (COVER).jpg", price: "Album" },
     { name: "Een Huis Vol Ellende", url: "album-een-huis-vol-ellende.html", image: "https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg", price: "Album" },
     { name: "El Donya Mesh Kol Haga", url: "album-el-donya-mesh-kol-haga.html", image: "https://yzdmusic.github.io/cover-1/EL DONYA MESH KOL HAGA (COVER).jpg", price: "Album" },
     { name: "Everything About Women", url: "album-everything-about-women.html", image: "https://yzdmusic.github.io/cover-1/EVERYTHING ABOUT WOMEN (COVER).jpg", price: "Album" },

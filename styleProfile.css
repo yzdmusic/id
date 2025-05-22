@@ -229,6 +229,7 @@ body {
     width: 220px;
     white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .song-card p {
@@ -372,7 +373,8 @@ body {
     filter: brightness(60%);
 }
 
-.hidden {
+.hidden,
+.hidden1 {
     display: none;
 }
 
@@ -382,7 +384,15 @@ body {
     margin-top: 10px;
 }
 
-#showMoreBtn {
+.container-showmorebtn1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+
+#showMoreBtn,
+#showMoreBtn1 {
     padding: 7px 27px;
     font-size: 13px;
     font-weight: bold;

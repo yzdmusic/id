@@ -239,6 +239,7 @@ a:hover {
 	width: 105px;
 	white-space: wrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .card-album img {
@@ -420,6 +421,7 @@ a:hover {
 	width: 155px;
 	white-space: nowrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 
 	/* EFEK BUG WARNA BIRU */
 	outline: none;
@@ -508,6 +510,7 @@ a:hover {
 	font-weight: bold;
 	white-space: nowrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 
 	/* EFEK BUG WARNA BIRU */
 	outline: none;

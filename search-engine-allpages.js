@@ -53,6 +53,7 @@ const data = [
     { name: "Een Huis Vol Ellende", url: "album-een-huis-vol-ellende.html", image: "https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg", price: "Album" },
     { name: "El Donya Mesh Kol Haga", url: "album-el-donya-mesh-kol-haga.html", image: "https://yzdmusic.github.io/cover-1/EL DONYA MESH KOL HAGA (COVER).jpg", price: "Album" },
     { name: "Everything About Women", url: "album-everything-about-women.html", image: "https://yzdmusic.github.io/cover-1/EVERYTHING ABOUT WOMEN (COVER).jpg", price: "Album" },
+    { name: "Goat Throne", url: "album-goat-throne.html", image: "https://yzdmusic.github.io/cover-1/GOAT THRONE (COVER).jpg", price: "Album" },
     { name: "Goatman", url: "album-goatman.html", image: "https://yzdmusic.github.io/cover-1/GOATMAN (COVER).jpg", price: "Album" },
     { name: "Halawes", url: "album-halawes.html", image: "https://yzdmusic.github.io/cover-1/HALAWES (COVER).jpg", price: "Album" },
     { name: "Happiness With You", url: "album-happiness-with-you.html", image: "https://yzdmusic.github.io/cover-1/HAPPINESS WITH YOU (COVER).jpg", price: "Album" },

@@ -449,6 +449,11 @@ body {
     background-size: cover;
 }
 
+.goat-throne {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/GOAT\ THRONE\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.3rem;
     font-weight: bold;
@@ -627,6 +632,7 @@ body {
     width: 220px;
     white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .song-card p {

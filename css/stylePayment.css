@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+/* CSS Document*/
+body {
+    background-color: #e1dede;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', Verdana, Arial, sans-serif;
+}
+
+/* PRODUCT */
+.container-product {
+    background-color: white;
+    overflow: hidden;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 60px;
+}
+
+.container-product .btn-back {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    filter: brightness(0%);
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.product-photos {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.product-photos img {
+    width: 100%;
+    height: auto;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.container-product h1 {
+    font-size: 15px;
+    color: black;
+    margin: 10px;
+}
+
+.container-product span {
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+}
+
+.see-album {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 10px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.pre-order {
+    display: flex;
+    justify-content: center;
+}
+
+.pre-order img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 5px;
+    left: 10px;
+}
+
+.pre-order p {
+    font-size: 10px;
+    width: 150px;
+    position: absolute;
+    margin-top: 6px;
+    left: 40px;
+}
+
+.random-design img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 5px;
+    left: 10px;
+}
+
+.random-design p {
+    font-size: 10px;
+    width: 150px;
+    position: absolute;
+    margin-top: 15px;
+    left: 40px;
+}
+
+.original img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 35px;
+    left: 10px;
+}
+
+.original p {
+    font-size: 10px;
+    width: 150px;
+    position: absolute;
+    margin-top: 42px;
+    left: 40px;
+}
+
+.adults-only img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 65px;
+    left: 10px;
+}
+
+.adults-only p {
+    font-size: 10px;
+    width: 150px;
+    position: absolute;
+    margin-top: 72px;
+    left: 40px;
+}
+
+.see-album a {
+    text-decoration: none;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.see-album button {
+    background-color: gray;
+    border-radius: 3px;
+    border: none;
+    padding: 8px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/* PRODUCT */
+
+/* SIZE */
+.container-size {
+    background-color: white;
+    padding: 10px 0;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.wrapper-size {
+    margin: 10px;
+}
+
+.wrapper-size h2 {
+    font-size: 15px;
+    color: black;
+}
+
+.sizes span {
+    background-color: #b3b3b3;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* SIZE */
+
+/* ABOUT PRODUCT */
+.about-product {
+    background-color: white;
+    padding: 10px 0;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 180px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.about-product h1 {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    background-color: black;
+    width: max-content;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.about-product p {
+    margin: 10px;
+    margin-top: 15px;
+    color: #6f6f6f;
+    font-size: 13px;
+}
+
+/* ABOUT PRODUCT */
+
+/* MENU */
+/* Gaya Navigasi Bawah */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-chatnow {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 4.5px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn-chatnow img {
+    width: 35px;
+    height: 35px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn-buy {
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0 40px;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn-buy h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.btn-buy a {
+    text-decoration: none;
+}
+
+/* Efek Aktif */
+.nav-item.active {
+    filter: brightness(3);
+}
+
+/* Menghilangkan efek highlight biru pada mobile browser */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* MENU */
+
+
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 720px) {}
+
+@media screen and (width: 800px) {}
+
+@media screen and (max-width: 810px) {}
+
+@media screen and (width: 375px) {}
+
+@media screen and (width: 360px) {}
+
+@media screen and (width: 320px) {}
+
+
+
+/* MOBILE DEVICES */
+@media (min-width: 320px) and (max-width: 375px) {}
+
+/* MOBILE DEVICES */
+@media (min-width: 376px) and (max-width: 480px) {}
+
+/* TABLET */
+@media (min-width: 481px) and (max-width: 1025px) {}
+
+/* DESKTOP SITE (MOBILE DEVICES) */
+@media screen and (min-width: 768px) and (max-width: 1080px) {}
+
+/* LAPTOP */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* DESKTOP */
+@media (min-width: 1025px) {}
+
+/* DESKTOP 1920px */
+@media (min-width: 1920px) {}
+
+@media only screen and (max-width: 926px) and (orientation: landscape) {}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {}

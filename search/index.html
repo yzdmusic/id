@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://yzdmusic.github.io/id/css/styleSearch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="container-search">
+        <h1>Search</h1>
+    </div>
+
+    <div class="box-input">
+        <input type="text" id="searchInput" placeholder="What do you want to listen to?" onkeyup="checkEnter(event)">
+        <ul id="suggestions"></ul>
+    </div>
+
+    <div class="wrapper-genresmusic">
+        <div class="grid-container">
+            <div class="grid-item" style="background-color: #1E3A8A;">
+                <span>Pop</span>
+                <img src="https://yzdmusic.github.io/thumbnail-1/POP (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+            </div>
+
+            <div class="grid-item" style="background-color: #4CAF50;">
+                <span>Pop Rock</span>
+                <img src="https://yzdmusic.github.io/thumbnail-1/POP ROCK (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+            </div>
+
+            <a href="https://yzdmusic.github.io/id/genres/pop-punk/">
+                <div class="grid-item" style="background-color: #60A5FA;">
+                    <span>Pop Punk</span>
+                    <img src="https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+                </div>
+            </a>
+
+            <a href="https://yzdmusic.github.io/id/genres/reggae/">
+                <div class="grid-item" style="background-color: #B91C1C;">
+                    <span>Reggae</span>
+                    <img src="https://yzdmusic.github.io/thumbnail-1/REGGAE (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+                </div>
+            </a>
+
+            <div class="grid-item" style="background-color: #EF4444;">
+                <span>Jazz</span>
+                <img src="https://yzdmusic.github.io/thumbnail-1/JAZZ (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+            </div>
+
+            <a href="https://yzdmusic.github.io/id/genres/ska-punk/">
+                <div class="grid-item" style="background-color: #F59E0B;">
+                    <span>Ska Punk</span>
+                    <img src="https://yzdmusic.github.io/thumbnail-1/SKA PUNK (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+                </div>
+            </a>
+
+            <a href="https://yzdmusic.github.io/id/genres/metal/">
+                <div class="grid-item" style="background-color: #3B82F6;">
+                    <span>Metal</span>
+                    <img src="https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg" alt="Pop Mix" class="playlist-image">
+                </div>
+            </a>
+
+            <a href="https://yzdmusic.github.io/id/genres/rap/">
+                <div class="grid-item" style="background-color: #A78BFA;">
+                    <span>Rap</span>
+                    <img src="https://yzdmusic.github.io/thumbnail-1/RAP (THUMBNAIL).jpg" alt="Podcast New" class="playlist-image">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="https://yzdmusic.github.io/id/home/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/home.png" alt="Home Icon" class="nav-icon">
+                <p>Home</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/search/">
+            <div class="nav-item active">
+                <img src="https://yzdmusic.github.io/id/assets/search.png" alt="Search Icon" class="nav-icon">
+                <p>Search</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/library/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/playlist.png" alt="Library Icon" class="nav-icon">
+                <p>Library</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/store/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/store.png" alt="Store Icon" class="nav-icon">
+                <p>Store</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.grid-container');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script src="https://yzdmusic.github.io/id/js/search-engine-allpages.js"></script>
+</body>
+
+</html>

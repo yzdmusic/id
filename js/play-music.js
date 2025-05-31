@@ -35,8 +35,8 @@ function loadSong(song) {
     audioPlayer.src = song.src;
     audioPlayer.play();
 
-    playPauseImg.src = '../../assets/pause-button.png'; // Ikon pause
-    playPauseBtnLarge.src = '../../assets/pause-button.png';
+    playPauseImg.src = 'https://yzdmusic.github.io/id/assets/pause-button.png'; // Ikon pause
+    playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
 }
 
 // Menampilkan notification player
@@ -67,12 +67,12 @@ function hideMusicPlayerUI() {
 playPauseNotificationBtn.addEventListener('click', () => {
     if (audioPlayer.paused) {
         audioPlayer.play();
-        playPauseImg.src = '../../assets/pause-button.png';
-        playPauseBtnLarge.src = '../../assets/pause-button.png';
+        playPauseImg.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
+        playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
     } else {
         audioPlayer.pause();
-        playPauseImg.src = '../../assets/play.png';
-        playPauseBtnLarge.src = '../../assets/play.png';
+        playPauseImg.src = 'https://yzdmusic.github.io/id/assets/play.png';
+        playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/play.png';
     }
 });
 
@@ -84,12 +84,12 @@ notificationAlbumCover.addEventListener('click', showMusicPlayerUI);
 playPauseBtnLarge.addEventListener('click', () => {
     if (audioPlayer.paused) {
         audioPlayer.play();
-        playPauseImg.src = '../../assets/pause-button.png';
-        playPauseBtnLarge.src = '../../assets/pause-button.png';
+        playPauseImg.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
+        playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
     } else {
         audioPlayer.pause();
-        playPauseImg.src = '../../assets/play.png';
-        playPauseBtnLarge.src = '../../assets/play.png';
+        playPauseImg.src = 'https://yzdmusic.github.io/id/assets/play.png';
+        playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/play.png';
     }
 });
 
@@ -108,13 +108,13 @@ document.querySelectorAll('.song-card').forEach((card, index) => {
 
 // Update status tombol play/pause berdasarkan event audio
 audioPlayer.addEventListener('play', () => {
-    playPauseImg.src = '../../assets/pause-button.png';
-    playPauseBtnLarge.src = '../../assets/pause-button.png';
+    playPauseImg.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
+    playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/pause-button.png';
 });
 
 audioPlayer.addEventListener('pause', () => {
-    playPauseImg.src = '../../assets/play.png';
-    playPauseBtnLarge.src = '../../assets/play.png';
+    playPauseImg.src = 'https://yzdmusic.github.io/id/assets/play.png';
+    playPauseBtnLarge.src = 'https://yzdmusic.github.io/id/assets/play.png';
 });
 
 // Event untuk menyembunyikan notification player jika musik berhenti

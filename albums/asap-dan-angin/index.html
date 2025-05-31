@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://yzdmusic.github.io/id/css/styleAlbum.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Asap Dan Angin Album</title>
+</head>
+
+<body>
+    <div class="thumbnail-genre2nd asap-dan-angin">
+        <h1>Asap Dan Angin</h1>
+        <a href="https://yzdmusic.github.io/id/home/"><img src="https://yzdmusic.github.io/id/assets/back-button2.png" alt=""></a>
+        <p>Album</p>
+    </div>
+
+    <div class="home-content">
+        <div class="song-card" data-index="0" data-title="Asap Dan Angin" data-artist="Asap Dan Angin Album" data-src="https://yzdmusic.github.io/assets-music-1/Asap Dan Angin.mp3" data-cover="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg">
+            <div class="card-title">
+                <h1>Asap Dan Angin</h1>
+                <p>Asap Dan Angin Album</p>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="song-card" data-index="1" data-title="Cinta Rasa Irama" data-artist="Asap Dan Angin Album" data-src="https://yzdmusic.github.io/assets-music-1/Cinta Rasa Irama.mp3" data-cover="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg">
+            <div class="card-title">
+                <h1>Cinta Rasa Irama</h1>
+                <p>Asap Dan Angin Album</p>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="song-card" data-index="2" data-title="Bangun, Jang!" data-artist="Asap Dan Angin Album" data-src="https://yzdmusic.github.io/assets-music-1/Bangun, Jang!.mp3" data-cover="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg">
+            <div class="card-title">
+                <h1>Bangun, Jang!</h1>
+                <p>Asap Dan Angin Album</p>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="song-card" data-index="3" data-title="Balik Ka Jaman Baheula" data-artist="Asap Dan Angin Album" data-src="https://yzdmusic.github.io/assets-music-1/Balik Ka Jaman Baheula.mp3" data-cover="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg">
+            <div class="card-title">
+                <h1>Balik Ka Jaman Baheula</h1>
+                <p>Asap Dan Angin Album</p>
+            </div>
+            <span></span>
+        </div>
+
+        <div class="song-card" data-index="4" data-title="Bayangmu Di Angin Senja" data-artist="Asap Dan Angin Album" data-src="https://yzdmusic.github.io/assets-music-1/Bayangmu Di Angin Senja.mp3" data-cover="https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg">
+            <div class="card-title">
+                <h1>Bayangmu Di Angin Senja</h1>
+                <p>Asap Dan Angin Album</p>
+            </div>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Sliding Music Player UI -->
+    <div class="music-player-ui" id="musicPlayerUI" style="background: linear-gradient(rgb(100, 84, 115), rgb(0, 0, 0));">
+        <div class="music-header">
+            <img id="closePlayer" class="back-btn" src="https://yzdmusic.github.io/id/assets/arrow-down.png" alt="">
+            <div class="title-music-player">
+                <span>PLAYING ALBUM</span>
+                <span class="album">Asap Dan Angin</span>
+            </div>
+            <img class="more-options" src="https://yzdmusic.github.io/id/assets/more.png" alt="">
+        </div>
+        <img src="cover1.jpg" alt="Album Cover" class="album-cover-large" id="albumCoverLarge">
+        <div class="song-info-large">
+            <h2 id="songTitleLarge">Green Utopia</h2>
+            <p id="artistNameLarge">The Vines</p>
+        </div>
+        <div class="progress-bar-container">
+            <input type="range" id="progressLarge" value="0" max="100">
+            <div class="timeandduration-container">
+                <span id="currentTimeLarge">0:00</span>
+                <span id="durationLarge">0:00</span>
+            </div>
+        </div>
+        <div class="controls-large">
+            <img id="shuffleLarge" class="control-btn-large" src="https://yzdmusic.github.io/id/assets/arrow.png" alt="Shuffle">
+            <img id="prevLarge" class="control-btn-large" src="https://yzdmusic.github.io/id/assets/back-button.png" alt="Previous">
+            <img id="playPauseLarge" class="control-btn-large" src="https://yzdmusic.github.io/id/assets/play.png" alt="Play/Pause">
+            <img id="nextLarge" class="control-btn-large" src="https://yzdmusic.github.io/id/assets/next-button.png" alt="Next">
+            <img id="repeatLarge" class="control-btn-large" src="https://yzdmusic.github.io/id/assets/repeat.png" alt="Repeat">
+        </div>
+    </div>
+
+    <audio id="audio" src=""></audio>
+
+    <!-- Notification Player -->
+    <div id="notificationPlayer" style="background: linear-gradient(rgb(100, 84, 115), rgb(100, 84, 115));">
+        <img id="notificationAlbumCover" src="cover_album.jpg" alt="Album Cover">
+        <div id="notificationDetails">
+            <span id="notificationTitle">Judul Lagu</span>
+            <!-- Judul Lagu -->
+        </div>
+        <button id="playPauseNotificationBtn">
+            <img id="playPauseImg" src="https://yzdmusic.github.io/id/assets/play.png" alt="Play/Pause">
+        </button>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="https://yzdmusic.github.io/id/home/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/home.png" alt="Home Icon" class="nav-icon">
+                <p>Home</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/search/">
+            <div class="nav-item active">
+                <img src="https://yzdmusic.github.io/id/assets/search.png" alt="Search Icon" class="nav-icon">
+                <p>Search</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/library/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/playlist.png" alt="Library Icon" class="nav-icon">
+                <p>Library</p>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/store/">
+            <div class="nav-item">
+                <img src="https://yzdmusic.github.io/id/assets/store.png" alt="Store Icon" class="nav-icon">
+                <p>Store</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
+
+    <script src="https://yzdmusic.github.io/id/js/play-music.js"></script>
+</body>
+
+</html>

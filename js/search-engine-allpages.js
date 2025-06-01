@@ -57,7 +57,7 @@ const data = [
     { name: "Goatman", url: "https://yzdmusic.github.io/id/library/album/goatman/", image: "https://yzdmusic.github.io/cover-1/GOATMAN (COVER).jpg", price: "Album" },
     { name: "Halawes", url: "https://yzdmusic.github.io/id/library/album/halawes/", image: "https://yzdmusic.github.io/cover-1/HALAWES (COVER).jpg", price: "Album" },
     { name: "Happiness With You", url: "https://yzdmusic.github.io/id/library/album/happiness-with-you/", image: "https://yzdmusic.github.io/cover-1/HAPPINESS WITH YOU (COVER).jpg", price: "Album" },
-    { name: "Hob Fi El Du'a", url: "https://yzdmusic.github.io/id/library/album/hob-fi-el-dua/", image: "https://yzdmusic.github.io/cover-1/HOB FI EL DUA (COVER).jpg", price: "Album" },
+    { name: "Hob Fi El Du'a", url: "https://yzdmusic.github.io/id/library/album/hob-fi-el-du'a/", image: "https://yzdmusic.github.io/cover-1/HOB FI EL DUA (COVER).jpg", price: "Album" },
     { name: "Honda Civic", url: "https://yzdmusic.github.io/id/library/album/honda-civic/", image: "https://yzdmusic.github.io/cover-1/HONDA CIVIC (COVER).jpg", price: "Album" },
     { name: "Human Error", url: "https://yzdmusic.github.io/id/library/album/human-error/", image: "https://yzdmusic.github.io/cover-1/HUMAN ERROR (COVER).jpg", price: "Album" },
     { name: "Hopelessness", url: "https://yzdmusic.github.io/id/library/album/hopelessness/", image: "https://yzdmusic.github.io/cover-1/HOPELESSNESS (COVER).jpg", price: "Album" },

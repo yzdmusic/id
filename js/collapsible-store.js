@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    
+
     var menuItems = document.querySelectorAll('.name-categories');
     var defaultContent = document.querySelector('#newest');
     var defaultMenu = document.querySelector('.name-categories a[href="#newest"]').parentElement;
@@ -40,4 +40,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+});
+
+
+
+
+
+// GAYA FONT
+document.addEventListener("DOMContentLoaded", () => {
+    // Tambahkan link Google Fonts ke <head>
+    const fontLink = document.createElement("link");
+    fontLink.rel = "stylesheet";
+    fontLink.href = "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+    document.head.appendChild(fontLink);
+
+    // Tunggu beberapa ms agar font bisa dimuat dulu, lalu terapkan
+    setTimeout(() => {
+        document.body.style.fontFamily = "'Poppins', sans-serif";
+    }, 100);
 });

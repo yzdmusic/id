@@ -211,3 +211,21 @@ document.getElementById('nextLarge').addEventListener('click', nextSong);
 
 // Event listener untuk tombol previous
 document.getElementById('prevLarge').addEventListener('click', prevSong);
+
+
+
+
+
+// GAYA FONT
+document.addEventListener("DOMContentLoaded", () => {
+    // Tambahkan link Google Fonts ke <head>
+    const fontLink = document.createElement("link");
+    fontLink.rel = "stylesheet";
+    fontLink.href = "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+    document.head.appendChild(fontLink);
+
+    // Tunggu beberapa ms agar font bisa dimuat dulu, lalu terapkan
+    setTimeout(() => {
+        document.body.style.fontFamily = "'Poppins', sans-serif";
+    }, 100);
+});

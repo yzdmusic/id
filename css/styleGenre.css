@@ -42,7 +42,7 @@ body {
 
 .thumbnail-genre h1 {
     font-size: 2.7rem;
-    font-weight: bold;
+    font-weight: bolder;
     position: absolute;
     color: white;
     left: 10px;

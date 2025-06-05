@@ -126,6 +126,7 @@ body {
 .suggestion-image {
     width: 55px;
     height: auto;
+    border-radius: 3px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;

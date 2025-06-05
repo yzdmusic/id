@@ -423,6 +423,17 @@
         })
     </script>
 
+    <script>
+        document.querySelectorAll('.image-text').forEach(el => {
+            const maxWords = 50;
+            const words = el.textContent.trim().split(' ');
+
+            if (words.length > maxWords) {
+                el.textContent = words.slice(0, maxWords).join(' ') + '...';
+            }
+        });
+    </script>
+
     <script src="https://yzdmusic.github.io/id/js/play-music.js"></script>
     <script src="https://yzdmusic.github.io/id/js/showmore.js"></script>
 </body>

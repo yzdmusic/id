@@ -70,6 +70,7 @@ const data = [
     { name: "Keep Moving Forward", url: "https://yzdmusic.github.io/id/library/album/keep-moving-forward/", image: "https://yzdmusic.github.io/cover-1/KEEP MOVING FORWARD (COVER).jpg", price: "Album" },
     { name: "Kefaya Horoub", url: "https://yzdmusic.github.io/id/library/album/kefaya-horoub/", image: "https://yzdmusic.github.io/cover-1/KEFAYA HOROUB (COVER).jpg", price: "Album" },
     { name: "Kembali Ke Masa Kecil", url: "https://yzdmusic.github.io/id/library/album/kembali-ke-masa-kecil/", image: "https://yzdmusic.github.io/cover-1/KEMBALI KE MASA KECIL (COVER).jpg", price: "Album" },
+    { name: "Killing The Father's Family", url: "https://yzdmusic.github.io/id/library/album/killing-the-father's-family/", image: "https://yzdmusic.github.io/cover-1/KILLING THE FATHER'S FAMILY (COVER).jpg", price: "Album" },
     { name: "Loser Turned Killer", url: "https://yzdmusic.github.io/id/library/album/loser-turned-killer/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED KILLER (COVER).jpg", price: "Album" },
     { name: "Ma Teb'aash Abd Lelhob", url: "https://yzdmusic.github.io/id/library/album/ma-teb'aash-abd-lelhob/", image: "https://yzdmusic.github.io/cover-1/MA TEB'AASH ABD LELHOB (COVER).jpg", price: "Album" },
     { name: "Mashya Lwahdi", url: "https://yzdmusic.github.io/id/library/album/mashya-lwahdi/", image: "https://yzdmusic.github.io/cover-1/MASHYA LWAHDI (COVER).jpg", price: "Album" },

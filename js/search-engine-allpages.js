@@ -82,6 +82,7 @@ const data = [
     { name: "Nouran", url: "https://yzdmusic.github.io/id/library/album/nouran/", image: "https://yzdmusic.github.io/cover-1/NOURAN (COVER).jpg", price: "Album" },
     { name: "Numb", url: "https://yzdmusic.github.io/id/library/album/numb/", image: "https://yzdmusic.github.io/cover-1/NUMB (COVER).jpg", price: "Album" },
     { name: "Oppression", url: "https://yzdmusic.github.io/id/library/album/oppression/", image: "https://yzdmusic.github.io/cover-1/OPPRESSION (COVER).jpg", price: "Album" },
+    { name: "Overthinking", url: "https://yzdmusic.github.io/id/library/album/overthinking/", image: "https://yzdmusic.github.io/cover-1/OVERTHINKING (COVER).jpg", price: "Album" },
     { name: "Paranoid", url: "https://yzdmusic.github.io/id/library/album/paranoid/", image: "https://yzdmusic.github.io/cover-1/PARANOID (COVER).jpg", price: "Album" },
     { name: "Persib Day", url: "https://yzdmusic.github.io/id/library/album/persib-day/", image: "https://yzdmusic.github.io/cover-1/PERSIB DAY (COVER).jpg", price: "Album" },
     { name: "Proyeksi Bunuh Diri", url: "https://yzdmusic.github.io/id/library/album/proyeksi-bunuh-diri/", image: "https://yzdmusic.github.io/cover-1/PROYEKSI BUNUH DIRI (COVER).jpg", price: "Album" },

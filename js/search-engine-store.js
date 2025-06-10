@@ -73,7 +73,7 @@ searchInput.addEventListener('input', () => {
             textContainer.className = "suggestion-text";
 
             const nameText = document.createElement('span');
-            nameText.textContent = truncateWords(suggestion.name, 8); // misalnya batas 8 kata
+            nameText.textContent = suggestion.name;
             nameText.className = "suggestion-name";
 
             const priceText = document.createElement('span');
@@ -95,13 +95,3 @@ searchInput.addEventListener('input', () => {
         suggestionsList.style.display = 'none';
     }
 });
-
-
-
-
-
-function truncateWords(text, maxWords = 8) {
-    const words = text.split(' ');
-    if (words.length <= maxWords) return text;
-    return words.slice(0, maxWords).join(' ') + '...';
-}

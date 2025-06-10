@@ -200,7 +200,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 10px;
     margin-bottom: 180px;
 
     /* EFEK BUG WARNA BIRU */
@@ -230,10 +229,8 @@ body {
     -ms-user-select: none;
 }
 
-.card-title {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 10px;
+.card:hover {
+    background-color: #1e2d2f;
 }
 
 .card h1 {
@@ -260,6 +257,7 @@ body {
     height: auto;
     margin-top: 7px;
     margin-bottom: 7px;
+    margin-left: 10px;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -289,10 +287,8 @@ body {
     -ms-user-select: none;
 }
 
-.card-title {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 10px;
+.card-artists:hover {
+    background-color: #1e2d2f;
 }
 
 .card-artists h1 {
@@ -319,6 +315,7 @@ body {
     height: auto;
     margin-top: 7px;
     margin-bottom: 7px;
+    margin: 10px;
     border-radius: 50%;
 
     /* EFEK BUG WARNA BIRU */
@@ -332,6 +329,13 @@ body {
 
 .card-artists img:hover {
     filter: brightness(60%);
+}
+
+
+.card-title {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10px;
 }
 
 /* CONTAINER CATEGORIES */

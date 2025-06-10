@@ -95,3 +95,23 @@ searchInput.addEventListener('input', () => {
         suggestionsList.style.display = 'none';
     }
 });
+
+
+
+
+
+// MAKSIMAL KATA //
+function truncateWords(text, maxWords = 8) {
+    const words = text.split(' ');
+    if (words.length <= maxWords) return text;
+    return words.slice(0, maxWords).join(' ') + '...';
+}
+
+// Hook ke DOM setelah halaman dimuat
+document.addEventListener('DOMContentLoaded', () => {
+    const suggestionItems = document.querySelectorAll('.suggestion-name');
+    suggestionItems.forEach(item => {
+        const originalText = item.textContent;
+        item.textContent = truncateWords(originalText, 7); // Ganti 8 sesuai kebutuhan
+    });
+});

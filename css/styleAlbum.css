@@ -623,7 +623,6 @@ body {
 
 /* HOME CONTENT */
 .home-content {
-    margin: 10px;
     padding-bottom: 180px;
 }
 
@@ -631,6 +630,7 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
+    position: relative;
 
     /* EFEK BUG WARNA BIRU */
     outline: none;
@@ -641,6 +641,10 @@ body {
     -ms-user-select: none;
 }
 
+.song-card:hover {
+    background-color: #1e2d2f;
+}
+
 .card-title {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -649,6 +653,7 @@ body {
 .song-card h1 {
     color: white;
     font-size: 13px;
+    margin-left: 10px;
     width: 220px;
     white-space: nowrap;
     overflow: hidden;
@@ -659,13 +664,14 @@ body {
     color: #c2c2c2;
     font-size: 12px;
     margin-top: -5px;
+    margin-left: 10px;
 }
 
 .song-card span {
     content: url(https://yzdmusic.github.io/id/assets/more.png);
     width: 23px;
     height: 23px;
-    right: 15px;
+    right: 0;
     position: absolute;
 
     /* EFEK BUG WARNA BIRU */
@@ -678,6 +684,64 @@ body {
 }
 
 /* HOME CONTENT */
+
+/* SHERE LINK */
+.song-card>span {
+    cursor: pointer;
+    padding: 0 8px;
+    font-weight: bold;
+    user-select: none;
+}
+
+span:hover {
+    filter: brightness(50%);
+}
+
+/* Popup menu styling */
+.song-card .popup-menu {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    background: #1e2d2f;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.473);
+    display: none;
+    z-index: 999;
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+.song-card .popup-menu.show {
+    display: block;
+}
+
+.song-card .popup-menu button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.song-card .popup-menu button:hover {
+    color: goldenrod;
+}
+
+/* SHERE LINK */
 
 /* MUSIC PLAYER UI */
 .music-player-ui {
@@ -982,7 +1046,7 @@ input[type="range"]::-ms-fill-upper {
     margin: 0 10px;
     /* Margin di kiri dan kanan */
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 999;
     display: none;
     /* Awalnya tersembunyi */
     border-radius: 7px;
@@ -1069,6 +1133,7 @@ input[type="range"]::-ms-fill-upper {
     align-items: center;
     padding: 7px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 .bottom-nav a {

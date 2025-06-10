@@ -1,4 +1,5 @@
 const data = [
+    { name: "After Breakfast", url: "https://yzdmusic.github.io/id/profiles/after-breakfast/", image: "https://yzdmusic.github.io/cover-1/AFTER BREAKFAST (PROFILE).jpg", price: "Artist" },
     { name: "Bhimo Ramadan", url: "https://yzdmusic.github.io/id/profiles/bhimo-ramadan/", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
     { name: "Chains And Checkers", url: "https://yzdmusic.github.io/id/profile/chains-and-checkers/", image: "https://yzdmusic.github.io/cover-1/CHAINS AND CHECKERS (PROFILE).jpg", price: "Artist" },
     { name: "Dorokdox Symphony", url: "https://yzdmusic.github.io/id/profile/dorokdox-symphony/", image: "https://yzdmusic.github.io/cover-1/DOROKDOX\ SYMPHONY\ \(PROFILE\).jpg", price: "Artist" },

@@ -89,6 +89,12 @@ body {
     -ms-user-select: none;
 }
 
+.suggestion-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .suggestion-item {
     display: flex;
     align-items: center;

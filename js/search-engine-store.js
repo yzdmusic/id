@@ -95,16 +95,3 @@ searchInput.addEventListener('input', () => {
         suggestionsList.style.display = 'none';
     }
 });
-
-
-
-
-
-document.querySelectorAll('suggestions').forEach(el => {
-    const maxWords = 6;
-    const words = el.textContent.trim().split(' ');
-
-    if (words.length > maxWords) {
-        el.textContent = words.slice(0, maxWords).join(' ') + '...';
-    }
-});

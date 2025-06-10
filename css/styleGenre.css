@@ -604,6 +604,7 @@ input[type="range"]::-ms-fill-upper {
     align-items: center;
     padding: 7px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 .bottom-nav a {

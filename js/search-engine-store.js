@@ -95,19 +95,3 @@ searchInput.addEventListener('input', () => {
         suggestionsList.style.display = 'none';
     }
 });
-
-
-
-
-
-// MAKSIMAL KATA //
-function truncateWords(text, maxWords = 8) {
-    const words = text.split(' ');
-    return words.length <= maxWords ? text : words.slice(0, maxWords).join(' ') + '...';
-}
-
-// lalu ganti ini:
-nameText.textContent = suggestion.name;
-
-// dengan ini:
-nameText.textContent = truncateWords(suggestion.name, 7);

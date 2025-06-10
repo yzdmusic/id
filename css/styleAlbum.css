@@ -708,7 +708,7 @@ span:hover {
     font-size: 14px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.473);
     display: none;
-    z-index: 999;
+    z-index: 0;
     white-space: nowrap;
     min-width: 100px;
 }

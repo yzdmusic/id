@@ -100,7 +100,7 @@ searchInput.addEventListener('input', () => {
 
 
 
-document.querySelectorAll('.suggestion-item').forEach(el => {
+document.querySelectorAll('suggestions').forEach(el => {
     const maxWords = 6;
     const words = el.textContent.trim().split(' ');
 

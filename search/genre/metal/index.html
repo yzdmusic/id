@@ -2329,6 +2329,70 @@
         })
     </script>
 
+    <script>
+        document.querySelectorAll('.song-card').forEach(card => {
+            const span = card.querySelector('span');
+
+            // Share link statis (atau bisa dibuat dinamis nanti)
+            const shareURL = "https://yzdmusic.github.io/id/search/genre/metal/";
+
+            // Buat popup menu
+            const menu = document.createElement('div');
+            menu.className = 'popup-menu';
+            menu.innerHTML = `
+        <button class="copy-btn">🔗Copy Link</button>
+        <button class="wa-btn">WhatsApp</button>
+        <button class="fb-btn">Facebook</button>
+        <button class="x-btn">X</button>
+    `;
+            card.appendChild(menu);
+
+            // Tampilkan atau sembunyikan menu saat span diklik
+            span.addEventListener('click', (e) => {
+                e.stopPropagation();
+                document.querySelectorAll('.popup-menu').forEach(m => {
+                    if (m !== menu) m.classList.remove('show');
+                });
+                menu.classList.toggle('show');
+            });
+
+            // Tombol "Salin Link"
+            menu.querySelector('.copy-btn').addEventListener('click', () => {
+                navigator.clipboard.writeText(shareURL)
+                    .then(() => alert('Link disalin ke clipboard!'));
+                menu.classList.remove('show');
+            });
+
+            // Tombol "WhatsApp"
+            menu.querySelector('.wa-btn').addEventListener('click', () => {
+                const wa = `https://wa.me/?text=${encodeURIComponent(shareURL)}`;
+                window.open(wa, '_blank');
+                menu.classList.remove('show');
+            });
+
+            // Tombol "Facebook"
+            menu.querySelector('.fb-btn').addEventListener('click', () => {
+                const fb = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareURL)}`;
+                window.open(fb, '_blank');
+                menu.classList.remove('show');
+            });
+
+            // Tombol "X (Twitter)"
+            menu.querySelector('.x-btn').addEventListener('click', () => {
+                const tw = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareURL)}`;
+                window.open(tw, '_blank');
+                menu.classList.remove('show');
+            });
+        });
+
+        // Tutup menu jika klik di luar
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.popup-menu').forEach(menu => {
+                menu.classList.remove('show');
+            });
+        });
+    </script>
+
     <script src="https://yzdmusic.github.io/id/js/play-music.js"></script>
 </body>
 

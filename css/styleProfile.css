@@ -323,11 +323,11 @@ span:hover {
 }
 
 .bottom-sheet .handle {
-    width: 40px;
-    height: 4px;
+    width: 45px;
+    height: 5px;
     background: #666;
     border-radius: 2px;
-    margin: 0 auto 12px;
+    margin: 0 auto 15px;
 }
 
 .bottom-sheet .option {

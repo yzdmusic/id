@@ -180,6 +180,22 @@
         </button>
     </div>
 
+    <div id="shareSheet" class="bottom-sheet">
+        <div class="handle" id="bottomSheetHandle"></div>
+        <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/album/better-off-dead/wa">
+            <img src="https://yzdmusic.github.io/id/assets/whatsapp.png" alt="WhatsApp">
+            Share to WhatsApp
+        </div>
+        <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/album/better-off-dead/fb">
+            <img src="https://yzdmusic.github.io/id/assets/facebook.png" alt="Facebook">
+            Share to Facebook
+        </div>
+        <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/album/better-off-dead/x">
+            <img src="https://yzdmusic.github.io/id/assets/twitter.png" alt="X">
+            Share to X
+        </div>
+    </div>
+
     <div class="bottom-nav">
         <a href="https://yzdmusic.github.io/id/home/">
             <div class="nav-item">
@@ -214,65 +230,47 @@
     <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
 
     <script>
-        document.querySelectorAll('.song-card').forEach(card => {
-            const span = card.querySelector('span');
-
-            // Share link statis (atau bisa dibuat dinamis nanti)
-            const shareURL = "https://yzdmusic.github.io/id/library/album/better-off-dead/";
-
-            // Buat popup menu
-            const menu = document.createElement('div');
-            menu.className = 'popup-menu';
-            menu.innerHTML = `
-        <button class="copy-btn">🔗Copy Link</button>
-        <button class="wa-btn">WhatsApp</button>
-        <button class="fb-btn">Facebook</button>
-        <button class="x-btn">X</button>
-    `;
-            card.appendChild(menu);
-
-            // Tampilkan atau sembunyikan menu saat span diklik
-            span.addEventListener('click', (e) => {
-                e.stopPropagation();
-                document.querySelectorAll('.popup-menu').forEach(m => {
-                    if (m !== menu) m.classList.remove('show');
-                });
-                menu.classList.toggle('show');
-            });
-
-            // Tombol "Salin Link"
-            menu.querySelector('.copy-btn').addEventListener('click', () => {
-                navigator.clipboard.writeText(shareURL)
-                    .then(() => alert('Link disalin ke clipboard!'));
-                menu.classList.remove('show');
-            });
-
-            // Tombol "WhatsApp"
-            menu.querySelector('.wa-btn').addEventListener('click', () => {
-                const wa = `https://wa.me/?text=${encodeURIComponent(shareURL)}`;
-                window.open(wa, '_blank');
-                menu.classList.remove('show');
-            });
-
-            // Tombol "Facebook"
-            menu.querySelector('.fb-btn').addEventListener('click', () => {
-                const fb = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareURL)}`;
-                window.open(fb, '_blank');
-                menu.classList.remove('show');
-            });
-
-            // Tombol "X (Twitter)"
-            menu.querySelector('.x-btn').addEventListener('click', () => {
-                const tw = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareURL)}`;
-                window.open(tw, '_blank');
-                menu.classList.remove('show');
+        // Tambahkan ke file JS kamu
+        document.querySelectorAll('.song-card span').forEach(span => {
+            span.addEventListener('click', () => {
+                document.getElementById('shareSheet').classList.add('active');
             });
         });
 
-        // Tutup menu jika klik di luar
-        document.addEventListener('click', () => {
-            document.querySelectorAll('.popup-menu').forEach(menu => {
-                menu.classList.remove('show');
+        // Tutup saat klik di luar popup (opsional)
+        document.addEventListener('click', (e) => {
+            const sheet = document.getElementById('shareSheet');
+            if (sheet.classList.contains('active') && !sheet.contains(e.target) && !e.target.closest('.song-card span')) {
+                sheet.classList.remove('active');
+            }
+        });
+
+        const bottomSheet = document.getElementById("shareSheet");
+        const bottomSheetHandle = document.getElementById("bottomSheetHandle");
+
+        // Klik handle = tutup
+        bottomSheetHandle.addEventListener("click", () => {
+            bottomSheet.classList.remove("active");
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('.option.share-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const rawUrl = btn.getAttribute('data-url');
+                let finalUrl = '';
+
+                if (rawUrl.includes('/wa')) {
+                    finalUrl = `https://wa.me/?text=${encodeURIComponent(rawUrl.replace('/wa', ''))}`;
+                } else if (rawUrl.includes('/fb')) {
+                    finalUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(rawUrl.replace('/fb', ''))}`;
+                } else if (rawUrl.includes('/x')) {
+                    finalUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(rawUrl.replace('/x', ''))}`;
+                }
+
+                if (finalUrl) {
+                    window.open(finalUrl, '_blank');
+                }
             });
         });
     </script>

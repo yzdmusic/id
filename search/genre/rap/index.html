@@ -406,6 +406,14 @@
                 sheet.classList.remove('active');
             }
         });
+
+        const bottomSheet = document.getElementById("shareSheet");
+        const bottomSheetHandle = document.getElementById("bottomSheetHandle");
+
+        // Klik handle = tutup
+        bottomSheetHandle.addEventListener("click", () => {
+            bottomSheet.classList.remove("active");
+        });
     </script>
 
     <script>

@@ -204,17 +204,17 @@
     </div>
 
     <div id="shareSheet" class="bottom-sheet">
-        <div class="handle"></div>
+        <div class="handle" id="bottomSheetHandle"></div>
         <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/genre/ska-punk/wa">
-            <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
+            <img src="https://yzdmusic.github.io/id/assets/whatsapp.png" alt="WhatsApp">
             Share to WhatsApp
         </div>
         <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/genre/ska-punk/fb">
-            <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook">
+            <img src="https://yzdmusic.github.io/id/assets/facebook.png" alt="Facebook">
             Share to Facebook
         </div>
         <div class="option share-btn" data-url="https://yzdmusic.github.io/id/library/genre/ska-punk/x">
-            <img src="https://img.icons8.com/ios-filled/50/000000/twitterx--v1.png" alt="X">
+            <img src="https://yzdmusic.github.io/id/assets/twitter.png" alt="X">
             Share to X
         </div>
     </div>
@@ -284,6 +284,14 @@
             if (sheet.classList.contains('active') && !sheet.contains(e.target) && !e.target.closest('.song-card span')) {
                 sheet.classList.remove('active');
             }
+        });
+
+        const bottomSheet = document.getElementById("shareSheet");
+        const bottomSheetHandle = document.getElementById("bottomSheetHandle");
+
+        // Klik handle = tutup
+        bottomSheetHandle.addEventListener("click", () => {
+            bottomSheet.classList.remove("active");
         });
     </script>
 

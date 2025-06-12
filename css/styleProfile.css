@@ -515,6 +515,7 @@ span:hover {
 .image-wrapper img {
     width: 100%;
     display: block;
+    border-radius: 5px;
 }
 
 .image-text {

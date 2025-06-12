@@ -91,6 +91,7 @@ const data = [
     { name: "Rehlet Hayat Ragel Fashil", url: "https://yzdmusic.github.io/id/library/album/rehlet-hayat-ragel-fashil/", image: "https://yzdmusic.github.io/cover-1/REHLET HAYAT RAGEL FASHIL (COVER).jpg", price: "Album" },
     { name: "Rehlity Ma'a El Hubb", url: "https://yzdmusic.github.io/id/library/album/rehlity-ma'a-el-hubb/", image: "https://yzdmusic.github.io/cover-1/REHLITY MA'A EL HUBB (COVER).jpg", price: "Album" },
     { name: "Resayilk Da'et", url: "https://yzdmusic.github.io/id/library/album/resayilk-da'et/", image: "https://yzdmusic.github.io/cover-1/RESAYILK DA'ET (COVER).jpg", price: "Album" },
+    { name: "Revenge Of A Loser", url: "https://yzdmusic.github.io/id/library/album/revenge-of-a-loser/", image: "https://yzdmusic.github.io/cover-1/REVENGE OF A LOSER (COVER).jpg", price: "Album" },
     { name: "Revenge Projection", url: "https://yzdmusic.github.io/id/library/album/revenge-projection/", image: "https://yzdmusic.github.io/cover-1/REVENGE PROJECTION (COVER).jpg", price: "Album" },
     { name: "Rise Above", url: "https://yzdmusic.github.io/id/library/album/rise-above/", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album" },
     { name: "Rouh Wahda", url: "https://yzdmusic.github.io/id/library/album/rouh-wahda/", image: "https://yzdmusic.github.io/cover-1/ROUH WAHDA (COVER).jpg", price: "Album" },

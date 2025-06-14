@@ -101,6 +101,10 @@ body {
     background-color: #1e2d2f;
 }
 
+.song-card:active {
+    background-color: green;
+}
+
 .card-title {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -523,7 +527,7 @@ input[type="range"]::-ms-fill-upper {
     margin: 0 10px;
     /* Margin di kiri dan kanan */
     box-sizing: border-box;
-    z-index: 999;
+    z-index: 1;
     display: none;
     /* Awalnya tersembunyi */
     border-radius: 7px;

@@ -29,7 +29,7 @@ const data = [
     { name: "سلام لفلسطين", url: "https://yzdmusic.github.io/id/library/album/salam-li-filastiniya/", image: "https://yzdmusic.github.io/cover-1/SALAM LI FILASTINIYA (COVER).jpg", price: "Album" },
     { name: "'An El Hubb", url: "https://yzdmusic.github.io/id/library/album/'an-el-hubb/", image: "https://yzdmusic.github.io/cover-1/'AN EL HUBB (COVER).jpg", price: "Album" },
     { name: "3alami El7elo", url: "https://yzdmusic.github.io/id/library/album/3alami-el7elo/", image: "https://yzdmusic.github.io/cover-1/3ALAMI EL7ELO (COVER).jpg", price: "Album" },
-    { name: "Afterlife", url: "https://yzdmusic.github.io/id/library/album/3alami-el7elo/afterlife/", image: "https://yzdmusic.github.io/cover-1/AFTERLIFE (COVER).jpg", price: "Album" },
+    { name: "Afterlife", url: "https://yzdmusic.github.io/id/library/album/afterlife/", image: "https://yzdmusic.github.io/cover-1/AFTERLIFE (COVER).jpg", price: "Album" },
     { name: "Against The Tyrants", url: "https://yzdmusic.github.io/id/library/album/against-the-tyrants/", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album" },
     { name: "Ahweti Fi Sabah El Qahira", url: "https://yzdmusic.github.io/id/library/album/ahweti-fi-sabah-el-qahira/", image: "https://yzdmusic.github.io/cover-1/AHWETI FI SABAH EL QAHIRA (COVER).jpg", price: "Album" },
     { name: "All About Love", url: "https://yzdmusic.github.io/id/library/album/all-about-love/", image: "https://yzdmusic.github.io/cover-1/ALL ABOUT LOVE (COVER).jpg", price: "Album" },

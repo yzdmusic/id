@@ -76,6 +76,7 @@ const data = [
     { name: "Ma Teb'aash Abd Lelhob", url: "https://yzdmusic.github.io/id/library/album/ma-teb'aash-abd-lelhob/", image: "https://yzdmusic.github.io/cover-1/MA TEB'AASH ABD LELHOB (COVER).jpg", price: "Album" },
     { name: "Mashya Lwahdi", url: "https://yzdmusic.github.io/id/library/album/mashya-lwahdi/", image: "https://yzdmusic.github.io/cover-1/MASHYA LWAHDI (COVER).jpg", price: "Album" },
     { name: "Menginjak Neraka", url: "https://yzdmusic.github.io/id/library/album/menginjak-neraka/", image: "https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg", price: "Album" },
+    { name: "Mental Pressure", url: "https://yzdmusic.github.io/id/library/album/mental-pressure/", image: "https://yzdmusic.github.io/cover-1/MENTAL PRESSURE (COVER).jpg", price: "Album" },
     { name: "Mustaheel Ansak", url: "https://yzdmusic.github.io/id/library/album/mustaheel-ansak/", image: "https://yzdmusic.github.io/cover-1/MUSTAHEEL ANSAK (COVER).jpg", price: "Album" },
     { name: "Ngumbara Di Garut", url: "https://yzdmusic.github.io/id/library/album/ngumbara-di-garut/", image: "https://yzdmusic.github.io/cover-1/NGUMBARA DI GARUT (COVER).jpg", price: "Album" },
     { name: "No Hope For Life", url: "https://yzdmusic.github.io/id/library/album/no-hope-for-life/", image: "https://yzdmusic.github.io/cover-1/NO HOPE FOR LIFE (COVER).jpg", price: "Album" },

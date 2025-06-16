@@ -724,7 +724,7 @@ span:hover {
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.6);
     padding: 16px;
     transition: bottom 0.3s ease;
-    z-index: 9999;
+    z-index: 100;
 }
 
 .bottom-sheet.active {
@@ -1153,7 +1153,7 @@ input[type="range"]::-ms-fill-upper {
     align-items: center;
     padding: 7px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
-    z-index: 999;
+    z-index: 1;
 }
 
 .bottom-nav a {

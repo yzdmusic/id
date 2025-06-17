@@ -45,6 +45,7 @@ const data = [
     { name: "Calmness", url: "https://yzdmusic.github.io/id/library/album/calmness/", image: "https://yzdmusic.github.io/cover-1/CALMNESS (COVER).jpg", price: "Album" },
     { name: "Cannibal", url: "https://yzdmusic.github.io/id/library/album/cannibal/", image: "https://yzdmusic.github.io/cover-1/CANNIBAL (COVER).jpg", price: "Album" },
     { name: "Creep", url: "https://yzdmusic.github.io/id/library/album/creep/", image: "https://yzdmusic.github.io/cover-1/CREEP (COVER).jpg", price: "Album" },
+    { name: "Cruciatus", url: "https://yzdmusic.github.io/id/library/album/cruciatus/", image: "https://yzdmusic.github.io/cover-1/CRUCIATUS (COVER).jpg", price: "Album" },
     { name: "Dead City", url: "https://yzdmusic.github.io/id/library/album/dead-city/", image: "https://yzdmusic.github.io/cover-1/DEAD CITY (COVER).jpg", price: "Album" },
     { name: "Death As The Solution", url: "https://yzdmusic.github.io/id/library/album/death-as-the-solution/", image: "https://yzdmusic.github.io/cover-1/DEATH AS THE SOLUTION (COVER).jpg", price: "Album" },
     { name: "Death Symphony", url: "https://yzdmusic.github.io/id/library/album/death-symphony/", image: "https://yzdmusic.github.io/cover-1/DEATH SYMPHONY (COVER).jpg", price: "Album" },

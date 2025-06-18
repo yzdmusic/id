@@ -1,5 +1,6 @@
 const data = [
     { name: "'An El Hubb - Kabetshino (T-Shirt)", url: "https://yzdmusic.github.io/store/products/tshirt/kabetshino/'an-el-hubb-tshirt/", image: "https://yzdmusic.github.io/tshirt-1/'AN EL HUBB T-SHIRT.jpg", price: "Rp120.000" },
+    { name: "Aeternum - Mors Aeterna (T-Shirt)", url: "https://yzdmusic.github.io/store/products/tshirt/mors-aeterna/aeternum-tshirt/", image: "https://yzdmusic.github.io/tshirt-1/AETERNUM T-SHIRT.jpg", price: "Rp120.000" },
     { name: "Afterlife - Dorokdox Symphony (T-Shirt)", url: "https://yzdmusic.github.io/store/products/tshirt/dorokdox-symphony/afterlife-tshirt/", image: "https://yzdmusic.github.io/tshirt-1/AFTERLIFE 2 T-SHIRT.jpg", price: "Rp120.000" },
     { name: "All About Love - Hazza (T-Shirt)", url: "https://yzdmusic.github.io/store/products/tshirt/hazza/all-about-love-tshirt/", image: "https://yzdmusic.github.io/tshirt-1/ALL ABOUT LOVE T-SHIRT.jpg", price: "Rp120.000" },
     { name: "Back Home - El Zill El Aswad (T-Shirt)", url: "https://yzdmusic.github.io/store/products/tshirt/el-zill-el-aswad/back-home-tshirt/", image: "https://yzdmusic.github.io/tshirt-1/BACK HOME T-SHIRT.jpg", price: "Rp120.000" },

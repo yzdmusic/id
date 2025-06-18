@@ -410,6 +410,17 @@
     </script>
 
     <script>
+        document.querySelectorAll('.image-text').forEach(el => {
+            const maxWords = 50;
+            const words = el.textContent.trim().split(' ');
+
+            if (words.length > maxWords) {
+                el.textContent = words.slice(0, maxWords).join(' ') + '...';
+            }
+        });
+    </script>
+
+    <script>
         // Tambahkan ke file JS kamu
         document.querySelectorAll('.song-card span').forEach(span => {
             span.addEventListener('click', () => {

@@ -55,6 +55,7 @@ const data = [
     { name: "Demonic Soul", url: "https://yzdmusic.github.io/id/library/album/demonic-soul/", image: "https://yzdmusic.github.io/cover-1/DEMONIC SOUL (COVER).jpg", price: "Album" },
     { name: "Diabolus Vox", url: "https://yzdmusic.github.io/id/library/album/diabolus-vox/", image: "https://yzdmusic.github.io/cover-1/DIABOLUS VOX (COVER).jpg", price: "Album" },
     { name: "Die Today!", url: "https://yzdmusic.github.io/id/library/album/die-today!/", image: "https://yzdmusic.github.io/cover-1/DIE TODAY! (COVER).jpg", price: "Album" },
+    { name: "Dominus Feritatis", url: "https://yzdmusic.github.io/id/library/album/dominus-feritatis/", image: "https://yzdmusic.github.io/cover-1/DOMINUS FERITATIS (COVER).jpg", price: "Album" },
     { name: "Een Huis Vol Ellende", url: "https://yzdmusic.github.io/id/library/album/een-huis-vol-ellende/", image: "https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg", price: "Album" },
     { name: "El Donya Mesh Kol Haga", url: "https://yzdmusic.github.io/id/library/album/el-donya-mesh-kol-haga/", image: "https://yzdmusic.github.io/cover-1/EL DONYA MESH KOL HAGA (COVER).jpg", price: "Album" },
     { name: "Everything About Women", url: "https://yzdmusic.github.io/id/library/album/everything-about-women/", image: "https://yzdmusic.github.io/cover-1/EVERYTHING ABOUT WOMEN (COVER).jpg", price: "Album" },

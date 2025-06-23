@@ -106,6 +106,7 @@ const data = [
     { name: "Serenity And Harmony", url: "https://yzdmusic.github.io/id/library/album/serenity-and-harmony/", image: "https://yzdmusic.github.io/cover-1/SERENITY AND HARMONY (COVER).jpg", price: "Album" },
     { name: "Serenity", url: "https://yzdmusic.github.io/id/library/album/serenity/", image: "https://yzdmusic.github.io/cover-1/SERENITY (COVER).jpg", price: "Album" },
     { name: "Silent Room", url: "https://yzdmusic.github.io/id/library/album/silent-room/", image: "https://yzdmusic.github.io/cover-1/SILENT ROOM (COVER).jpg", price: "Album" },
+    { name: "Silentium", url: "https://yzdmusic.github.io/id/library/album/silentium/", image: "https://yzdmusic.github.io/cover-1/SILENTIUM (COVER).jpg", price: "Album" },
     { name: "Simfoniyyet El 'Ishq", url: "https://yzdmusic.github.io/id/library/album/simfoniyyet-el-'ishq/", image: "https://yzdmusic.github.io/cover-1/SIMFONIYYET EL 'ISHQ (COVER).jpg", price: "Album" },
     { name: "Starman", url: "https://yzdmusic.github.io/id/library/album/starman/", image: "https://yzdmusic.github.io/cover-1/STARMAN (COVER).jpg", price: "Album" },
     { name: "Stressed Out!", url: "https://yzdmusic.github.io/id/library/album/stressed-out!/", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album" },

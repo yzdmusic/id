@@ -1093,6 +1093,10 @@ input[type="range"]::-ms-fill-upper {
     -ms-user-select: none;
 }
 
+#notificationTitle:hover {
+    color: white;
+}
+
 #playPauseImg {
     width: 100%;
     height: auto;

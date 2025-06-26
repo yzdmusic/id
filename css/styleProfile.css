@@ -1093,7 +1093,7 @@ input[type="range"]::-ms-fill-upper {
     -ms-user-select: none;
 }
 
-#notificationTitle:hover {
+#notificationDetails:hover {
     color: white;
 }
 

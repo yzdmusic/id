@@ -1158,7 +1158,7 @@ input[type="range"]::-ms-fill-upper {
     -ms-user-select: none;
 }
 
-#notificationDetails:hover {
+#notificationDetails span:hover {
     color: white;
 }
 

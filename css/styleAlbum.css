@@ -519,6 +519,11 @@ body {
     background-size: cover;
 }
 
+.hells-torment {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('.https://yzdmusic.github.io/cover-1/HELL\'S\ TORMENT\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.3rem;
     font-weight: bolder;

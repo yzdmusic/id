@@ -152,6 +152,16 @@ body {
     background-size: cover;
 }
 
+.eye-of-skadi {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/EYE\ OF\ SKADI\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
+.earthshaker {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/EARTHSHAKER\ \(PROFILE\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 2.7rem;
     font-weight: bolder;

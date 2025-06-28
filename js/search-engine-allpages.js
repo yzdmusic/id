@@ -27,6 +27,7 @@ const data = [
     { name: "The Dazzle", url: "https://yzdmusic.github.io/id/profile/the-dazzle/", image: "https://yzdmusic.github.io/cover-1/THE DAZZLE (PROFILE).jpg", price: "Artist" },
     { name: "The Flip Flops", url: "https://yzdmusic.github.io/id/profile/the-flip-flops/", image: "https://yzdmusic.github.io/cover-1/THE FLIP FLOPS (PROFILE).jpg", price: "Artist" },
     { name: "The Rowdy", url: "https://yzdmusic.github.io/id/profile/the-rowdy/", image: "https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg", price: "Artist" },
+    { name: "With Death", url: "https://yzdmusic.github.io/id/profile/with-death/", image: "https://yzdmusic.github.io/cover-1/WITH DEATH (PROFILE).jpg", price: "Artist" },
     { name: "YZD", url: "https://yzdmusic.github.io/id/profile/yzd/", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },
 
     { name: "سلام لفلسطين", url: "https://yzdmusic.github.io/id/library/album/salam-li-filastiniya/", image: "https://yzdmusic.github.io/cover-1/SALAM LI FILASTINIYA (COVER).jpg", price: "Album" },
@@ -125,6 +126,7 @@ const data = [
     { name: "The Heart Of A Chef", url: "https://yzdmusic.github.io/id/library/album/the-heart-of-a-chef/", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album" },
     { name: "The Rebel", url: "https://yzdmusic.github.io/id/library/album/the-rebel/", image: "https://yzdmusic.github.io/cover-1/THE REBEL (COVER).jpg", price: "Album" },
     { name: "They're Killers", url: "https://yzdmusic.github.io/id/library/album/they're-killers/", image: "https://yzdmusic.github.io/cover-1/THEY'RE KILLERS (COVER).jpg", price: "Album" },
+    { name: "Trash Talk", url: "https://yzdmusic.github.io/id/library/album/trash-talk/", image: "https://yzdmusic.github.io/cover-1/TRASH TALK (COVER).jpg", price: "Album" },
     { name: "Veil Of Lies", url: "https://yzdmusic.github.io/id/library/album/veil-of-lies/", image: "https://yzdmusic.github.io/cover-1/VEIL OF LIES (COVER).jpg", price: "Album" },
     { name: "Voice Of The People", url: "https://yzdmusic.github.io/id/library/album/voice-of-the-people/", image: "https://yzdmusic.github.io/cover-1/VOICE OF THE PEOPLE (COVER).jpg", price: "Album" },
     { name: "Vrijheid Strijd", url: "https://yzdmusic.github.io/id/library/album/vrijheid-strijd/", image: "https://yzdmusic.github.io/cover-1/VRIJHEID STRIJD (COVER).jpg", price: "Album" },

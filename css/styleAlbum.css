@@ -524,6 +524,11 @@ body {
     background-size: cover;
 }
 
+.avaritia {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/AVARITIA\ \(COVER\).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.3rem;
     font-weight: bolder;
@@ -1171,6 +1176,10 @@ input[type="range"]::-ms-fill-upper {
     touch-action: manipulation;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+#notificationDetails span:hover {
+    filter: brightness(100%);
 }
 
 #playPauseImg {

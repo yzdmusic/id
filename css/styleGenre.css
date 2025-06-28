@@ -594,6 +594,10 @@ input[type="range"]::-ms-fill-upper {
     -ms-user-select: none;
 }
 
+#notificationDetails span:hover {
+    filter: brightness(100%);
+}
+
 #playPauseImg {
     width: 100%;
     height: auto;

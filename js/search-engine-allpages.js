@@ -40,6 +40,7 @@ const data = [
     { name: "Altijd Mijn Fout", url: "https://yzdmusic.github.io/id/library/album/altijd-mijn-fout/", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album" },
     { name: "Anxiety", url: "https://yzdmusic.github.io/id/library/album/anxiety/", image: "https://yzdmusic.github.io/cover-1/ANXIETY (COVER).jpg", price: "Album" },
     { name: "Asap Dan Angin", url: "https://yzdmusic.github.io/id/library/album/asap-dan-angin/", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },
+    { name: "Avaritia", url: "https://yzdmusic.github.io/id/library/album/avaritia/", image: "https://yzdmusic.github.io/cover-1/AVARITIA (COVER).jpg", price: "Album" },
     { name: "Back Home", url: "https://yzdmusic.github.io/id/library/album/back-home/", image: "https://yzdmusic.github.io/cover-1/BACK HOME (COVER).jpg", price: "Album" },
     { name: "Betrayed Bloodline", url: "https://yzdmusic.github.io/id/library/album/betrayed-bloodline/", image: "https://yzdmusic.github.io/cover-1/BETRAYED BLOODLINE (COVER).jpg", price: "Album" },
     { name: "Better Off Dead", url: "https://yzdmusic.github.io/id/library/album/better-off-dead/", image: "https://yzdmusic.github.io/cover-1/BETTER OFF DEAD (COVER).jpg", price: "Album" },

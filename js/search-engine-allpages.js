@@ -46,6 +46,7 @@ const data = [
     { name: "Betrayed Bloodline", url: "https://yzdmusic.github.io/id/library/album/betrayed-bloodline/", image: "https://yzdmusic.github.io/cover-1/BETRAYED BLOODLINE (COVER).jpg", price: "Album" },
     { name: "Better Off Dead", url: "https://yzdmusic.github.io/id/library/album/better-off-dead/", image: "https://yzdmusic.github.io/cover-1/BETTER OFF DEAD (COVER).jpg", price: "Album" },
     { name: "Big Mouths, Small Minds", url: "https://yzdmusic.github.io/id/library/album/big-mouths-small-minds/", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album" },
+    { name: "Blindfolded And Burning", url: "https://yzdmusic.github.io/id/library/album/blindfolded-and-burning/", image: "https://yzdmusic.github.io/cover-1/BLINDFOLDED AND BURNING (COVER).jpg", price: "Album" },
     { name: "Blood", url: "https://yzdmusic.github.io/id/library/album/blood/", image: "https://yzdmusic.github.io/cover-1/BLOOD (COVER).jpg", price: "Album" },
     { name: "Bunga Tanpa Akar", url: "https://yzdmusic.github.io/id/library/album/bunga-tanpa-akar/", image: "https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg", price: "Album" },
     { name: "Calmness", url: "https://yzdmusic.github.io/id/library/album/calmness/", image: "https://yzdmusic.github.io/cover-1/CALMNESS (COVER).jpg", price: "Album" },

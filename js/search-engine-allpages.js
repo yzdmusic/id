@@ -99,6 +99,7 @@ const data = [
     { name: "Oppression", url: "https://yzdmusic.github.io/id/library/album/oppression/", image: "https://yzdmusic.github.io/cover-1/OPPRESSION (COVER).jpg", price: "Album" },
     { name: "Overthinking", url: "https://yzdmusic.github.io/id/library/album/overthinking/", image: "https://yzdmusic.github.io/cover-1/OVERTHINKING (COVER).jpg", price: "Album" },
     { name: "Paranoid", url: "https://yzdmusic.github.io/id/library/album/paranoid/", image: "https://yzdmusic.github.io/cover-1/PARANOID (COVER).jpg", price: "Album" },
+    { name: "Penthouse Sacrifice", url: "https://yzdmusic.github.io/id/library/album/penthouse-sacrifice/", image: "https://yzdmusic.github.io/cover-1/PENTHOUSE SACRIFICE (COVER).jpg", price: "Album" },
     { name: "Persib Day", url: "https://yzdmusic.github.io/id/library/album/persib-day/", image: "https://yzdmusic.github.io/cover-1/PERSIB DAY (COVER).jpg", price: "Album" },
     { name: "Proyeksi Bunuh Diri", url: "https://yzdmusic.github.io/id/library/album/proyeksi-bunuh-diri/", image: "https://yzdmusic.github.io/cover-1/PROYEKSI BUNUH DIRI (COVER).jpg", price: "Album" },
     { name: "Real Nightmare", url: "https://yzdmusic.github.io/id/library/album/real-nightmare/", image: "https://yzdmusic.github.io/cover-1/REAL NIGHTMARE (COVER).jpg", price: "Album" },

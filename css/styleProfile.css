@@ -378,11 +378,25 @@ span:hover {
 
 /* SHERE LINK */
 
-/* ALBUMS */
-.nav-albums {
+/* POPULAR RELEASES */
+.nav-popularreleases {
     display: flex;
     justify-content: left;
     margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+.nav-popularreleases h1 {
+    font-size: 17px;
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-albums {
+    display: flex;
+    justify-content: left;
+    margin-top: -15px;
     margin-bottom: -15px;
 }
 
@@ -475,8 +489,7 @@ span:hover {
     filter: brightness(60%);
 }
 
-.hidden,
-.hidden1 {
+.hidden {
     display: none;
 }
 
@@ -493,10 +506,9 @@ span:hover {
     margin-bottom: 100px;
 }
 
-#showMoreBtn,
-#showMoreBtn1 {
-    padding: 7px 27px;
-    font-size: 13px;
+#showMoreBtn {
+    padding: 5px 20px;
+    font-size: 11px;
     font-weight: bold;
     color: white;
     border: 1px solid white;
@@ -512,9 +524,27 @@ span:hover {
     -ms-user-select: none;
 }
 
-/* ALBUMS */
+#showMoreBtn1 {
+    padding: 5px 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #36373a;
+    border-radius: 30px;
+    background-color: transparent;
 
-/* ABOUT ARTIST */
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* POPULAR RELEASES */
+
+/* ABOUT ARTIST & POPULAR RELEASES */
 .image-box {
     display: flex;
     justify-content: center;
@@ -647,7 +677,84 @@ span:hover {
     -ms-user-select: none;
 }
 
-/* ABOUT ARTIST */
+/* categories */
+.categories {
+    display: flex;
+    justify-content: left;
+    gap: 7px;
+    margin: 10px;
+    margin-top: -5px;
+}
+
+.categories p {
+    background-color: #3a3d3e;
+    width: max-content;
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+
+    /* EFEK BUG WARNA BIRU */
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.categories-active {
+    background-color: goldenrod;
+}
+
+#singles-and-eps {
+    display: none;
+}
+
+.active a {
+    color: goldenrod;
+}
+
+/* popular releases */
+.releases {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    pointer-events: none;
+    width: 100%;
+    text-align: center;
+}
+
+.releases h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.back-box-releases {
+    background-color: #2f2f31;
+    padding: 7px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+/* ABOUT ARTIST & POPULAR RELEASES */
 
 /* ARTISTS */
 .nav-artists {

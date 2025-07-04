@@ -223,7 +223,7 @@ body {
     margin: 10px;
     padding-bottom: 30px;
     padding: 5px;
-    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(43, 43, 46, 0.886));
+    background: linear-gradient(rgba(18, 18, 18, 0.17), rgba(18, 18, 18, 0.83));
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
 }

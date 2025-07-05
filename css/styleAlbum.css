@@ -24,6 +24,7 @@ body {
     flex-direction: column;
 }
 
+/* albums */
 .kembali-ke-masa-kecil {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/KEMBALI\ KE\ MASA\ KECIL\ \(COVER\).jpg');
     background-size: cover;
@@ -553,6 +554,17 @@ body {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/NO\ TIME\ TO\ PRAY\ \(COVER\).jpg');
     background-size: cover;
 }
+
+/* albums */
+
+
+/* singles and eps */
+.end-it-all {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/END\ IT\ ALL\ \(COVER\).jpg');
+    background-size: cover;
+}
+
+/* singles and eps */
 
 .thumbnail-genre h1 {
     font-size: 2.3rem;

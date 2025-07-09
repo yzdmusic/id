@@ -311,6 +311,10 @@ span:hover {
     margin-top: 3px;
 }
 
+.timeandduration-container span:hover {
+    filter: brightness(100%);
+}
+
 .progress-bar-container span {
     font-size: 12px;
     text-align: center;

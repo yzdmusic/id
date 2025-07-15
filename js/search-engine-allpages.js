@@ -144,7 +144,7 @@ const data = [
     { name: "You Have Money, You Have Power", url: "https://yzdmusic.github.io/id/library/album/you-have-money-you-have-power/", image: "https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg", price: "Album • Nayske Malik" },
     { name: "You Have Money, You Have Power", url: "https://yzdmusic.github.io/id/library/album/you-have-money-you-have-power/", image: "https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg", price: "Album • YZD" },
 
-    { name: "Die In My Hands/Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
+    { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },

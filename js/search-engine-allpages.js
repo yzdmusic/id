@@ -147,7 +147,11 @@ const data = [
     { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
+    { name: "Killing Your Mother", url: "https://yzdmusic.github.io/id/library/ep/killing-your-mother/", image: "https://yzdmusic.github.io/cover-1/KILLING YOUR MOTHER (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },
+
+    { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Revenge Of A Loser", url: "https://yzdmusic.github.io/id/library/single/revenge-of-a-loser/", image: "https://yzdmusic.github.io/cover-2/REVENGE OF A LOSER (COVER).jpg", price: "Single • Death Is Real" },
 
     { name: "Metal", url: "https://yzdmusic.github.io/id/library/genre/metal/", image: "https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg", price: "Genre" },
     { name: "Pop Punk", url: "https://yzdmusic.github.io/id/library/genre/pop-punk/", image: "https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg", price: "Genre" },

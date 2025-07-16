@@ -49,6 +49,7 @@ const data = [
     { name: "Big Mouths, Small Minds", url: "https://yzdmusic.github.io/id/library/album/big-mouths-small-minds/", image: "https://yzdmusic.github.io/cover-1/BIG MOUTHS, SMALL MINDS (COVER).jpg", price: "Album • The Flip Flops" },
     { name: "Blindfolded And Burning", url: "https://yzdmusic.github.io/id/library/album/blindfolded-and-burning/", image: "https://yzdmusic.github.io/cover-1/BLINDFOLDED AND BURNING (COVER).jpg", price: "Album • With Death" },
     { name: "Blood", url: "https://yzdmusic.github.io/id/library/album/blood/", image: "https://yzdmusic.github.io/cover-1/BLOOD (COVER).jpg", price: "Album • Shadow Blade" },
+    { name: "Born From Their Insults", url: "https://yzdmusic.github.io/id/library/album/born-from-their-insults/", image: "https://yzdmusic.github.io/cover-2/BORN FROM THEIR INSULTS (COVER).jpg", price: "Album • Death Is Real" },
     { name: "Bunga Tanpa Akar", url: "https://yzdmusic.github.io/id/library/album/bunga-tanpa-akar/", image: "https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg", price: "Album • Pebriyanzah" },
     { name: "Calmness", url: "https://yzdmusic.github.io/id/library/album/calmness/", image: "https://yzdmusic.github.io/cover-1/CALMNESS (COVER).jpg", price: "Album • Shadow Blade" },
     { name: "Cannibal", url: "https://yzdmusic.github.io/id/library/album/cannibal/", image: "https://yzdmusic.github.io/cover-1/CANNIBAL (COVER).jpg", price: "Album • Shadow Blade" },
@@ -115,6 +116,7 @@ const data = [
     { name: "Revenge Projection", url: "https://yzdmusic.github.io/id/library/album/revenge-projection/", image: "https://yzdmusic.github.io/cover-1/REVENGE PROJECTION (COVER).jpg", price: "Album • Dorokdox Symphony" },
     { name: "Rise Above", url: "https://yzdmusic.github.io/id/library/album/rise-above/", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album • Bhimo Ramadan" },
     { name: "Rise Above", url: "https://yzdmusic.github.io/id/library/album/rise-above/", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album • Surya Utama" },
+    { name: "Rise Of The Fuckin Loser", url: "https://yzdmusic.github.io/id/library/album/rise-of-the-fuckin-loser/", image: "https://yzdmusic.github.io/cover-2/RISE OF THE FUCKIN LOSER (COVER).jpg", price: "Album • Death Is Real" },
     { name: "Rouh Wahda", url: "https://yzdmusic.github.io/id/library/album/rouh-wahda/", image: "https://yzdmusic.github.io/cover-1/ROUH WAHDA (COVER).jpg", price: "Album • The Dazzle" },
     { name: "Rowdiest", url: "https://yzdmusic.github.io/id/library/album/rowdiest/", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album • The Rowdy" },
     { name: "Sekte Sesat", url: "https://yzdmusic.github.io/id/library/album/sekte-sesat/", image: "https://yzdmusic.github.io/cover-1/SEKTE SESAT (COVER).jpg", price: "Album • Kehedsia" },
@@ -146,6 +148,7 @@ const data = [
 
     { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
+    { name: "Execution / Dead Silence", url: "https://yzdmusic.github.io/id/library/ep/execution-&-dead-silence/", image: "https://yzdmusic.github.io/cover-2/EXECUTION & DEAD SILENCE (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Killing Your Mother", url: "https://yzdmusic.github.io/id/library/ep/killing-your-mother/", image: "https://yzdmusic.github.io/cover-1/KILLING YOUR MOTHER (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },

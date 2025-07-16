@@ -25,11 +25,29 @@ body {
 }
 
 /* albums */
+.born-from-their-insults {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/BORN FROM THEIR INSULTS (COVER).jpg');
+    background-size: cover;
+}
+
+.rise-of-the-fuckin-loser {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/RISE OF THE FUCKIN LOSER (COVER).jpg');
+    background-size: cover;
+}
 
 /* albums */
 
 
 /* singles and eps */
+.execution-and-dead-silence {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/EXECUTION & DEAD SILENCE (COVER).jpg');
+    background-size: cover;
+}
+
+
+
+
+
 .revenge-of-a-loser {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/REVENGE\ OF\ A\ LOSER\ \(COVER\).jpg');
     background-size: cover;

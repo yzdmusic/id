@@ -159,6 +159,7 @@ const data = [
     { name: "Straight To The Deadlands", url: "https://yzdmusic.github.io/id/library/single/straight-to-the-deadlands/", image: "https://yzdmusic.github.io/cover-2/STRAIGHT TO THE DEADLANDS (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Tried To Off Myself", url: "https://yzdmusic.github.io/id/library/single/tried-to-off-myself/", image: "https://yzdmusic.github.io/cover-2/TRIED TO OFF MYSELF (COVER).jpg", price: "Single • Death Is Real" },
 
+    { name: "Deathcore", url: "https://yzdmusic.github.io/id/library/genre/deathcore/", image: "https://yzdmusic.github.io/thumbnail-1/DEATHCORE (THUMBNAIL).jpg", price: "Genre" },
     { name: "Metal", url: "https://yzdmusic.github.io/id/library/genre/metal/", image: "https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg", price: "Genre" },
     { name: "Pop Punk", url: "https://yzdmusic.github.io/id/library/genre/pop-punk/", image: "https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg", price: "Genre" },
     { name: "Rap", url: "https://yzdmusic.github.io/id/library/genre/rap/", image: "https://yzdmusic.github.io/thumbnail-1/RAP (THUMBNAIL).jpg", price: "Genre" },

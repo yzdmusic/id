@@ -40,6 +40,11 @@ body {
     background-size: cover;
 }
 
+.deathcore {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/thumbnail-1/DEATHCORE (THUMBNAIL).jpg');
+    background-size: cover;
+}
+
 .thumbnail-genre h1 {
     font-size: 2.7rem;
     font-weight: bolder;

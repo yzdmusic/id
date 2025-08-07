@@ -172,6 +172,11 @@ body {
     background-size: cover;
 }
 
+.trash-like-me {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/TRASH LIKE ME (PROFILE).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 2.7rem;
     font-weight: bolder;

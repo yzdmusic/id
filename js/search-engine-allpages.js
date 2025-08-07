@@ -28,6 +28,7 @@ const data = [
     { name: "The Dazzle", url: "https://yzdmusic.github.io/id/profile/the-dazzle/", image: "https://yzdmusic.github.io/cover-1/THE DAZZLE (PROFILE).jpg", price: "Artist" },
     { name: "The Flip Flops", url: "https://yzdmusic.github.io/id/profile/the-flip-flops/", image: "https://yzdmusic.github.io/cover-1/THE FLIP FLOPS (PROFILE).jpg", price: "Artist" },
     { name: "The Rowdy", url: "https://yzdmusic.github.io/id/profile/the-rowdy/", image: "https://yzdmusic.github.io/cover-1/THE ROWDY (PROFILE).jpg", price: "Artist" },
+    { name: "Trash Like Me", url: "https://yzdmusic.github.io/id/profile/trash-like-me/", image: "https://yzdmusic.github.io/cover-1/TRASH LIKE ME (PROFILE).jpg", price: "Artist" },
     { name: "With Death", url: "https://yzdmusic.github.io/id/profile/with-death/", image: "https://yzdmusic.github.io/cover-1/WITH DEATH (PROFILE).jpg", price: "Artist" },
     { name: "YZD", url: "https://yzdmusic.github.io/id/profile/yzd/", image: "https://yzdmusic.github.io/cover-1/YZD (PROFILE).jpg", price: "Artist" },
 
@@ -153,6 +154,7 @@ const data = [
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Killing Your Mother", url: "https://yzdmusic.github.io/id/library/ep/killing-your-mother/", image: "https://yzdmusic.github.io/cover-1/KILLING YOUR MOTHER (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },
+    { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
 
     { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Revenge Of A Loser", url: "https://yzdmusic.github.io/id/library/single/revenge-of-a-loser/", image: "https://yzdmusic.github.io/cover-2/REVENGE OF A LOSER (COVER).jpg", price: "Single • Death Is Real" },

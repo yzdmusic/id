@@ -1,7 +1,7 @@
 const data = [
-    { name: "After Breakfast", url: "https://yzdmusic.github.io/id/profiles/after-breakfast/", image: "https://yzdmusic.github.io/cover-1/AFTER BREAKFAST (PROFILE).jpg", price: "Artist" },
-    { name: "Bhimo Ramadan", url: "https://yzdmusic.github.io/id/profiles/bhimo-ramadan/", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
-    { name: "Buriajoath", url: "https://yzdmusic.github.io/id/profiles/buriajoath/", image: "https://yzdmusic.github.io/cover-1/BURIAJOATH (PROFILE).jpg", price: "Artist" },
+    { name: "After Breakfast", url: "https://yzdmusic.github.io/id/profile/after-breakfast/", image: "https://yzdmusic.github.io/cover-1/AFTER BREAKFAST (PROFILE).jpg", price: "Artist" },
+    { name: "Bhimo Ramadan", url: "https://yzdmusic.github.io/id/profile/bhimo-ramadan/", image: "https://yzdmusic.github.io/cover-1/BHIMO RAMADAN (PROFILE).jpg", price: "Artist" },
+    { name: "Buriajoath", url: "https://yzdmusic.github.io/id/profile/buriajoath/", image: "https://yzdmusic.github.io/cover-1/BURIAJOATH (PROFILE).jpg", price: "Artist" },
     { name: "Chains And Checkers", url: "https://yzdmusic.github.io/id/profile/chains-and-checkers/", image: "https://yzdmusic.github.io/cover-1/CHAINS AND CHECKERS (PROFILE).jpg", price: "Artist" },
     { name: "Death Is Real", url: "https://yzdmusic.github.io/id/profile/death-is-real/", image: "https://yzdmusic.github.io/cover-1/DEATH IS REAL (PROFILE).jpg", price: "Artist" },
     { name: "Dorokdox Symphony", url: "https://yzdmusic.github.io/id/profile/dorokdox-symphony/", image: "https://yzdmusic.github.io/cover-1/DOROKDOX\ SYMPHONY\ \(PROFILE\).jpg", price: "Artist" },

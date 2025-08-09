@@ -152,6 +152,7 @@ const data = [
     { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
     { name: "Execution / Dead Silence", url: "https://yzdmusic.github.io/id/library/ep/execution-&-dead-silence/", image: "https://yzdmusic.github.io/cover-2/EXECUTION & DEAD SILENCE (COVER).jpg", price: "EP • Death Is Real" },
+    { name: "Hellbound Bitches", url: "https://yzdmusic.github.io/id/library/ep/hellbound-bitches/", image: "https://yzdmusic.github.io/cover-2/HELLBOUND BITCHES (COVER).jpg", price: "EP • Buriajoath" },
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Killing Your Mother", url: "https://yzdmusic.github.io/id/library/ep/killing-your-mother/", image: "https://yzdmusic.github.io/cover-1/KILLING YOUR MOTHER (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },

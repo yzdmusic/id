@@ -150,6 +150,7 @@ const data = [
 
     { name: "Better Off Dead", url: "https://yzdmusic.github.io/id/library/ep/better-off-dead/", image: "https://yzdmusic.github.io/cover-2/BETTER OFF DEAD (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
+    { name: "Dying's The Answer", url: "https://yzdmusic.github.io/id/library/ep/dying's-the-answer/", image: "https://yzdmusic.github.io/cover-2/DYING'S THE ANSWER (COVER).jpg", price: "EP • Trash Like Me" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
     { name: "Execution / Dead Silence", url: "https://yzdmusic.github.io/id/library/ep/execution-&-dead-silence/", image: "https://yzdmusic.github.io/cover-2/EXECUTION & DEAD SILENCE (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Hellbound Bitches", url: "https://yzdmusic.github.io/id/library/ep/hellbound-bitches/", image: "https://yzdmusic.github.io/cover-2/HELLBOUND BITCHES (COVER).jpg", price: "EP • Buriajoath" },

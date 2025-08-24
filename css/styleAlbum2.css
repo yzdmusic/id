@@ -69,6 +69,11 @@ body {
     background-size: cover;
 }
 
+.chaos-knight {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/CHAOS KNIGHT (COVER).jpg');
+    background-size: cover;
+}
+
 
 
 .tried-to-off-myself {

@@ -74,6 +74,10 @@ body {
     background-size: cover;
 }
 
+.over-power {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg');
+    background-size: cover;
+}
 
 
 .tried-to-off-myself {

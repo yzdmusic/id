@@ -150,7 +150,7 @@ const data = [
     { name: "You Have Money, You Have Power", url: "https://yzdmusic.github.io/id/library/album/you-have-money-you-have-power/", image: "https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg", price: "Album • YZD" },
 
     { name: "Better Off Dead", url: "https://yzdmusic.github.io/id/library/ep/better-off-dead/", image: "https://yzdmusic.github.io/cover-2/BETTER OFF DEAD (COVER).jpg", price: "EP • Death Is Real" },
-    { name: "Chaos Knight", url: "https://yzdmusic.github.io/id/library/ep/chaos-knight/", image: "https://yzdmusic.github.io/cover-1/CHAOS KNIGHT (COVER).jpg", price: "EP • Centaur Warrunner" },
+    { name: "Chaos Knight", url: "https://yzdmusic.github.io/id/library/ep/chaos-knight/", image: "https://yzdmusic.github.io/cover-2/CHAOS KNIGHT (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Die In My Hands / Lifeless Meat", url: "https://yzdmusic.github.io/id/library/ep/die-in-my-hands-&-lifeless-meat/", image: "https://yzdmusic.github.io/cover-1/DIE IN MY HANDS & LIFELESS MEAT (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Dying's The Answer", url: "https://yzdmusic.github.io/id/library/ep/dying's-the-answer/", image: "https://yzdmusic.github.io/cover-2/DYING'S THE ANSWER (COVER).jpg", price: "EP • Trash Like Me" },
     { name: "End It All", url: "https://yzdmusic.github.io/id/library/ep/end-it-all/", image: "https://yzdmusic.github.io/cover-1/END IT ALL (COVER).jpg", price: "EP • With Death" },
@@ -159,7 +159,7 @@ const data = [
     { name: "Killing You", url: "https://yzdmusic.github.io/id/library/ep/killing-you/", image: "https://yzdmusic.github.io/cover-1/KILLING YOU (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Killing Your Mother", url: "https://yzdmusic.github.io/id/library/ep/killing-your-mother/", image: "https://yzdmusic.github.io/cover-1/KILLING YOUR MOTHER (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },
-    { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-1/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
+    { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
     { name: "Twisted Vengeance", url: "https://yzdmusic.github.io/id/library/ep/twisted-vengeance/", image: "https://yzdmusic.github.io/cover-2/TWISTED VENGEANCE (COVER).jpg", price: "EP • Buriajoath" },
 

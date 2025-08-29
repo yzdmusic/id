@@ -79,6 +79,11 @@ body {
     background-size: cover;
 }
 
+.marching-to-death {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/MARCHING TO DEATH (COVER).jpg');
+    background-size: cover;
+}
+
 
 .tried-to-off-myself {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/TRIED TO OFF MYSELF (COVER).jpg');

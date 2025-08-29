@@ -131,6 +131,7 @@ const data = [
     { name: "Starman", url: "https://yzdmusic.github.io/id/library/album/starman/", image: "https://yzdmusic.github.io/cover-1/STARMAN (COVER).jpg", price: "Album • Shadow Blade" },
     { name: "Stressed Out!", url: "https://yzdmusic.github.io/id/library/album/stressed-out!/", image: "https://yzdmusic.github.io/cover-1/STRESSED OUT! (COVER).jpg", price: "Album • Shadow Blade" },
     { name: "Suicide Attempt", url: "https://yzdmusic.github.io/id/library/album/suicide-attempt/", image: "https://yzdmusic.github.io/cover-1/SUICIDE ATTEMPT (COVER).jpg", price: "Album • Pudge" },
+    { name: "Suicide Or Revenge", url: "https://yzdmusic.github.io/id/library/album/suicide-or-revenge/", image: "https://yzdmusic.github.io/cover-2/SUICIDE OR REVENGE (COVER).jpg", price: "Album • Death Is Real" },
     { name: "Suicide Projection", url: "https://yzdmusic.github.io/id/library/album/suicide-projection/", image: "https://yzdmusic.github.io/cover-1/SUICIDE PROJECTION (COVER).jpg", price: "Album • Pudge" },
     { name: "Suicide Room", url: "https://yzdmusic.github.io/id/library/album/suicide-room/", image: "https://yzdmusic.github.io/cover-1/SUICIDE ROOM (COVER).jpg", price: "Album • El Zill El Aswad" },
     { name: "Suicide Today", url: "https://yzdmusic.github.io/id/library/album/suicide-today/", image: "https://yzdmusic.github.io/cover-1/SUICIDE TODAY (COVER).jpg", price: "Album • El Zill El Aswad" },
@@ -166,6 +167,7 @@ const data = [
     { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Revenge Of A Loser", url: "https://yzdmusic.github.io/id/library/single/revenge-of-a-loser/", image: "https://yzdmusic.github.io/cover-2/REVENGE OF A LOSER (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Straight To The Deadlands", url: "https://yzdmusic.github.io/id/library/single/straight-to-the-deadlands/", image: "https://yzdmusic.github.io/cover-2/STRAIGHT TO THE DEADLANDS (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Suicide Or Revenge", url: "https://yzdmusic.github.io/id/library/single/suicide-or-revenge/", image: "https://yzdmusic.github.io/cover-2/SUICIDE OR REVENGE (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Tried To Off Myself", url: "https://yzdmusic.github.io/id/library/single/tried-to-off-myself/", image: "https://yzdmusic.github.io/cover-2/TRIED TO OFF MYSELF (COVER).jpg", price: "Single • Death Is Real" },
 
     { name: "Deathcore", url: "https://yzdmusic.github.io/id/library/genre/deathcore/", image: "https://yzdmusic.github.io/thumbnail-1/DEATHCORE (THUMBNAIL).jpg", price: "Genre" },

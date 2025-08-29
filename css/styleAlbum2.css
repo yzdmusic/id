@@ -100,6 +100,11 @@ body {
     background-size: cover;
 }
 
+.armageddon {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg');
+    background-size: cover;
+}
+
 /* singles and eps */
 
 .thumbnail-genre h1 {

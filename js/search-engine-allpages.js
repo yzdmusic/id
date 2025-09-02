@@ -162,6 +162,7 @@ const data = [
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Marching To Death", url: "https://yzdmusic.github.io/id/library/ep/marching-to-death/", image: "https://yzdmusic.github.io/cover-2/MARCHING TO DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
+    { name: "Pray For Death", url: "https://yzdmusic.github.io/id/library/ep/pray-for-death/", image: "https://yzdmusic.github.io/cover-2/PRAY FOR DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
     { name: "Twisted Vengeance", url: "https://yzdmusic.github.io/id/library/ep/twisted-vengeance/", image: "https://yzdmusic.github.io/cover-2/TWISTED VENGEANCE (COVER).jpg", price: "EP • Buriajoath" },
 

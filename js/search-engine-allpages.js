@@ -73,7 +73,7 @@ const data = [
     { name: "Everything About Women", url: "https://yzdmusic.github.io/id/library/album/everything-about-women/", image: "https://yzdmusic.github.io/cover-1/EVERYTHING ABOUT WOMEN (COVER).jpg", price: "Album • Rubick" },
     { name: "Goat Throne", url: "https://yzdmusic.github.io/id/library/album/goat-throne/", image: "https://yzdmusic.github.io/cover-1/GOAT THRONE (COVER).jpg", price: "Album • Dorokdox Symphony" },
     { name: "Goatman", url: "https://yzdmusic.github.io/id/library/album/goatman/", image: "https://yzdmusic.github.io/cover-1/GOATMAN (COVER).jpg", price: "Album • Dorokdox Symphony" },
-    { name: "Grave Forture's For Real", url: "https://yzdmusic.github.io/id/library/album/grave-forture's-for-real/", image: "https://yzdmusic.github.io/cover-2/GRAVE FORTURE'S FOR REAL (COVER).jpg", price: "Album • Buriajoath" },
+    { name: "Grave Torture's For Real", url: "https://yzdmusic.github.io/id/library/album/grave-torture's-for-real/", image: "https://yzdmusic.github.io/cover-2/GRAVE TORTURE'S FOR REAL (COVER).jpg", price: "Album • Buriajoath" },
     { name: "Halawes", url: "https://yzdmusic.github.io/id/library/album/halawes/", image: "https://yzdmusic.github.io/cover-1/HALAWES (COVER).jpg", price: "Album • Hazza" },
     { name: "Happiness With You", url: "https://yzdmusic.github.io/id/library/album/happiness-with-you/", image: "https://yzdmusic.github.io/cover-1/HAPPINESS WITH YOU (COVER).jpg", price: "Album • Shadow Blade" },
     { name: "Hell's Torment", url: "https://yzdmusic.github.io/id/library/album/hell's-torment/", image: "https://yzdmusic.github.io/cover-1/HELL'S TORMENT (COVER).jpg", price: "Album • Earthshaker" },

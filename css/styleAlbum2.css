@@ -388,7 +388,6 @@ span:hover {
     gap: 12px;
     padding: 12px;
     cursor: pointer;
-    border-bottom: 1px solid #222;
 }
 
 .bottom-sheet .option:last-child {

@@ -46,11 +46,12 @@ function showMore1() {
 
 
 // FOLLOW AND FOLLOWING //
-const btn = document.querySelector(".follow-btn");
-let isFollowing = localStorage.getItem("follow_status") === "true";
+// ambil data follow dari localStorage atau bikin object baru
+let followData = JSON.parse(localStorage.getItem("follow_status")) || {};
 
-function updateButton() {
-    if (isFollowing) {
+// fungsi update button
+function updateButton(btn, id) {
+    if (followData[id]) {
         btn.innerText = "Following";
         btn.classList.add("following");
     } else {
@@ -59,13 +60,20 @@ function updateButton() {
     }
 }
 
-btn.addEventListener("click", () => {
-    isFollowing = !isFollowing;
-    localStorage.setItem("follow_status", isFollowing);
-    updateButton();
-});
+// loop semua tombol
+document.querySelectorAll(".follow-btn").forEach((btn) => {
+    const userId = btn.dataset.id;
 
-updateButton();
+    // update state saat load
+    updateButton(btn, userId);
+
+    // event click
+    btn.addEventListener("click", () => {
+        followData[userId] = !followData[userId]; // toggle
+        localStorage.setItem("follow_status", JSON.stringify(followData));
+        updateButton(btn, userId);
+    });
+});
 
 
 

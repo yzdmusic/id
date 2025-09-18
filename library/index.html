@@ -26,6 +26,7 @@
         <p class="name-categories"><a href="#eps">EPs</a></p>
         <p class="name-categories"><a href="#singles">Singles</a></p>
         <p class="name-categories"><a href="#artists">Artists</a></p>
+        <p class="name-categories"><a href="#my-playlists">My Playlists</a></p>
     </div>
 
     <div id="playlists" class="container-categories card-content">
@@ -1777,6 +1778,10 @@
         </a>
     </div>
 
+    <div id="my-playlists" class="container-categories card-content">
+        <!-- Playlist hasil Follow akan ditambahkan otomatis -->
+    </div>
+
     <div class="bottom-nav">
         <a href="https://yzdmusic.github.io/id/home/">
             <div class="nav-item">
@@ -1809,6 +1814,47 @@
 
     <!-- Add here -->
     <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
+
+    <script>
+        // Ambil data dari localStorage
+        const myPlaylists = JSON.parse(localStorage.getItem("my_playlists")) || [];
+
+        const container = document.getElementById("my-playlists");
+
+        // Kalau ada data, render cardnya
+        if (myPlaylists.length > 0) {
+            myPlaylists.forEach(item => {
+                const a = document.createElement("a");
+                a.href = item.url; // link ke profile / halaman artist
+
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const img = document.createElement("img");
+                img.src = item.cover;
+                img.alt = item.artist;
+
+                const title = document.createElement("div");
+                title.className = "card-title";
+
+                const h1 = document.createElement("h1");
+                h1.innerText = item.artist;
+
+                const p = document.createElement("p");
+                p.innerText = "Playlist";
+
+                title.appendChild(h1);
+                title.appendChild(p);
+
+                card.appendChild(img);
+                card.appendChild(title);
+                a.appendChild(card);
+                container.appendChild(a);
+            });
+        } else {
+            container.innerHTML = "<p style='color:white; padding:10px;'>Belum ada playlist yang difollow</p>";
+        }
+    </script>
 
     <script src="https://yzdmusic.github.io/id/js/search-engine-allpages.js"></script>
     <script src="https://yzdmusic.github.io/id/js/collapsible.js"></script>

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    
+
     var menuItems = document.querySelectorAll('.name-categories');
     var defaultContent = document.querySelector('#playlists');
     var defaultMenu = document.querySelector('.name-categories a[href="#playlists"]').parentElement;
@@ -41,3 +41,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+
+
+
+// MY PLAYLISTS //
+const playlists = JSON.parse(localStorage.getItem("my_playlists")) || [];
+
+playlists.push({
+    artist: "Centaur Warrunner",
+    cover: "https://yzdmusic.github.io/cover-1/CENTAUR WARRUNNER (PROFILE).jpg",
+    url: "https://yzdmusic.github.io/id/profile/centaur-warrunner/"
+});
+
+localStorage.setItem("my_playlists", JSON.stringify(playlists));

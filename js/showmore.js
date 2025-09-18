@@ -46,10 +46,8 @@ function showMore1() {
 
 
 // FOLLOW AND FOLLOWING //
-// ambil data follow dari localStorage atau bikin object baru
 let followData = JSON.parse(localStorage.getItem("follow_status")) || {};
 
-// fungsi update button
 function updateButton(btn, id) {
     if (followData[id]) {
         btn.innerText = "Following";
@@ -60,17 +58,28 @@ function updateButton(btn, id) {
     }
 }
 
-// loop semua tombol
 document.querySelectorAll(".follow-btn").forEach((btn) => {
     const userId = btn.dataset.id;
 
-    // update state saat load
+    // Update button pas halaman load
     updateButton(btn, userId);
 
-    // event click
     btn.addEventListener("click", () => {
-        followData[userId] = !followData[userId]; // toggle
+        if (followData[userId]) {
+            // Unfollow → hapus
+            delete followData[userId];
+        } else {
+            // Follow → simpan data
+            followData[userId] = {
+                id: userId,
+                artist: btn.dataset.artist,
+                cover: btn.dataset.cover
+            };
+        }
+
+        // Simpan lagi ke localStorage
         localStorage.setItem("follow_status", JSON.stringify(followData));
+
         updateButton(btn, userId);
     });
 });

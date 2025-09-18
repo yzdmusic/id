@@ -40,3 +40,56 @@ function showMore1() {
         btnText.style.display = 'none';
     }
 }
+
+
+
+
+
+// FOLLOW AND FOLLOWING //
+const btn = document.querySelector(".follow-btn");
+let isFollowing = localStorage.getItem("follow_status") === "true";
+
+function updateButton() {
+    if (isFollowing) {
+        btn.innerText = "Following";
+        btn.classList.add("following");
+    } else {
+        btn.innerText = "Follow";
+        btn.classList.remove("following");
+    }
+}
+
+btn.addEventListener("click", () => {
+    isFollowing = !isFollowing;
+    localStorage.setItem("follow_status", isFollowing);
+    updateButton();
+});
+
+updateButton();
+
+
+
+
+
+// SHARE LINK PROFILE //
+document.querySelectorAll('.sharelink span').forEach(span => {
+    span.addEventListener('click', () => {
+        document.getElementById('shareSheet1').classList.add('active');
+    });
+});
+
+// Tutup saat klik di luar popup (opsional)
+document.addEventListener('click', (e) => {
+    const sheet = document.getElementById('shareSheet1');
+    if (sheet.classList.contains('active') && !sheet.contains(e.target) && !e.target.closest('.sharelink span')) {
+        sheet.classList.remove('active');
+    }
+});
+
+const bottomSheet1 = document.getElementById("shareSheet1");
+const bottomSheetHandle1 = document.getElementById("bottomSheetHandle1");
+
+// Klik handle = tutup
+bottomSheetHandle1.addEventListener("click", () => {
+    bottomSheet1.classList.remove("active");
+});

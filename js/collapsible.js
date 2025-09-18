@@ -47,12 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // MY PLAYLISTS //
-const playlists = JSON.parse(localStorage.getItem("my_playlists")) || [];
+const container = document.getElementById("my-playlists");
+const playlists = JSON.parse(localStorage.getItem("my_playlists")) || {};
 
-playlists.push({
-    artist: "Centaur Warrunner",
-    cover: "https://yzdmusic.github.io/cover-1/CENTAUR WARRUNNER (PROFILE).jpg",
-    url: "https://yzdmusic.github.io/id/profile/centaur-warrunner/"
-});
-
-localStorage.setItem("my_playlists", JSON.stringify(playlists));
+if (Object.keys(playlists).length === 0) {
+    container.innerHTML = "<p style='color:white'>Belum ada playlist yang difollow</p>";
+} else {
+    for (let id in playlists) {
+        const item = playlists[id];
+        const div = document.createElement("div");
+        div.className = "playlist-item";
+        div.innerHTML = `
+      <img src="${item.cover}" alt="${item.artist}" width="50" height="50">
+      <span>${item.artist}</span>
+    `;
+        container.appendChild(div);
+    }
+}

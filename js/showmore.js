@@ -46,41 +46,37 @@ function showMore1() {
 
 
 // FOLLOW AND FOLLOWING //
-let followData = JSON.parse(localStorage.getItem("follow_status")) || {};
+let myPlaylists = JSON.parse(localStorage.getItem("my_playlists")) || {};
 
-function updateButton(btn, id) {
-    if (followData[id]) {
+const buttons = document.querySelectorAll(".follow-btn");
+
+buttons.forEach((btn) => {
+    const id = btn.dataset.id;       // id unik artis
+    const artist = btn.dataset.artist;
+    const cover = btn.dataset.cover;
+    const url = btn.dataset.url;
+
+    // cek status awal
+    if (myPlaylists[id]) {
         btn.innerText = "Following";
         btn.classList.add("following");
-    } else {
-        btn.innerText = "Follow";
-        btn.classList.remove("following");
     }
-}
-
-document.querySelectorAll(".follow-btn").forEach((btn) => {
-    const userId = btn.dataset.id;
-
-    // Update button pas halaman load
-    updateButton(btn, userId);
 
     btn.addEventListener("click", () => {
-        if (followData[userId]) {
-            // Unfollow → hapus
-            delete followData[userId];
+        if (myPlaylists[id]) {
+            // === Unfollow ===
+            delete myPlaylists[id];
+            btn.innerText = "Follow";
+            btn.classList.remove("following");
         } else {
-            // Follow → simpan data
-            followData[userId] = {
-                id: userId,
-                artist: btn.dataset.artist,
-                cover: btn.dataset.cover
-            };
+            // === Follow ===
+            myPlaylists[id] = { artist, cover, url };
+            btn.innerText = "Following";
+            btn.classList.add("following");
         }
 
-        // Simpan lagi ke localStorage
-        localStorage.setItem("follow_status", JSON.stringify(followData));
-
-        updateButton(btn, userId);
+        // simpan ulang
+        localStorage.setItem("my_playlists", JSON.stringify(myPlaylists));
     });
 });
 

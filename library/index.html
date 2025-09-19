@@ -1815,6 +1815,47 @@
     <!-- Add here -->
     <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
 
+    <script>
+        const container = document.getElementById("my-playlists");
+        const playlists = JSON.parse(localStorage.getItem("my_playlists")) || {};
+
+        if (Object.keys(playlists).length === 0) {
+            container.innerHTML = "<p style='color:white; padding:10px;'>Belum ada playlist yang difollow</p>";
+        } else {
+            for (let id in playlists) {
+                const item = playlists[id];
+
+                // Bungkus card dengan <a> biar bisa diklik ke halaman profil/artist
+                const a = document.createElement("a");
+                a.href = item.url;
+
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const img = document.createElement("img");
+                img.src = item.cover;
+                img.alt = item.artist;
+
+                const title = document.createElement("div");
+                title.className = "card-title";
+
+                const h1 = document.createElement("h1");
+                h1.innerText = item.artist;
+
+                const p = document.createElement("p");
+                p.innerText = "Artist";
+
+                title.appendChild(h1);
+                title.appendChild(p);
+
+                card.appendChild(img);
+                card.appendChild(title);
+                a.appendChild(card);
+                container.appendChild(a);
+            }
+        }
+    </script>
+
     <script src="https://yzdmusic.github.io/id/js/search-engine-allpages.js"></script>
     <script src="https://yzdmusic.github.io/id/js/collapsible.js"></script>
 </body>

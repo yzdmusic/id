@@ -547,6 +547,66 @@ section {
     background-repeat: no-repeat;
 }
 
+#no-long-now {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/OPPRESSION (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pebriyanzah {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/BUNGA TANPA AKAR (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pudge {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/SUICIDE PROJECTION (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nayske-malik {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/YOU HAVE MONEY, YOU HAVE POWER (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* artists */
 
 .follow-btn {

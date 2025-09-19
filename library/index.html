@@ -1863,8 +1863,39 @@
         });
     </script>
 
+    <script>
+        const container = document.getElementById("my-playlists");
+        const playlists = JSON.parse(localStorage.getItem("my_playlists")) || {};
+
+        if (Object.keys(playlists).length === 0) {
+            container.innerHTML = "<p style='color:white; padding:10px;'>Belum ada playlist yang difollow</p>";
+        } else {
+            for (let id in playlists) {
+                const item = playlists[id];
+                const a = document.createElement("a");
+                a.href = item.url;
+
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const img = document.createElement("img");
+                img.src = item.cover;
+                img.alt = item.artist;
+
+                const title = document.createElement("div");
+                title.className = "card-title";
+                title.innerHTML = `<h1>${item.artist}</h1><p>Playlist</p>`;
+
+                card.appendChild(img);
+                card.appendChild(title);
+                a.appendChild(card);
+                container.appendChild(a);
+            }
+        }
+    </script>
+
     <script src="https://yzdmusic.github.io/id/js/search-engine-allpages.js"></script>
-    
+    <script src="https://yzdmusic.github.io/id/js/showmore.js"></script>
 </body>
 
 </html>

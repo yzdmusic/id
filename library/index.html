@@ -1867,11 +1867,15 @@
         const container = document.getElementById("my-playlists");
         const playlists = JSON.parse(localStorage.getItem("my_playlists")) || {};
 
-        if (Object.keys(playlists).length === 0) {
+        const entries = Object.values(playlists); // ubah object ke array
+
+        if (entries.length === 0) {
             container.innerHTML = "<p style='color:white; padding:10px;'>Belum ada playlist yang difollow</p>";
         } else {
-            for (let id in playlists) {
-                const item = playlists[id];
+            // Urutkan array berdasarkan nama artis (A-Z)
+            entries.sort((a, b) => a.artist.localeCompare(b.artist));
+
+            entries.forEach(item => {
                 const a = document.createElement("a");
                 a.href = item.url;
 
@@ -1890,7 +1894,7 @@
                 card.appendChild(title);
                 a.appendChild(card);
                 container.appendChild(a);
-            }
+            });
         }
     </script>
 

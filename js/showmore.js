@@ -48,15 +48,12 @@ function showMore1() {
 // FOLLOW AND FOLLOWING //
 let myPlaylists = JSON.parse(localStorage.getItem("my_playlists")) || {};
 
-const buttons = document.querySelectorAll(".follow-btn");
-
-buttons.forEach((btn) => {
-    const id = btn.dataset.id;       // id unik artis
+document.querySelectorAll(".follow-btn").forEach(btn => {
+    const id = btn.dataset.id;
     const artist = btn.dataset.artist;
     const cover = btn.dataset.cover;
     const url = btn.dataset.url;
 
-    // cek status awal
     if (myPlaylists[id]) {
         btn.innerText = "Following";
         btn.classList.add("following");
@@ -64,18 +61,16 @@ buttons.forEach((btn) => {
 
     btn.addEventListener("click", () => {
         if (myPlaylists[id]) {
-            // === Unfollow ===
+            // Unfollow
             delete myPlaylists[id];
             btn.innerText = "Follow";
             btn.classList.remove("following");
         } else {
-            // === Follow ===
+            // Follow
             myPlaylists[id] = { artist, cover, url };
             btn.innerText = "Following";
             btn.classList.add("following");
         }
-
-        // simpan ulang
         localStorage.setItem("my_playlists", JSON.stringify(myPlaylists));
     });
 });

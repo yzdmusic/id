@@ -352,6 +352,10 @@ body {
     margin-left: 10px;
 }
 
+#my-playlists {
+    border-radius: 50%;
+}
+
 /* CONTAINER CATEGORIES */
 
 /* MENU */

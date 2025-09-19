@@ -1816,48 +1816,55 @@
     <link rel="Shortcut Icon" type="image/png" href="https://yzdmusic.github.io/id/assets/YZD LOGO.png">
 
     <script>
-        const container = document.getElementById("my-playlists");
-        const playlists = JSON.parse(localStorage.getItem("my_playlists")) || {};
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuContainer = document.querySelector('.categories');
+            const menuItems = document.querySelectorAll('.name-categories');
+            const sections = document.querySelectorAll('.card-content');
 
-        if (Object.keys(playlists).length === 0) {
-            container.innerHTML = "<p style='color:white; padding:10px;'>Belum ada playlist yang difollow</p>";
-        } else {
-            for (let id in playlists) {
-                const item = playlists[id];
-
-                // Bungkus card dengan <a> biar bisa diklik ke halaman profil/artist
-                const a = document.createElement("a");
-                a.href = item.url;
-
-                const card = document.createElement("div");
-                card.className = "card";
-
-                const img = document.createElement("img");
-                img.src = item.cover;
-                img.alt = item.artist;
-
-                const title = document.createElement("div");
-                title.className = "card-title";
-
-                const h1 = document.createElement("h1");
-                h1.innerText = item.artist;
-
-                const p = document.createElement("p");
-                p.innerText = "Playlist";
-
-                title.appendChild(h1);
-                title.appendChild(p);
-
-                card.appendChild(img);
-                card.appendChild(title);
-                a.appendChild(card);
-                container.appendChild(a);
+            if (!menuContainer || menuItems.length === 0 || sections.length === 0) {
+                // kalau struktur HTML berbeda, berhenti supaya nggak error
+                return;
             }
-        }
+
+            // sembunyikan semua section dulu
+            sections.forEach(s => s.style.display = 'none');
+
+            // tampilkan default (#playlists) jika ada
+            const defaultSection = document.querySelector('#playlists');
+            const defaultMenu = document.querySelector('.name-categories a[href="#playlists"]')?.parentElement;
+            if (defaultSection) defaultSection.style.display = 'block';
+            menuItems.forEach(i => i.classList.remove('active'));
+            if (defaultMenu) defaultMenu.classList.add('active');
+
+            // pakai delegation: lebih tahan banting daripada menempel listener ke tiap elemen
+            menuContainer.addEventListener('click', function (e) {
+                // cari anchor terdekat dari target klik
+                const anchor = e.target.closest('a');
+                if (!anchor) return;          // klik bukan pada link -> abaikan
+                const parentMenu = anchor.closest('.name-categories');
+                if (!parentMenu) return;      // safety: pastikan parent yang benar
+
+                e.preventDefault();           // cegah default navigasi
+
+                const href = anchor.getAttribute('href'); // harus seperti "#playlists"
+                if (!href || !href.startsWith('#')) return;
+
+                const target = document.querySelector(href);
+                if (!target) return;          // target section nggak ada -> abaikan
+
+                // sembunyikan semua section lalu tampilkan yang dituju
+                sections.forEach(s => s.style.display = 'none');
+                target.style.display = 'block';
+
+                // update active class
+                menuItems.forEach(i => i.classList.remove('active'));
+                parentMenu.classList.add('active');
+            });
+        });
     </script>
 
     <script src="https://yzdmusic.github.io/id/js/search-engine-allpages.js"></script>
-    <script src="https://yzdmusic.github.io/id/js/collapsible.js"></script>
+    
 </body>
 
 </html>

@@ -337,6 +337,66 @@ section {
     background-repeat: no-repeat;
 }
 
+#dorokdox-symphony {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/REVENGE PROJECTION (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#earthshaker {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/HELL'S TORMENT (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#el-zill-el-aswad {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/BACK HOME (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#eye-of-skadi {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/MIDNIGHT ASCENSION (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* artists */
 
 .follow-btn {

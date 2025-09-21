@@ -607,6 +607,156 @@ section {
     background-repeat: no-repeat;
 }
 
+#rubick {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/SERENITY AND HARMONY (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#saint-heaven {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/BETTER OFF DEAD (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#shadow-blade {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/CALMNESS (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#surya-utama {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#the-dazzle {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/ROUH WAHDA (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#the-flip-flops {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/MENGINJAK NERAKA (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#the-rowdy {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#trash-like-me {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-2/DYING'S THE ANSWER (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#with-death {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/PENTHOUSE SACRIFICE (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#yzd {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* artists */
 
 .follow-btn {

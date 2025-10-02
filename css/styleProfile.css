@@ -1204,6 +1204,19 @@ span:hover {
 /* POPULAR RELEASES */
 
 /* ABOUT ARTIST & POPULAR RELEASES */
+.nav-about {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+.nav-about h1 {
+    font-size: 17px;
+    color: white;
+}
+
 .image-box {
     display: flex;
     justify-content: center;
@@ -1229,6 +1242,26 @@ span:hover {
     width: 100%;
     display: block;
     border-radius: 5px;
+}
+
+.verified-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+
+.verified-icon img {
+    width: 27px;
+    height: 27px;
+}
+
+.verified-icon h1 {
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
 }
 
 .image-text {

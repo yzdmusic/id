@@ -1242,6 +1242,7 @@ span:hover {
     width: 100%;
     display: block;
     border-radius: 5px;
+    filter: brightness(80%);
 }
 
 .verified-icon {

@@ -136,6 +136,7 @@ const data = [
     { name: "Suicide Projection", url: "https://yzdmusic.github.io/id/library/album/suicide-projection/", image: "https://yzdmusic.github.io/cover-1/SUICIDE PROJECTION (COVER).jpg", price: "Album • Pudge" },
     { name: "Suicide Room", url: "https://yzdmusic.github.io/id/library/album/suicide-room/", image: "https://yzdmusic.github.io/cover-1/SUICIDE ROOM (COVER).jpg", price: "Album • El Zill El Aswad" },
     { name: "Suicide Today", url: "https://yzdmusic.github.io/id/library/album/suicide-today/", image: "https://yzdmusic.github.io/cover-1/SUICIDE TODAY (COVER).jpg", price: "Album • El Zill El Aswad" },
+    { name: "Symphonies Of The Dead", url: "https://yzdmusic.github.io/id/library/album/symphonies-of-the-dead/", image: "https://yzdmusic.github.io/cover-2/SYMPHONIES OF THE DEAD (COVER).jpg", price: "Album • Centaur Warrunner" },
     { name: "The Cry Of The Earth", url: "https://yzdmusic.github.io/id/library/album/the-cry-of-the-earth/", image: "https://yzdmusic.github.io/cover-1/THE CRY OF THE EARTH (COVER).jpg", price: "Album • Harmonization" },
     { name: "The End Of All Things", url: "https://yzdmusic.github.io/id/library/album/the-end-of-all-things/", image: "https://yzdmusic.github.io/cover-1/THE END OF ALL THINGS (COVER).jpg", price: "Album • Dorokdox Symphony" },
     { name: "The Heart Of A Chef", url: "https://yzdmusic.github.io/id/library/album/the-heart-of-a-chef/", image: "https://yzdmusic.github.io/cover-1/THE HEART OF A CHEF (COVER).jpg", price: "Album • Surya Utama" },

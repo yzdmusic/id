@@ -35,6 +35,11 @@ body {
     background-size: cover;
 }
 
+.symphonies-of-the-dead {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/SYMPHONIES OF THE DEAD (COVER).jpg');
+    background-size: cover;
+}
+
 /* albums */
 
 

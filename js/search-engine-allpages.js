@@ -167,6 +167,7 @@ const data = [
     { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Pray For Death", url: "https://yzdmusic.github.io/id/library/ep/pray-for-death/", image: "https://yzdmusic.github.io/cover-2/PRAY FOR DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
+    { name: "Suicidal Ideation", url: "https://yzdmusic.github.io/id/library/ep/suicidal-ideation/", image: "https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Twisted Vengeance", url: "https://yzdmusic.github.io/id/library/ep/twisted-vengeance/", image: "https://yzdmusic.github.io/cover-2/TWISTED VENGEANCE (COVER).jpg", price: "EP • Buriajoath" },
 
     { name: "Armageddon", url: "https://yzdmusic.github.io/id/library/single/armageddon/", image: "https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg", price: "Single • Centaur Warrunner" },

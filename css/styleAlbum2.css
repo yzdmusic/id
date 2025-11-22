@@ -44,6 +44,11 @@ body {
 
 
 /* singles and eps */
+.suicidal-ideation {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg');
+    background-size: cover;
+}
+
 .execution-and-dead-silence {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/EXECUTION & DEAD SILENCE (COVER).jpg');
     background-size: cover;

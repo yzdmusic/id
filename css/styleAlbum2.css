@@ -44,6 +44,11 @@ body {
 
 
 /* singles and eps */
+.shattered-out {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/SHATTERED OUT (COVER).jpg');
+    background-size: cover;
+}
+
 .suicidal-ideation {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg');
     background-size: cover;
@@ -109,6 +114,11 @@ body {
     background-size: cover;
 }
 
+
+.hollowed-symphony {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/HOLLOWED SYMPHONY (COVER).jpg');
+    background-size: cover;
+}
 
 .tried-to-off-myself {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/TRIED TO OFF MYSELF (COVER).jpg');

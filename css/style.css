@@ -280,12 +280,10 @@ a:hover {
 
 .card-album p {
 	margin: 7px;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: bold;
 	width: 105px;
-	white-space: wrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	line-height: 1.4;
 }
 
 .card-album img {
@@ -762,10 +760,8 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 8px;
+		font-size: 12px;
 		width: 95px;
-		white-space: wrap;
-		overflow: hidden;
 	}
 
 	.card-album img {
@@ -820,10 +816,8 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 8px;
+		font-size: 12px;
 		width: 85px;
-		white-space: wrap;
-		overflow: hidden;
 	}
 
 	.card-album img {
@@ -878,10 +872,8 @@ a:hover {
 
 	.card-album p {
 		margin: 7px;
-		font-size: 8px;
+		font-size: 12px;
 		width: 70px;
-		white-space: wrap;
-		overflow: hidden;
 	}
 
 	.card-album img {

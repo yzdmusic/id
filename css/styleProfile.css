@@ -309,7 +309,7 @@ section {
     border: 2px solid #121212;
     outline: 2px solid #a9a5a5;
     outline-offset: 1px;
-    background-image: url("https://yzdmusic.github.io/cover-2/MARCHING TO DEATH (COVER).jpg");
+    background-image: url("https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -790,6 +790,22 @@ section {
     outline: 2px solid #a9a5a5;
     outline-offset: 1px;
     background-image: url("https://yzdmusic.github.io/cover-1/EEN HUIS VOL ELLENDE (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#severed-memory {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-2/HOLLOWED SYMPHONY (COVER).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

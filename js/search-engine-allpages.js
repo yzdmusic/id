@@ -165,6 +165,7 @@ const data = [
     { name: "Kufur", url: "https://yzdmusic.github.io/id/library/ep/kufur/", image: "https://yzdmusic.github.io/cover-2/KUFUR (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Loser Turned Psycho", url: "https://yzdmusic.github.io/id/library/ep/loser-turned-psycho/", image: "https://yzdmusic.github.io/cover-1/LOSER TURNED PSYCHO (COVER).jpg", price: "EP • Death Is Real" },
     { name: "Marching To Death", url: "https://yzdmusic.github.io/id/library/ep/marching-to-death/", image: "https://yzdmusic.github.io/cover-2/MARCHING TO DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
+    { name: "No Savior", url: "https://yzdmusic.github.io/id/library/ep/no-savior/", image: "https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg", price: "EP • Severed Memory" },
     { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Pray For Death", url: "https://yzdmusic.github.io/id/library/ep/pray-for-death/", image: "https://yzdmusic.github.io/cover-2/PRAY FOR DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Shattered Out", url: "https://yzdmusic.github.io/id/library/ep/shattered-out/", image: "https://yzdmusic.github.io/cover-2/SHATTERED OUT (COVER).jpg", price: "EP • Severed Memory" },
@@ -174,6 +175,7 @@ const data = [
 
     { name: "Armageddon", url: "https://yzdmusic.github.io/id/library/single/armageddon/", image: "https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg", price: "Single • Centaur Warrunner" },
     { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Everything Is Lost And Gone", url: "https://yzdmusic.github.io/id/library/single/everything-is-lost-and-gone/", image: "https://yzdmusic.github.io/cover-2/EVERYTHING IS LOST AND GONE (COVER).jpg", price: "Single • Severed Memory" },
     { name: "Hollowed Symphony", url: "https://yzdmusic.github.io/id/library/single/hollowed-symphony/", image: "https://yzdmusic.github.io/cover-2/HOLLOWED SYMPHONY (COVER).jpg", price: "Single • Severed Memory" },
     { name: "Revenge Of A Loser", url: "https://yzdmusic.github.io/id/library/single/revenge-of-a-loser/", image: "https://yzdmusic.github.io/cover-2/REVENGE OF A LOSER (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Straight To The Deadlands", url: "https://yzdmusic.github.io/id/library/single/straight-to-the-deadlands/", image: "https://yzdmusic.github.io/cover-2/STRAIGHT TO THE DEADLANDS (COVER).jpg", price: "Single • Death Is Real" },

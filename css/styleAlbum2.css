@@ -114,6 +114,16 @@ body {
     background-size: cover;
 }
 
+.no-savior {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg');
+    background-size: cover;
+}
+
+
+.everything-is-lost-and-gone {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/EVERYTHING IS LOST AND GONE (COVER).jpg');
+    background-size: cover;
+}
 
 .hollowed-symphony {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/HOLLOWED SYMPHONY (COVER).jpg');

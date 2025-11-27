@@ -192,6 +192,11 @@ body {
     background-size: cover;
 }
 
+.graven-steps {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-1/GRAVEN STEPS (PROFILE).jpg');
+    background-size: cover;
+}
+
 .thumbnail-artist h1 {
     font-size: 2.7rem;
     font-weight: bolder;
@@ -806,6 +811,22 @@ section {
     outline: 2px solid #a9a5a5;
     outline-offset: 1px;
     background-image: url("https://yzdmusic.github.io/cover-2/HOLLOWED SYMPHONY (COVER).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#graven-steps {
+    width: 24px;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid #121212;
+    outline: 2px solid #a9a5a5;
+    outline-offset: 1px;
+    background-image: url("https://yzdmusic.github.io/cover-2/DEEP SOUL DARKNESS (COVER).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

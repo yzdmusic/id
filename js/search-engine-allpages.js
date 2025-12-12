@@ -178,6 +178,7 @@ const data = [
 
     { name: "Armageddon", url: "https://yzdmusic.github.io/id/library/single/armageddon/", image: "https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg", price: "Single • Centaur Warrunner" },
     { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Crown Of The Damned", url: "https://yzdmusic.github.io/id/library/single/crown-of-the-damned/", image: "https://yzdmusic.github.io/cover-2/PERFECT DARK (COVER).jpg", price: "Single • Graven Steps" },
     { name: "Crushed By A Broken Dawn", url: "https://yzdmusic.github.io/id/library/single/crushed-by-a-broken-dawn/", image: "https://yzdmusic.github.io/cover-2/PERFECT DARK (COVER).jpg", price: "Single • Graven Steps" },
     { name: "Deep Soul Darkness", url: "https://yzdmusic.github.io/id/library/single/deep-soul-darkness/", image: "https://yzdmusic.github.io/cover-2/DEEP SOUL DARKNESS (COVER).jpg", price: "Single • Graven Steps" },
     { name: "Everything Is Lost And Gone", url: "https://yzdmusic.github.io/id/library/single/everything-is-lost-and-gone/", image: "https://yzdmusic.github.io/cover-2/EVERYTHING IS LOST AND GONE (COVER).jpg", price: "Single • Severed Memory" },

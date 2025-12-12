@@ -40,21 +40,21 @@
             </div>
         </a>
 
-        <a href="https://yzdmusic.github.io/id/library/genre/pop-punk/">
-            <div class="card">
-                <img src="https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg" alt="">
-                <div class="card-title">
-                    <h1>Pop Punk</h1>
-                    <p>Playlist</p>
-                </div>
-            </div>
-        </a>
-
         <a href="https://yzdmusic.github.io/id/library/genre/metal/">
             <div class="card">
                 <img src="https://yzdmusic.github.io/thumbnail-1/METAL (THUMBNAIL).jpg" alt="">
                 <div class="card-title">
                     <h1>Metal</h1>
+                    <p>Playlist</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/library/genre/pop-punk/">
+            <div class="card">
+                <img src="https://yzdmusic.github.io/thumbnail-1/POP PUNK (THUMBNAIL).jpg" alt="">
+                <div class="card-title">
+                    <h1>Pop Punk</h1>
                     <p>Playlist</p>
                 </div>
             </div>
@@ -1433,6 +1433,36 @@
 
 
     <div id="singles" class="container-categories card-content">
+        <a href="https://yzdmusic.github.io/id/library/single/no-savior/">
+            <div class="card">
+                <img src="https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg" alt="">
+                <div class="card-title">
+                    <h1>No Savior</h1>
+                    <p>Single</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/library/single/sacrifice-my-last-breath/">
+            <div class="card">
+                <img src="https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg" alt="">
+                <div class="card-title">
+                    <h1>Sacrifice My Last Breath</h1>
+                    <p>Single</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://yzdmusic.github.io/id/library/single/dragged-into-the-dark/">
+            <div class="card">
+                <img src="https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg" alt="">
+                <div class="card-title">
+                    <h1>Dragged Into The Dark</h1>
+                    <p>Single</p>
+                </div>
+            </div>
+        </a>
+
         <a href="https://yzdmusic.github.io/id/library/single/armageddon/">
             <div class="card">
                 <img src="https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg" alt="">
@@ -1455,7 +1485,7 @@
 
         <a href="https://yzdmusic.github.io/id/library/single/crown-of-the-damned/">
             <div class="card">
-                <img src="https://yzdmusic.github.io/cover-2/PERFECT DARK (COVER).jpg" alt="">
+                <img src="https://yzdmusic.github.io/cover-2/NO SAVIOR (COVER).jpg" alt="">
                 <div class="card-title">
                     <h1>Crown Of The Damned</h1>
                     <p>Single</p>
@@ -2091,6 +2121,96 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const container = document.querySelector("#playlists");
+            const items = Array.from(container.querySelectorAll("a"));
+
+            // Sort berdasarkan teks di dalam <h1>
+            const sorted = items.sort((a, b) => {
+                const titleA = a.querySelector("h1").textContent.trim().toLowerCase();
+                const titleB = b.querySelector("h1").textContent.trim().toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+
+            // Bersihkan container lalu append kembali dalam urutan baru
+            container.innerHTML = "";
+            sorted.forEach(item => container.appendChild(item));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector("#albums");
+            const items = Array.from(container.querySelectorAll("a"));
+
+            // Sort berdasarkan teks di dalam <h1>
+            const sorted = items.sort((a, b) => {
+                const titleA = a.querySelector("h1").textContent.trim().toLowerCase();
+                const titleB = b.querySelector("h1").textContent.trim().toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+
+            // Bersihkan container lalu append kembali dalam urutan baru
+            container.innerHTML = "";
+            sorted.forEach(item => container.appendChild(item));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector("#eps");
+            const items = Array.from(container.querySelectorAll("a"));
+
+            // Sort berdasarkan teks di dalam <h1>
+            const sorted = items.sort((a, b) => {
+                const titleA = a.querySelector("h1").textContent.trim().toLowerCase();
+                const titleB = b.querySelector("h1").textContent.trim().toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+
+            // Bersihkan container lalu append kembali dalam urutan baru
+            container.innerHTML = "";
+            sorted.forEach(item => container.appendChild(item));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector("#singles");
+            const items = Array.from(container.querySelectorAll("a"));
+
+            // Sort berdasarkan teks di dalam <h1>
+            const sorted = items.sort((a, b) => {
+                const titleA = a.querySelector("h1").textContent.trim().toLowerCase();
+                const titleB = b.querySelector("h1").textContent.trim().toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+
+            // Bersihkan container lalu append kembali dalam urutan baru
+            container.innerHTML = "";
+            sorted.forEach(item => container.appendChild(item));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector("#artists");
+            const items = Array.from(container.querySelectorAll("a"));
+
+            // Sort berdasarkan teks di dalam <h1>
+            const sorted = items.sort((a, b) => {
+                const titleA = a.querySelector("h1").textContent.trim().toLowerCase();
+                const titleB = b.querySelector("h1").textContent.trim().toLowerCase();
+                return titleA.localeCompare(titleB);
+            });
+
+            // Bersihkan container lalu append kembali dalam urutan baru
+            container.innerHTML = "";
+            sorted.forEach(item => container.appendChild(item));
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.querySelector("#my-playlists");
             const items = Array.from(container.querySelectorAll("a"));
 
             // Sort berdasarkan teks di dalam <h1>

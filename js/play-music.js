@@ -234,31 +234,55 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Recently Played
-document.addEventListener("click", function (e) {
-    const link = e.target.closest("a");
-    if (!link) return;
+const audio = document.getElementById("audio");
 
-    const card = link.querySelector(".card-album");
-    if (!card) return;
+audio.addEventListener("play", () => {
+    const albumTitle = document.querySelector(".thumbnail-genre2nd h1")?.textContent.trim();
+    const cover = document.querySelector(".song-card")?.dataset.cover;
 
-    const img = card.querySelector("img");
-    const title = card.querySelector(".title-text");
+    if (!albumTitle || !cover) return;
 
-    if (!img || !title) return;
+    const albumId = location.pathname;
 
     let history = JSON.parse(localStorage.getItem("albumHistory")) || {};
 
-    const id = link.href;
-
-    if (!history[id]) {
-        history[id] = {
-            title: title.textContent.trim(),
-            cover: img.src,
-            url: link.href,
+    if (!history[albumId]) {
+        history[albumId] = {
+            title: albumTitle,
+            cover: cover,
+            url: location.href,
             count: 0
         };
     }
 
-    history[id].count += 1;
+    history[albumId].count += 1;
+    localStorage.setItem("albumHistory", JSON.stringify(history));
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const albumTitleEl = document.querySelector(".thumbnail-genre2nd h1");
+    const firstSongCard = document.querySelector(".song-card");
+
+    if (!albumTitleEl || !firstSongCard) return;
+
+    const albumCover = firstSongCard.dataset.cover;
+    if (!albumCover) return;
+
+    const albumId = location.pathname;
+
+    let history = JSON.parse(localStorage.getItem("albumHistory")) || {};
+
+    if (!history[albumId]) {
+        history[albumId] = {
+            title: albumTitleEl.textContent.trim(),
+            cover: albumCover,
+            url: location.href,
+            count: 0
+        };
+    }
+
+    history[albumId].count += 1;
+
     localStorage.setItem("albumHistory", JSON.stringify(history));
 });

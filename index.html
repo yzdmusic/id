@@ -565,13 +565,45 @@
     </script>
 
     <script>
-        document.querySelectorAll('.title-text').forEach(function (el) {
-            const maxChars = 17; // batas jumlah huruf + spasi
-            const text = el.textContent.trim();
+        function truncateTitles() {
+            document.querySelectorAll('.title-text').forEach(el => {
+                const maxChars = 17;
+                const text = el.textContent.trim();
 
-            if (text.length > maxChars) {
-                el.textContent = text.substring(0, maxChars) + '...';
-            }
+                if (text.length > maxChars) {
+                    el.textContent = text.substring(0, maxChars) + '...';
+                }
+            });
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.getElementById("album-history");
+            if (!container) return;
+
+            const history = JSON.parse(localStorage.getItem("albumHistory")) || {};
+            const albums = Object.values(history)
+                .sort((a, b) => b.count - a.count)
+                .slice(0, 8);
+
+            if (albums.length === 0) return;
+
+            container.innerHTML = "";
+
+            albums.forEach(album => {
+                container.innerHTML += `
+            <a href="${album.url}">
+                <div class="card-album">
+                    <img src="${album.cover}" alt="">
+                    <p class="title-text">${album.title}</p>
+                </div>
+            </a>
+        `;
+            });
+
+            // 🔥 PENTING: truncate JUDUL SETELAH render
+            truncateTitles();
         });
     </script>
 

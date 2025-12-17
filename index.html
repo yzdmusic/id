@@ -575,36 +575,6 @@
         });
     </script>
 
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const container = document.querySelector(".container-album");
-            const history = JSON.parse(localStorage.getItem("albumHistory"));
-
-            if (!container) return;
-            if (!history || Object.keys(history).length === 0) return;
-
-            container.innerHTML = "";
-
-            Object.values(history)
-                .sort((a, b) => b.count - a.count)
-                .slice(0, 8)
-                .forEach(album => {
-                    const a = document.createElement("a");
-                    a.href = album.url;
-                    a.innerHTML = `
-                <div class="card-album">
-                    <img src="${album.cover}">
-                    <p class="title-text">${album.title}</p>
-                </div>
-            `;
-                    container.appendChild(a);
-                });
-        });
-    </script>
-
-
-
     <script src="https://yzdmusic.github.io/id/js/loading-screen.js"></script>
     <script src="https://yzdmusic.github.io/id/js/hamburger.js"></script>
 </body>

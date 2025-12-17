@@ -234,10 +234,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Recently Played
-const audio = document.getElementById("audio");
-
 audio.addEventListener("play", () => {
-    const albumTitle = document.querySelector(".thumbnail-genre2nd h1")?.textContent.trim();
+    const albumTitleEl =
+        document.querySelector(".thumbnail-genre2nd h1") ||
+        document.querySelector(".thumbnail-genre h1");
+
+    const albumTitle = albumTitleEl?.textContent.trim();
     const cover = document.querySelector(".song-card")?.dataset.cover;
 
     if (!albumTitle || !cover) return;
@@ -261,7 +263,10 @@ audio.addEventListener("play", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const albumTitleEl = document.querySelector(".thumbnail-genre2nd h1");
+    const albumTitleEl =
+        document.querySelector(".thumbnail-genre2nd h1") ||
+        document.querySelector(".thumbnail-genre h1");
+
     const firstSongCard = document.querySelector(".song-card");
 
     if (!albumTitleEl || !firstSongCard) return;

@@ -229,3 +229,36 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.style.fontFamily = "'Poppins', sans-serif";
     }, 100);
 });
+
+
+
+
+// Recently Played
+document.addEventListener("click", function (e) {
+    const link = e.target.closest("a");
+    if (!link) return;
+
+    const card = link.querySelector(".card-album");
+    if (!card) return;
+
+    const img = card.querySelector("img");
+    const title = card.querySelector(".title-text");
+
+    if (!img || !title) return;
+
+    let history = JSON.parse(localStorage.getItem("albumHistory")) || {};
+
+    const id = link.href;
+
+    if (!history[id]) {
+        history[id] = {
+            title: title.textContent.trim(),
+            cover: img.src,
+            url: link.href,
+            count: 0
+        };
+    }
+
+    history[id].count += 1;
+    localStorage.setItem("albumHistory", JSON.stringify(history));
+});

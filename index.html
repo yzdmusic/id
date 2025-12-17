@@ -577,56 +577,30 @@
 
 
     <script>
-        document.querySelectorAll(".container-album a").forEach(link => {
-            link.addEventListener("click", () => {
-                const img = link.querySelector("img")
-                const title = link.querySelector(".title-text")
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector(".container-album");
+            const history = JSON.parse(localStorage.getItem("albumHistory"));
 
-                if (!img || !title) return
+            if (!container) return;
+            if (!history || Object.keys(history).length === 0) return;
 
-                const albumId = link.href
-                let history = JSON.parse(localStorage.getItem("albumHistory")) || {}
+            container.innerHTML = "";
 
-                if (!history[albumId]) {
-                    history[albumId] = {
-                        title: title.textContent.trim(),
-                        cover: img.src,
-                        url: link.href,
-                        count: 0
-                    }
-                }
-
-                history[albumId].count += 1
-                localStorage.setItem("albumHistory", JSON.stringify(history))
-            })
-        })
-    </script>
-
-    <script>
-        const container = document.querySelector(".container-album")
-        const history = JSON.parse(localStorage.getItem("albumHistory"))
-
-        if (history && Object.keys(history).length > 0) {
-
-            // bersihkan default
-            container.innerHTML = ""
-
-            const albums = Object.values(history)
+            Object.values(history)
                 .sort((a, b) => b.count - a.count)
                 .slice(0, 8)
-
-            albums.forEach(album => {
-                const a = document.createElement("a")
-                a.href = album.url
-                a.innerHTML = `
-            <div class="card-album">
-                <img src="${album.cover}">
-                <p class="title-text">${album.title}</p>
-            </div>
-        `
-                container.appendChild(a)
-            })
-        }
+                .forEach(album => {
+                    const a = document.createElement("a");
+                    a.href = album.url;
+                    a.innerHTML = `
+                <div class="card-album">
+                    <img src="${album.cover}">
+                    <p class="title-text">${album.title}</p>
+                </div>
+            `;
+                    container.appendChild(a);
+                });
+        });
     </script>
 
 

@@ -221,34 +221,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Recently Played
 document.addEventListener("DOMContentLoaded", () => {
-
 	const container = document.getElementById("album-history");
 	if (!container) return;
 
-	const history = JSON.parse(localStorage.getItem("albumHistory"));
-	if (!history) return;
-
-	// Ubah object → array, urutkan berdasarkan paling sering dibuka
+	const history = JSON.parse(localStorage.getItem("albumHistory")) || {};
 	const albums = Object.values(history)
 		.sort((a, b) => b.count - a.count)
-		.slice(0, 8); // tampilkan max 8 album
+		.slice(0, 8);
 
 	if (albums.length === 0) return;
 
-	// Kosongkan isi default
 	container.innerHTML = "";
 
 	albums.forEach(album => {
-		const a = document.createElement("a");
-		a.href = album.url;
-
-		a.innerHTML = `
-            <div class="card-album">
-                <img src="${album.cover}" alt="${album.title}">
-                <p class="title-text">${album.title}</p>
-            </div>
+		container.innerHTML += `
+            <a href="${album.url}">
+                <div class="card-album">
+                    <img src="${album.cover}" alt="">
+                    <p class="title-text">${album.title}</p>
+                </div>
+            </a>
         `;
-
-		container.appendChild(a);
 	});
+
+	// 🔥 PENTING: truncate JUDUL SETELAH render
+	truncateTitles();
 });

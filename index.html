@@ -567,7 +567,7 @@
     <script>
         function truncateTitles() {
             document.querySelectorAll('.title-text').forEach(el => {
-                const maxChars = 17;
+                const maxChars = 20;
                 const text = el.textContent.trim();
 
                 if (text.length > maxChars) {
@@ -575,6 +575,12 @@
                 }
             });
         }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            truncateTitles(); // ✅ default HTML kena
+        });
     </script>
 
     <script>

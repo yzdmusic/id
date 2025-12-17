@@ -214,36 +214,3 @@ document.addEventListener("DOMContentLoaded", () => {
 		document.body.style.fontFamily = "'Poppins', sans-serif";
 	}, 100);
 });
-
-
-
-
-
-// Recently Played
-document.addEventListener("DOMContentLoaded", () => {
-	const container = document.getElementById("album-history");
-	if (!container) return;
-
-	const history = JSON.parse(localStorage.getItem("albumHistory")) || {};
-	const albums = Object.values(history)
-		.sort((a, b) => b.count - a.count)
-		.slice(0, 8);
-
-	if (albums.length === 0) return;
-
-	container.innerHTML = "";
-
-	albums.forEach(album => {
-		container.innerHTML += `
-            <a href="${album.url}">
-                <div class="card-album">
-                    <img src="${album.cover}" alt="">
-                    <p class="title-text">${album.title}</p>
-                </div>
-            </a>
-        `;
-	});
-
-	// 🔥 PENTING: truncate JUDUL SETELAH render
-	truncateTitles();
-});

@@ -1216,6 +1216,9 @@ span:hover {
     border-radius: 30px;
     background-color: transparent;
 
+    transition:
+        transform 0.35s ease-out;
+
     /* EFEK BUG WARNA BIRU */
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -1223,6 +1226,10 @@ span:hover {
     touch-action: manipulation;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+#showMoreBtn:hover {
+    transform: scale(0.9);
 }
 
 #showMoreBtn1 {
@@ -1234,6 +1241,9 @@ span:hover {
     border-radius: 30px;
     background-color: transparent;
 
+    transition:
+        transform 0.35s ease-out;
+
     /* EFEK BUG WARNA BIRU */
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -1241,6 +1251,10 @@ span:hover {
     touch-action: manipulation;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+#showMoreBtn1:hover {
+    transform: scale(0.9);
 }
 
 /* POPULAR RELEASES */

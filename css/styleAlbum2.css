@@ -129,6 +129,11 @@ body {
     background-size: cover;
 }
 
+.burn-it-all-to-death {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/BURN IT ALL TO DEATH (COVER).jpg');
+    background-size: cover;
+}
+
 
 .everything-is-lost-and-gone {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/EVERYTHING IS LOST AND GONE (COVER).jpg');

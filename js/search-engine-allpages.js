@@ -264,7 +264,7 @@ searchInput.addEventListener('input', () => {
 
 
 data.forEach(item => {
-    const isArtist = item.price === "Artist";
+    const isArtist = isNaN(parseInt(item.price));
     const card = `
         <a href="${item.url}" class="card ${isArtist ? "artist-card" : ""}">
             <img src="${item.image}" class="card-image">

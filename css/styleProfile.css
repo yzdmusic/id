@@ -1456,7 +1456,7 @@ span:hover {
 }
 
 .categories p {
-    background-color: #3a3d3e;
+    background-color: #3a3d3eca;
     width: max-content;
     padding: 7px 10px;
     border-radius: 15px;
@@ -1495,6 +1495,10 @@ span:hover {
 
 .active a {
     color: goldenrod;
+}
+
+.name-categories:hover {
+    background-color: #3a3d3e;
 }
 
 /* popular releases */

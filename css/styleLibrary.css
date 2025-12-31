@@ -138,6 +138,10 @@ body {
     -ms-user-select: none;
 }
 
+.artist-img {
+    border-radius: 50%;
+}
+
 /* SEARCH ENGINE */
 
 /* CATEGORIES */

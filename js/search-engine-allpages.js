@@ -267,14 +267,14 @@ data.forEach(item => {
     const isArtist = item.price === "Artist";
     const card = `
         <a href="${item.url}" class="card ${isArtist ? "artist-card" : ""}">
-            <img src="${item.image}" class="card-image ${isArtist ? "artist-img" : ""}">
+            <img src="${item.image}" class="card-image">
             <div class="card-body">
                 <h1>${item.name}</h1>
                 <p>${item.price}</p>
             </div>
         </a>
     `;
-    container.innerHTML += card;
+    container.insertAdjacentHTML("beforeend", card);
 });
 
 

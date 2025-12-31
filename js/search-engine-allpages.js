@@ -263,17 +263,25 @@ searchInput.addEventListener('input', () => {
 });
 
 
+// Container tempat card ditempel
+const container = document.querySelector(".container-categories");
+
+// Render cards
 data.forEach(item => {
-    const isArtist = isNaN(parseInt(item.price));
+
+    // Jika price persis "Artist" → jadikan foto bulat
+    const isArtist = item.price.trim() === "Artist";
+
     const card = `
-        <a href="${item.url}" class="card ${isArtist ? "artist-card" : ""}">
-            <img src="${item.image}" class="card-image">
+        <a href="${item.url}" class="card">
+            <img src="${item.image}" class="card-image ${isArtist ? "circle-img" : ""}">
             <div class="card-body">
                 <h1>${item.name}</h1>
                 <p>${item.price}</p>
             </div>
         </a>
     `;
+
     container.insertAdjacentHTML("beforeend", card);
 });
 

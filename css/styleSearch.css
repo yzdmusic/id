@@ -138,7 +138,7 @@ body {
     -ms-user-select: none;
 }
 
-.artist-img {
+.card.artist-card .card-image {
     border-radius: 50%;
 }
 

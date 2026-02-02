@@ -45,6 +45,7 @@ const data = [
     { name: "Against The Tyrants", url: "https://yzdmusic.github.io/id/library/album/against-the-tyrants/", image: "https://yzdmusic.github.io/cover-1/AGAINST THE TYRANTS (COVER).jpg", price: "Album • The Flip Flops" },
     { name: "Ahweti Fi Sabah El Qahira", url: "https://yzdmusic.github.io/id/library/album/ahweti-fi-sabah-el-qahira/", image: "https://yzdmusic.github.io/cover-1/AHWETI FI SABAH EL QAHIRA (COVER).jpg", price: "Album • Kabetshino" },
     { name: "All About Love", url: "https://yzdmusic.github.io/id/library/album/all-about-love/", image: "https://yzdmusic.github.io/cover-1/ALL ABOUT LOVE (COVER).jpg", price: "Album • Hazza" },
+    { name: "Alone In The Silence", url: "https://yzdmusic.github.io/id/library/album/alone-in-the-silence/", image: "https://yzdmusic.github.io/cover-2/ALONE IN THE SILENCE (COVER).jpg", price: "Album • Manticore" },
     { name: "Altijd Mijn Fout", url: "https://yzdmusic.github.io/id/library/album/altijd-mijn-fout/", image: "https://yzdmusic.github.io/cover-1/ALTIJD MIJN FOUT (COVER).jpg", price: "Album • YZD" },
     { name: "Anxiety", url: "https://yzdmusic.github.io/id/library/album/anxiety/", image: "https://yzdmusic.github.io/cover-1/ANXIETY (COVER).jpg", price: "Album • Eye Of Skadi" },
     { name: "Asap Dan Angin", url: "https://yzdmusic.github.io/id/library/album/asap-dan-angin/", image: "https://yzdmusic.github.io/cover-1/ASAP DAN ANGIN (COVER).jpg", price: "Album" },

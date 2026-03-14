@@ -272,7 +272,7 @@ span:hover {
     align-items: center;
 }
 
-.title-music-player:hover {
+.title-music-player span:hover {
     filter: brightness(100%);
 }
 

@@ -44,6 +44,11 @@ body {
 
 
 /* singles and eps */
+.devotion-through-destruction {
+    background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/DEVOTION THROUGH DESTRUCTION (COVER).jpg');
+    background-size: cover;
+}
+
 .deep-soul-darkness {
     background: linear-gradient(rgba(31, 31, 33, 0.082), rgba(31, 31, 33, 0.886)), url('https://yzdmusic.github.io/cover-2/DEEP SOUL DARKNESS (COVER).jpg');
     background-size: cover;

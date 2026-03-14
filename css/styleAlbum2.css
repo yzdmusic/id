@@ -499,6 +499,10 @@ span:hover {
     align-items: center;
 }
 
+.title-music-player:hover {
+    color: white;
+}
+
 .album {
     font-size: 12px;
     font-weight: 700;

@@ -1684,7 +1684,7 @@ span:hover {
 }
 
 .title-music-player:hover {
-    color: white;
+    filter: brightness(100%);
 }
 
 .artist {

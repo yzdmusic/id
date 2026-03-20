@@ -178,6 +178,7 @@ const data = [
     { name: "Over Power", url: "https://yzdmusic.github.io/id/library/ep/over-power/", image: "https://yzdmusic.github.io/cover-2/OVER POWER (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Perfect Dark", url: "https://yzdmusic.github.io/id/library/ep/perfect-dark/", image: "https://yzdmusic.github.io/cover-2/PERFECT DARK (COVER).jpg", price: "EP • Graven Steps" },
     { name: "Pray For Death", url: "https://yzdmusic.github.io/id/library/ep/pray-for-death/", image: "https://yzdmusic.github.io/cover-2/PRAY FOR DEATH (COVER).jpg", price: "EP • Centaur Warrunner" },
+    { name: "Romance Of The Possessed", url: "https://yzdmusic.github.io/id/library/ep/romance-of-the-possessed/", image: "https://yzdmusic.github.io/cover-2/ROMANCE OF THE POSSESSED (COVER).jpg", price: "EP • Endless Isolation" },
     { name: "Shattered Out", url: "https://yzdmusic.github.io/id/library/ep/shattered-out/", image: "https://yzdmusic.github.io/cover-2/SHATTERED OUT (COVER).jpg", price: "EP • Severed Memory" },
     { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
     { name: "Suicidal Ideation", url: "https://yzdmusic.github.io/id/library/ep/suicidal-ideation/", image: "https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg", price: "EP • Centaur Warrunner" },

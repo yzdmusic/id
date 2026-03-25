@@ -127,6 +127,7 @@ const data = [
     { name: "Rise Above", url: "https://yzdmusic.github.io/id/library/album/rise-above/", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album • Bhimo Ramadan" },
     { name: "Rise Above", url: "https://yzdmusic.github.io/id/library/album/rise-above/", image: "https://yzdmusic.github.io/cover-1/RISE ABOVE (COVER).jpg", price: "Album • Surya Utama" },
     { name: "Rise Of The Fuckin Loser", url: "https://yzdmusic.github.io/id/library/album/rise-of-the-fuckin-loser/", image: "https://yzdmusic.github.io/cover-2/RISE OF THE FUCKIN LOSER (COVER).jpg", price: "Album • Death Is Real" },
+    { name: "Romance Of The Possessed", url: "https://yzdmusic.github.io/id/library/album/romance-of-the-possessed/", image: "https://yzdmusic.github.io/cover-2/ROMANCE OF THE POSSESSED (COVER).jpg", price: "Album • Endless Isolation" },
     { name: "Rouh Wahda", url: "https://yzdmusic.github.io/id/library/album/rouh-wahda/", image: "https://yzdmusic.github.io/cover-1/ROUH WAHDA (COVER).jpg", price: "Album • The Dazzle" },
     { name: "Rowdiest", url: "https://yzdmusic.github.io/id/library/album/rowdiest/", image: "https://yzdmusic.github.io/cover-1/ROWDIEST (COVER).jpg", price: "Album • The Rowdy" },
     { name: "Sekte Sesat", url: "https://yzdmusic.github.io/id/library/album/sekte-sesat/", image: "https://yzdmusic.github.io/cover-1/SEKTE SESAT (COVER).jpg", price: "Album • Kehedsia" },

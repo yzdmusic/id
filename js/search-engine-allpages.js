@@ -182,6 +182,7 @@ const data = [
     { name: "Romance Of The Possessed", url: "https://yzdmusic.github.io/id/library/ep/romance-of-the-possessed/", image: "https://yzdmusic.github.io/cover-2/ROMANCE OF THE POSSESSED (COVER).jpg", price: "EP • Endless Isolation" },
     { name: "Shattered Out", url: "https://yzdmusic.github.io/id/library/ep/shattered-out/", image: "https://yzdmusic.github.io/cover-2/SHATTERED OUT (COVER).jpg", price: "EP • Severed Memory" },
     { name: "Should've Offed Myself", url: "https://yzdmusic.github.io/id/library/ep/should've-offed-myself/", image: "https://yzdmusic.github.io/cover-2/SHOULD'VE OFFED MYSELF (COVER).jpg", price: "EP • Trash Like Me" },
+    { name: "Silence Devours Hope", url: "https://yzdmusic.github.io/id/library/ep/silence-devours-hope/", image: "https://yzdmusic.github.io/cover-2/SILENCE DEVOURS HOPE (COVER).jpg", price: "EP • Endless Isolation" },
     { name: "Suicidal Ideation", url: "https://yzdmusic.github.io/id/library/ep/suicidal-ideation/", image: "https://yzdmusic.github.io/cover-2/SUICIDAL IDEATION (COVER).jpg", price: "EP • Centaur Warrunner" },
     { name: "Twisted Vengeance", url: "https://yzdmusic.github.io/id/library/ep/twisted-vengeance/", image: "https://yzdmusic.github.io/cover-2/TWISTED VENGEANCE (COVER).jpg", price: "EP • Buriajoath" },
 

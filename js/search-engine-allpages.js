@@ -133,6 +133,7 @@ const data = [
     { name: "Sekte Sesat", url: "https://yzdmusic.github.io/id/library/album/sekte-sesat/", image: "https://yzdmusic.github.io/cover-1/SEKTE SESAT (COVER).jpg", price: "Album • Kehedsia" },
     { name: "Serenity", url: "https://yzdmusic.github.io/id/library/album/serenity/", image: "https://yzdmusic.github.io/cover-1/SERENITY (COVER).jpg", price: "Album • Shadow Blade" },
     { name: "Serenity And Harmony", url: "https://yzdmusic.github.io/id/library/album/serenity-and-harmony/", image: "https://yzdmusic.github.io/cover-1/SERENITY AND HARMONY (COVER).jpg", price: "Album • Rubick" },
+    { name: "Silence Devours Hope", url: "https://yzdmusic.github.io/id/library/album/silence-devours-hope/", image: "https://yzdmusic.github.io/cover-2/SILENCE DEVOURS HOPE (COVER).jpg", price: "Album • Endless Isolation" },
     { name: "Silent Room", url: "https://yzdmusic.github.io/id/library/album/silent-room/", image: "https://yzdmusic.github.io/cover-1/SILENT ROOM (COVER).jpg", price: "Album • Saint Heaven" },
     { name: "Silentium", url: "https://yzdmusic.github.io/id/library/album/silentium/", image: "https://yzdmusic.github.io/cover-1/SILENTIUM (COVER).jpg", price: "Album • Mors Aeterna" },
     { name: "Simfoniyyet El 'Ishq", url: "https://yzdmusic.github.io/id/library/album/simfoniyyet-el-'ishq/", image: "https://yzdmusic.github.io/cover-1/SIMFONIYYET EL 'ISHQ (COVER).jpg", price: "Album • El Zill El Aswad" },

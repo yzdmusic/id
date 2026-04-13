@@ -190,6 +190,8 @@ const data = [
     { name: "Alone In The Silence", url: "https://yzdmusic.github.io/id/library/single/alone-in-the-silence/", image: "https://yzdmusic.github.io/cover-2/ALONE IN THE SILENCE (COVER).jpg", price: "Single • Manticore" },
     { name: "Armageddon", url: "https://yzdmusic.github.io/id/library/single/armageddon/", image: "https://yzdmusic.github.io/cover-2/ARMAGEDDON (COVER).jpg", price: "Single • Centaur Warrunner" },
     { name: "Ashes Don't Cry", url: "https://yzdmusic.github.io/id/library/single/ashes-don't-cry/", image: "https://yzdmusic.github.io/cover-2/BURN IT ALL TO DEATH (COVER).jpg", price: "Single • Manticore" },
+    { name: "Brutal Revenge", url: "https://yzdmusic.github.io/id/library/single/brutal-revenge/", image: "https://yzdmusic.github.io/cover-2/BRUTAL REVENGE (COVER).jpg", price: "Single • Centaur Warrunner" },
+    { name: "Brutal Revenge", url: "https://yzdmusic.github.io/id/library/single/brutal-revenge/", image: "https://yzdmusic.github.io/cover-2/BRUTAL REVENGE (COVER).jpg", price: "Single • Endless Isolation" },
     { name: "Buried Under Quiet", url: "https://yzdmusic.github.io/id/library/single/buried-under-quiet/", image: "https://yzdmusic.github.io/cover-2/ALONE IN THE SILENCE (COVER).jpg", price: "Single • Manticore" },
     { name: "Burn It All To Death", url: "https://yzdmusic.github.io/id/library/single/burn-it-all-to-death/", image: "https://yzdmusic.github.io/cover-2/BURN IT ALL TO DEATH (COVER).jpg", price: "Single • Manticore" },
     { name: "Butchered", url: "https://yzdmusic.github.io/id/library/single/butchered/", image: "https://yzdmusic.github.io/cover-2/BUTCHERED (COVER).jpg", price: "Single • Death Is Real" },

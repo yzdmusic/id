@@ -215,6 +215,8 @@ const data = [
     { name: "Silent Cries Beneath My Skin", url: "https://yzdmusic.github.io/id/library/single/silent-cries-beneath-my-skin/", image: "https://yzdmusic.github.io/cover-2/DEEP SOUL DARKNESS (COVER).jpg", price: "Single • Graven Steps" },
     { name: "Straight To The Deadlands", url: "https://yzdmusic.github.io/id/library/single/straight-to-the-deadlands/", image: "https://yzdmusic.github.io/cover-2/STRAIGHT TO THE DEADLANDS (COVER).jpg", price: "Single • Death Is Real" },
     { name: "Suicide Or Revenge", url: "https://yzdmusic.github.io/id/library/single/suicide-or-revenge/", image: "https://yzdmusic.github.io/cover-2/SUICIDE OR REVENGE (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Thirty Shots To The Head", url: "https://yzdmusic.github.io/id/library/single/thirty-shots-to-the-head/", image: "https://yzdmusic.github.io/cover-2/THIRTY SHOTS TO THE HEAD (COVER).jpg", price: "Single • Death Is Real" },
+    { name: "Thirty Shots To The Head", url: "https://yzdmusic.github.io/id/library/single/thirty-shots-to-the-head/", image: "https://yzdmusic.github.io/cover-2/THIRTY SHOTS TO THE HEAD (COVER).jpg", price: "Single • Endless Isolation" },
     { name: "Torn Faith In The Quiet Night", url: "https://yzdmusic.github.io/id/library/single/torn-faith-in-the-quiet-night/", image: "https://yzdmusic.github.io/cover-2/DEEP SOUL DARKNESS (COVER).jpg", price: "Single • Graven Steps" },
     { name: "Tried To Off Myself", url: "https://yzdmusic.github.io/id/library/single/tried-to-off-myself/", image: "https://yzdmusic.github.io/cover-2/TRIED TO OFF MYSELF (COVER).jpg", price: "Single • Death Is Real" },
 
